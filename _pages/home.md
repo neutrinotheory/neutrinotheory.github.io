@@ -9,9 +9,6 @@ Worldwide, several ongoing neutrino oscillation experiments, such as [T2K](https
 
 These experiments involve the scattering of neutrinos off nuclear targets, probing a wide range of energies and nuclear systems. As a result, the data collected are highly sensitive to the theoretical modeling of neutrino–nucleus interactions, which involve multiple complex physical mechanisms. A precise and consistent understanding of these interactions is essential for the accurate extraction of neutrino oscillation parameters and for the reduction of systematic uncertainties in experimental analyses.
 
-To address this need, our research focuses on the development of theoretical models for neutrino–nucleus scattering. The goal is to provide a robust and reliable theoretical framework that enables precise interpretation of data from the current generation of experiments, thereby contributing to the resolution of open questions in particle physics, including the origin of neutrino mass, the nature of CP violation, and the possible existence of physics beyond the Standard Model.
-
-
 
 <div markdown="0" id="carousel" class="carousel slide" data-ride="carousel" data-interval="4000" data-pause="hover" >
     <!-- Menu -->
@@ -56,8 +53,7 @@ To address this need, our research focuses on the development of theoretical mod
   </a>
 </div>
 
-
-We are collaborating closely with ongoing experiments, experimental groups and generator developers to make sure our efforts find their way to the experimental analyses and contribute to the progress in our understanding of neutrino physics. 
+To address this need, our research focuses on the development of theoretical models for neutrino–nucleus scattering. The goal is to provide a robust and reliable theoretical framework that enables precise interpretation of data from the current generation of experiments, thereby contributing to the resolution of open questions in particle physics, including the origin of neutrino mass, the nature of CP violation, and the possible existence of physics beyond the Standard Model. We are collaborating closely with ongoing experiments, experimental groups and generator developers to make sure our efforts find their way to the experimental analyses and contribute to the progress in our understanding of neutrino physics. 
 
 
 
