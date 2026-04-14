@@ -51,7 +51,7 @@ Worldwide, several ongoing neutrino oscillation experiments, such as [T2K](https
     <span class="sr-only">Next</span>
   </a>
 </div>
-Our research focuses on the development of theoretical models for neutrino–nucleus scattering. The goal is to provide a robust and reliable theoretical framework that enables precise interpretation of data from the current and next generation of oscillation experiments, thereby contributing to the resolution of open questions in particle physics, including the origin of neutrino mass, the nature of CP violation, and the possible existence of physics beyond the Standard Model. We are collaborating closely with ongoing experiments, experimental groups and generator developers to make sure our efforts find their way to the experimental analyses and contribute to the progress in our understanding of neutrino physics. 
+Our research focuses on the development of theoretical models for neutrino–nucleus scattering. The goal is to provide a robust and reliable theoretical framework that enables precise interpretation of data from the current and upcoming generation of high statistics oscillation experiments such as [DUNE](https://lbnf-dune.fnal.gov/) and [Hyper-K](https://www-sk.icrr.u-tokyo.ac.jp/en/hk/), thereby contributing to the resolution of open questions in particle physics, including the origin of neutrino mass, the nature of CP violation, and the possible existence of physics beyond the Standard Model. We are collaborating closely with ongoing experiments, experimental groups and generator developers to make sure our efforts find their way to the experimental analyses and contribute to the progress in our understanding of neutrino physics.
 
 
 
