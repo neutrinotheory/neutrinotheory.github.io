@@ -1,7 +1,7 @@
 - title: "Optimizing the description of the Delta region in the Ghent Hybrid model for single-pion production"
   image: optimizing.png
   description: In this work, we improved the Ghent model for neutrino-induced single-pion production in the Delta resonance region. We applied a multipole decomposition and used K-matrix methods to enforce unitarity and Watson’s theorem. We refined the Delta contribution and included additional meson-exchange processes. These improvements resulted in better agreement with experimental data and a more reliable description of pion production.
-  authors: M. Hooft, A. Nikolakopoulos, J. Garc´ıa-Marcos, Y. De Backer, T. Franco-Munoz, K. Niewczas, R. Gonz´alez-Jim´enez, and N. Jachowicz1
+  authors: M. Hooft, A. Nikolakopoulos, J. García-Marcos , Y. De Backer, T. Franco-Munoz, K. Niewczas, R. González-Jiménez, and N. Jachowicz
   link: 
      url: https://arxiv.org/pdf/2603.29486
      display: arXiv (2026)
@@ -9,8 +9,8 @@
 
 - title: "Electron-induced single-pion production to constrain the neutron structure in 40Ar. A proof of concept."
   image: Ar40concept.png
-  description: In this work, we studied electron-induced single-pion production to gain information on the neutron structure of ⁴⁰Ar, which is important for neutrino experiments using argon detectors. We simulated realistic experimental conditions for MAMI and CLAS facilities and calculated cross sections and background contributions. We found that MAMI can resolve the nuclear shell structure with low background, while CLAS has higher background and limited resolution for this purpose
-  authors: J. Garc´ıa-Marcos, M. Hooft, T. Franco-Munoz, N. Jachowicz, J.M. Ud´ıas,1, K. Niewczas, A. Nikolakopoulos,3, and R. Gonz´alez-Jim´enez
+  description: In this work, we studied electron-induced single-pion production to gain information on the neutron structure of 40Ar, which is important for neutrino experiments using argon detectors. We simulated realistic experimental conditions for MAMI and CLAS facilities and calculated cross sections and background contributions. We found that MAMI can resolve the nuclear shell structure with low background, while CLAS has higher background and limited resolution for this purpose
+  authors: J. García-Marcos, M. Hooft, T. Franco-Munoz, N. Jachowicz, J.M. Udías, K. Niewczas, A. Nikolakopoulos, and R. González-Jiménez
   link:
     url: https://arxiv.org/pdf/2512.01721
     display: arxiv (2025)
@@ -21,8 +21,8 @@
   description: The T2K and NoVA collaborations have performed a joint analysis of their neutrino oscillation data, this analysis improved constraints on key neutrino properties, including the mass-squared difference and the CP-violating phase. These results give tighter measurements than either experiment alone and show no strong preference for the neutrino mass ordering.
   authors: Jinwon Lee* & Sanghun Lee*, Andreas Kreisel, Jens Paaske, Brian M. Andersen, Koen M. Bastiaans, Damianos Chatzopoulosm Genda GuDoohee Cho, Milan P. Allan
   link:
-    url: https://pubs.acs.org/doi/full/10.1021/acs.nanolett.4c05650
-    display: Nano Lett. 25, 4227 (2025)
+    url: https://www.nature.com/articles/s41586-025-09599-3
+    display: Nature 646, 818–824 (2025).
   highlight: 1
 
 
