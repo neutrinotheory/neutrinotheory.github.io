@@ -1,18 +1,13 @@
 ---
-title: "Allan Lab - Home"
+title: "Neutrino Interactions Group @ UGent"
 layout: homelay
-excerpt: "Allan Lab at Leiden University &rarr; LMU."
+excerpt: "Neutrino Interactions Group @ UGent"
 sitemap: false
 permalink: /
 ---
 
-**News: Our group moved to the University of Munich (LMU)!** Join us! 
 
-We are a dynamic research group at [LMU physics](https://www.physik.lmu.de/en/index.html) and at the [Leiden Institute of Physics](http://www.physics.leidenuniv.nl/). 
-
-We have two overarching goals: first, 
-**to understand quantum materials**, including strange metals, high-temperature superconductors, and quantum critical electron matter. Second, **to make novel and useful materials** that never existed before, like possible room-temperature superconductors. 
-To achieve these goals, we develop new quantum sensing and quantum imaging instrumentation to obtain the key quantum mechanical degrees of freedom. We want to build the perfect instruments to answer the scientific questions we deem most important. 
+Worldwide several ongoing neutrino oscillation experiments such as T2K, MicroBooNE, NOvA, and SBND, are searching answers of some of the most fundamental question in physics, including the seach for CP violations.  The existence of neutrino mixing and oscillations, which in turn implies a non-zero neutrino mass, remains the only laboratory-based evidence of Beyond Standard Model (BSM) physics to date. Understanding this particle is therefore fundamental to understanding our universe; however, very little is known about it. The neutrino oscillation experiments involves scattering neutrinos off nuclei, probing a variety of nuclear targfets across different energy ranges.They are therefore highly sensitive to theoretical modeling of neutrino–nucleus interactions across multiple mechanisms. Understanding these interactions is essential for extracting neutrino oscillation parameters. Our research group specializes in the development of theoretical models for neutrino-nucleus scattering, which aim at providing a framework in which the newest generation of experiments can be interpreted.
 
 <div markdown="0" id="carousel" class="carousel slide" data-ride="carousel" data-interval="4000" data-pause="hover" >
     <!-- Menu -->
@@ -58,9 +53,7 @@ To achieve these goals, we develop new quantum sensing and quantum imaging instr
 </div>
 
 
-We are currently building up our instruments right in the center of Munich, in the *Sommerfeldkeller*, where Sommerfeld and Röntgen worked. We will exchange ideas with world class groups working in quantum physics, cold-atom many-body physics, and 2d quantum materials. We are also a proud member of the [SuperC consortium](https://superc2033.com/our-team/).
-
-**We are looking for passionate new PhD students, Postdocs, and Master students to join the team** [(more info)](https://www.allanlab.org/vacancies) **!**
+We are collaborating closely with ongoing experiments, experimental groups and generator developers to make sure our efforts find their way to the experimental analyses and contribute to the progress in our understanding of neutrino physics. 
 
 
 
