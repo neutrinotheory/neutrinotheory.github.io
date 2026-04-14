@@ -1,13 +1,17 @@
 ---
-title: "Neutrino Interactions Group @ UGent"
+title: "Neutrino Theory @ UGent"
 layout: homelay
-excerpt: "Neutrino Interactions Group @ UGent"
+excerpt: "Neutrino Theory @ UGent"
 sitemap: false
 permalink: /
 ---
+Worldwide, several ongoing neutrino oscillation experiments, such as [T2K](https://t2k-experiment.org/), [MicroBooNE](https://microboone.fnal.gov/), [NOvA](https://novaexperiment.fnal.gov/), and [SBND](https://sbn.fnal.gov/sbnd/), are searching for answers to some of the most fundamental questions in physics, including the possible existence of CP violation in the lepton sector. The discovery of neutrino mixing and oscillations, which implies a non-zero neutrino mass, remains the only laboratory-based evidence of physics beyond the Standard Model (BSM) to date. Understanding this elusive particle is therefore essential for advancing our knowledge of the fundamental structure of the universe, although many of its properties remain poorly constrained.
+
+These experiments involve the scattering of neutrinos off nuclear targets, probing a wide range of energies and nuclear systems. As a result, the data collected are highly sensitive to the theoretical modeling of neutrino–nucleus interactions, which involve multiple complex physical mechanisms. A precise and consistent understanding of these interactions is essential for the accurate extraction of neutrino oscillation parameters and for the reduction of systematic uncertainties in experimental analyses.
+
+To address this need, our research focuses on the development of theoretical models for neutrino–nucleus scattering. The goal is to provide a robust and reliable theoretical framework that enables precise interpretation of data from the current generation of experiments, thereby contributing to the resolution of open questions in particle physics, including the origin of neutrino mass, the nature of CP violation, and the possible existence of physics beyond the Standard Model.
 
 
-Worldwide several ongoing neutrino oscillation experiments such as T2K, MicroBooNE, NOvA, and SBND, are searching answers of some of the most fundamental question in physics, including the seach for CP violations.  The existence of neutrino mixing and oscillations, which in turn implies a non-zero neutrino mass, remains the only laboratory-based evidence of Beyond Standard Model (BSM) physics to date. Understanding this particle is therefore fundamental to understanding our universe; however, very little is known about it. The neutrino oscillation experiments involves scattering neutrinos off nuclei, probing a variety of nuclear targfets across different energy ranges.They are therefore highly sensitive to theoretical modeling of neutrino–nucleus interactions across multiple mechanisms. Understanding these interactions is essential for extracting neutrino oscillation parameters. Our research group specializes in the development of theoretical models for neutrino-nucleus scattering, which aim at providing a framework in which the newest generation of experiments can be interpreted.
 
 <div markdown="0" id="carousel" class="carousel slide" data-ride="carousel" data-interval="4000" data-pause="hover" >
     <!-- Menu -->
