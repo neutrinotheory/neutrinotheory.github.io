@@ -1,12 +1,12 @@
 ---
-title: "Neutrino Theory @ UGent"
+title: "Ghent Neutrino Interactions Group"
 layout: homelay
-excerpt: "Neutrino Theory @ UGent"
+excerpt: "Ghent Neutrino Interactions Group"
 sitemap: false
 permalink: /
 ---
 
-Worldwide, several ongoing neutrino oscillation experiments, such as [T2K](https://t2k-experiment.org/), [MicroBooNE](https://microboone.fnal.gov/), [NOvA](https://novaexperiment.fnal.gov/), and [SBND](https://sbn.fnal.gov/sbnd/), are searching for answers to some of the most fundamental questions in physics, including the possible existence of CP violation in the lepton sector. These experiments involve the scattering of neutrinos off nuclear targets, probing a wide range of energies and nuclear systems. As a result, the data collected are highly sensitive to the theoretical modeling of neutrino–nucleus interactions, which involve multiple complex many-body mechanisms. A precise and consistent understanding of these interactions is essential for the accurate extraction of neutrino oscillation parameters and for the reduction of systematic uncertainties in experimental analyses.
+Our research focuses on the development of theoretical models for neutrino–nucleus scattering. The goal is to provide a robust and reliable theoretical framework that enables the precise extraction of neutrino oscillation parameters and reduces systematic uncertainties in ongoing experiments (such as [T2K](https://t2k-experiment.org/), [MicroBooNE](https://microboone.fnal.gov/), [NOvA](https://novaexperiment.fnal.gov/), and [SBND](https://sbn.fnal.gov/sbnd/)) as well as in upcoming next-generation high-statistics neutrino oscillation experiments, such as [DUNE](https://lbnf-dune.fnal.gov/) and [Hyper-K](https://www-sk.icrr.u-tokyo.ac.jp/en/hk/).
 
 
 <div markdown="0" id="carousel" class="carousel slide" data-ride="carousel" data-interval="4000" data-pause="hover" >
@@ -29,6 +29,10 @@ Worldwide, several ongoing neutrino oscillation experiments, such as [T2K](https
         <div class="item">
             <img src="{{ site.url }}{{ site.baseurl }}/images/slides/mechs.png" alt="Slide 2" />
         </div>
+        <div class="item">
+            <img src="{{ site.url }}{{ site.baseurl }}/images/slides/DUNE.jpg" alt="Slide 2" />
+        </div>
+        
     </div>
   <a class="left carousel-control" href="#carousel" role="button" data-slide="prev">
     <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
@@ -39,10 +43,7 @@ Worldwide, several ongoing neutrino oscillation experiments, such as [T2K](https
     <span class="sr-only">Next</span>
   </a>
 </div>
-Our research focuses on the development of theoretical models for neutrino–nucleus scattering. The goal is to provide a robust and reliable theoretical framework that enables precise interpretation of data from the current and upcoming generation of high statistics oscillation experiments such as [DUNE](https://lbnf-dune.fnal.gov/) and [Hyper-K](https://www-sk.icrr.u-tokyo.ac.jp/en/hk/), thereby contributing to the resolution of open questions in particle physics, including the origin of neutrino mass, the nature of CP violation, and the possible existence of physics beyond the Standard Model. We are collaborating closely with ongoing experiments, experimental groups and generator developers to make sure our efforts find their way to the experimental analyses and contribute to the progress in our understanding of neutrino physics.
-
-
-
+These experiments aim to address key questions in particle physics, such as the existence of CP violation in the lepton sector. They involve neutrino scattering on nuclear targets across a broad energy range. The measured observables depend strongly on the theoretical description of neutrino–nucleus interactions, which include several complex many-body effects. A reliable understanding of these processes is essential for the accurate determination of neutrino oscillation parameters and for minimizing systematic uncertainties in the analysis. We therefore work closely with experimental groups and are active members of international oscillation experiments like [T2K] and [EssnuSB](https://essnusb.eu/).
 
 
 <figure class="fifth">
