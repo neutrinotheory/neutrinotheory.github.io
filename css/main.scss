@@ -4,6 +4,7 @@
 @import "bootstrap";
 
 :root {
+	--latex-accent: rgb(30, 100, 200);
 	--latex-serif: "Computer Modern Serif", "CMU Serif", "Latin Modern Roman", "Times New Roman", Times, serif;
 	--latex-sans: "Computer Modern Sans", "CMU Sans Serif", Arial, sans-serif;
 	--latex-mono: "Computer Modern Typewriter", "CMU Typewriter Text", "Courier New", monospace;
@@ -53,36 +54,36 @@ figcaption {
 }
 
 .navbar-default {
-	background-color: #fff;
+	background-color: var(--latex-accent);
 	border-color: var(--latex-accent);
 }
 
 .navbar-default .navbar-brand,
 .navbar-default .navbar-nav > li > a,
 .navbar-default .navbar-text {
-	color: var(--latex-accent);
+	color: #fff;
 }
 
 .navbar-default .navbar-brand:hover,
 .navbar-default .navbar-brand:focus,
 .navbar-default .navbar-nav > li > a:hover,
 .navbar-default .navbar-nav > li > a:focus {
-	color: var(--latex-accent);
-	opacity: 0.8;
+	color: #fff;
+	opacity: 0.85;
 	background-color: transparent;
 }
 
 .navbar-default .navbar-toggle {
-	border-color: var(--latex-accent);
+	border-color: rgba(255, 255, 255, 0.7);
 }
 
 .navbar-default .navbar-toggle .icon-bar {
-	background-color: var(--latex-accent);
+	background-color: #fff;
 }
 
 .navbar-default .navbar-toggle:hover,
 .navbar-default .navbar-toggle:focus {
-	background-color: rgba(30, 100, 200, 0.08);
+	background-color: rgba(255, 255, 255, 0.12);
 }
 
 
