@@ -58,8 +58,8 @@ Our research focuses on the development of theoretical models for neutrino–nuc
 
 
 <figure class="fifth">
-  <img src="{{ site.url }}{{ site.baseurl }}/images/logopic/logo_UGent_NL_RGB_2400_kleur-op-wit.png" style="width: 150px">
-  <img src="{{ site.url }}{{ site.baseurl }}/images/logopic/fwo_kleur.png" style="width: 150px">
+  <img src="{{ site.url }}{{ site.baseurl }}/images/logopic/logo_UGent_NL_RGB_2400_kleur-op-wit.png" style="width: 160px">
+  <img src="{{ site.url }}{{ site.baseurl }}/images/logopic/fwo_kleur.png" style="width: 140px">
   <img src="{{ site.url }}{{ site.baseurl }}/images/logopic/ESSnuSBplus_logo.png" style="width: 150px">
 
 </figure>
