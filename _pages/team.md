@@ -138,9 +138,8 @@ permalink: /team/
 </div>
 
 </div> -->
-## Former BSc/ MSc studentss
+## Former BSc/ MSc students
 <div class="row">
-
   <div class="col-sm-4 clearfix">
     <h4>Master students</h4>
     {% for member in site.data.alumni_msc %}
@@ -158,6 +157,5 @@ permalink: /team/
       </p>
     {% endfor %}
   </div>
-
 </div>
 
