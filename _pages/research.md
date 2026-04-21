@@ -11,3 +11,13 @@ permalink: /research/
 This is a test to see if my text appears. 
 
 If I can see this, it means the "Default" layout is working!
+
+## Quasi-elastic scattering
+
+## Pion production
+
+## Two-nucleon knockout
+
+## Nuclear effects
+
+## Monte Carlo simulations
