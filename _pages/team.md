@@ -138,24 +138,24 @@ permalink: /team/
 </div>
 
 </div> 
-## Former BSc/ MSc studentss
+## Former BSc/ MSc students
 <div class="row">
-  <div class="col-sm-4 clearfix">
-    <h4>Master students</h4>
-    {% for member in site.data.alumni_msc %}
-      <p>
-        {{ member.name }}{% if member.subject %} — {{ member.subject }}{% endif %}
-      </p>
-    {% endfor %}
-  </div>
+<div class="col-sm-4 clearfix">
+<h4>Master students</h4>
+{% for member in site.data.alumni_msc %}
+<p>
+{{ member.name }}{% if member.subject %} — {{ member.subject }}{% endif %}
+</p>
+{% endfor %}
+</div>
 
-  <div class="col-sm-4 clearfix">
-    <h4>Bachelor students</h4>
-    {% for member in site.data.alumni_bsc %}
-      <p>
-        {{ member.name }}{% if member.subject %} — {{ member.subject }}{% endif %}
-      </p>
-    {% endfor %}
-  </div>
+<div class="col-sm-4 clearfix">
+<h4>Bachelor students</h4>
+{% for member in site.data.alumni_bsc %}
+<p>
+{{ member.name }}{% if member.subject %} — {{ member.subject }}{% endif %}
+</p>
+{% endfor %}
+</div>
 </div>
 
