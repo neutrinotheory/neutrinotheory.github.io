@@ -1,43 +1,50 @@
 - name: Natalie Jachowicz
   photo: Milan1.jpg
   info: Professor
+  info2: ...
   email: natalie.jachowicz@ugent.be
 
 - name: Tania Franco-Muñoz
   photo: Jiasen.png
   info: Postdoc, since November 2025
+  info2: Working on two-particle–two-hole (2p2h)
   email: tania.franomunoz@ugent.be
   education1: PhD Universidad Complutense de Madrid
 
 - name: Matthias Hooft
   photo: Sato.jpeg
   info: PhD, started September 2022
+  info2: Working on Single-Pion Production (SPP)
   email: matthias.hooft@ugent.be
 
 - name: Javier García Marcos
   photo: Thomas.jpg
   info: PhD, since November 2023
+  info2: Working on Single-Pion Production (SPP)
   email: javier.garciamarcos@ugent.be
 
 - name: Ashish Jha
   photo: Yanda.png
   info: PhD, since September 2024
+  info2: Working on one-particle-one-hole (1p1h)
   email: ashish.jha@ugent.be
 
 
 - name: Marco Vanderpoorten
   photo: Devidas.png
   info: PhD, since September 2024
+  info2: Working on Continuum Random Phase Approximation (CRPA)
   email: marco.vanderpoorten@ugent.be
 
 - name: Yari De Backer
   photo: Yari_website.jpeg
   info: PhD, started October 2025
+  info2: Working on Single-Pion Production (SPP)
   email: yari.debacker@ugent.be
 
 
 - name: "This could be you !"
-  photo: rock.jpg
+  photo: we_want_you.png
   info: See <a href="https://neutrinotheory.github.io/vacancies">vacancies</a> for more info
   email: milan.allan@gmail.com
   number_educ: 0
