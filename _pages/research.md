@@ -11,6 +11,11 @@ permalink: /research/
 This is a test to see if my text appears. 
 
 If I can see this, it means the "Default" layout is working!
+## Reaction Mechanisms
+<div style="text-align:center;">
+  <img src="/images/research_page/reaction_good.png" alt="Pion production diagram" style="max-width:80%;">
+  <p><small>Reaction Mechanisms</small></p>
+</div>
 
 ## Quasi-elastic scattering
 <div style="text-align:center;">
@@ -38,3 +43,7 @@ In addition, we investigate the role of nuclear effects, in particular final-sta
 ## Nuclear effects
 
 ## Monte Carlo simulations
+<div style="text-align:center;">
+  <img src="/images/research_page/monte_carlo_simulations.png" alt="Pion production diagram" style="max-width:80%;">
+  <p><small>Monte Carlo Simulations</small></p>
+</div>
