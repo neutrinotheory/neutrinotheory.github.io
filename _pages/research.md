@@ -16,7 +16,7 @@ If I can see this, it means the "Default" layout is working!
 
 ## Pion production
 <div style="text-align:center;">
-  <img src="/images/research_page/diagram_SPP.pdf" alt="Pion production diagram" style="max-width:80%;">
+  <img src="/images/research_page/diagram_SPP.png" alt="Pion production diagram" style="max-width:80%;">
   <p><small>Single-pion production in neutrino–nucleus scattering.</small></p>
 </div>
 Single-pion production is a key interaction channel in neutrino–nucleus scattering and plays an essential role in the interpretation of accelerator-based neutrino experiments. In high-energy experiments like DUNE and NO$\nu$A, inelastic interactions that produce pions constitute a major contribution to the total neutrino–nucleus cross section. In experiments such as T2K, Hyper-Kamiokande, and the Short-Baseline Neutrino Program, single-pion production (SPP), dominated by $\Delta$-resonance region accounts for roughly 20% of all neutrino interactions. In this process, a neutrino interacts with a nucleon inside a nucleus, produces a resonance and subseqeuntly decays into a nucleon and a pion. In addition, SPP can also contribute to "0-pion" final states when a pion is absorbed or inelastic rescattered. This leads to an important background in the oscillation analyses. A precise description of pion production and nuclear effects are therefore essential to reduce systematic uncentrainties in the reconstructed neutrino energy. 
