@@ -128,7 +128,7 @@ permalink: /team/
 {% endif %}
 
 ## Former BSc/ MSc students
-<div class="row">
+<!-- <div class="row">
 
 <div class="col-sm-4 clearfix">
 <h4>Master students</h4>
@@ -136,6 +136,23 @@ permalink: /team/
 {{ member.name }}
 {% endfor %}
 </div>
+
+</div> -->
+<div class="row">
+
+  <div class="col-sm-4 clearfix">
+    <h4>Master students</h4>
+    {% for member in site.data.alumni_msc %}
+      {{ member.name }}{% if member.subject %} — {{ member.subject }}{% endif %}<br>
+    {% endfor %}
+  </div>
+
+  <div class="col-sm-4 clearfix">
+    <h4>Bachelor students</h4>
+    {% for member in site.data.alumni_bsc %}
+      {{ member.name }}{% if member.subject %} — {{ member.subject }}{% endif %}<br>
+    {% endfor %}
+  </div>
 
 </div>
 
