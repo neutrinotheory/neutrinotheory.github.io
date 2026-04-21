@@ -46,7 +46,7 @@
 - name: "This could be you !"
   photo: we_want_you.png
   info: See <a href="https://neutrinotheory.github.io/vacancies">vacancies</a> for more info
-  info2: ???
+  info2: 
   email: milan.allan@gmail.com
   number_educ: 0
   education1:
