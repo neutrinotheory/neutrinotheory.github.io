@@ -138,7 +138,7 @@ permalink: /team/
 </div>
 
 </div> 
-## Former BSc/ MSc students
+## Former BSc/ MSc studentss
 <div class="row">
   <div class="col-sm-4 clearfix">
     <h4>Master students</h4>
