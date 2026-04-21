@@ -127,6 +127,14 @@ permalink: /team/
 </div>
 {% endif %}
 
+<div class="row">
+<div class="col-sm-12">
+<p>
+<strong>This could be you!</strong><br>
+Check out our master thesis subjects or contact us for possibilities.
+</p>
+</div>
+</div>
 
  
 ## Former BSc/ MSc students
@@ -146,7 +154,8 @@ permalink: /team/
 <h3>Bachelor students</h3>
 {% for member in site.data.alumni_bsc %}
 <p>
-{{ member.name }}{% if member.subject %} — {{ member.subject }}{% endif %}
+{% if member.subject %}<span>{{ member.subject }}</span><br>{% endif %}
+{% if member.year %}<span>{{ member.year }}</span>{% endif %}
 </p>
 {% endfor %}
 </div>
