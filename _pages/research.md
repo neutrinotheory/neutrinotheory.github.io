@@ -15,12 +15,12 @@ If I can see this, it means the "Default" layout is working!
 ## Quasi-elastic scattering
 <div style="text-align:center;">
   <img src="/images/research_page/diagram_QE.png" alt="Pion production diagram" style="max-width:80%;">
-  <p><small>Quasi-elastic scattering occurs when a $\nu_\mu$ strikes an <strong>individual nucleon}<strong> within a nucleus, providing enough energy to knock it out.</small></p>
+  <p><small>Quasi-elastic scattering occurs when a $\nu_\mu$ strikes an <strong>individual nucleon</strong>strong> within a nucleus, providing enough energy to knock it out.</small></p>
 </div>
 ## Pion production
 <div style="text-align:center;">
   <img src="/images/research_page/diagram_SPP.png" alt="Pion production diagram" style="max-width:80%;">
-  <p><small>Beyond the elastic limit, a $\nu_\mu$ can excite <strong>\textbf{nucleons}<strong> into a <strong>$\mathbf{\Delta}$ -resonance<strong> that subsequently decays into a <strong>nucleon<strong> and a <strong>pion<strong>. Increasing the energy further unlocks higher resonances, which produce a nucleon along with one or more mesons.</small></p>
+  <p><small>Beyond the elastic limit, a $\nu_\mu$ can excite <strong>nucleons</strong> into a <strong>$\mathbf{\Delta}$ -resonance</strong> that subsequently decays into a <strong>nucleon<strong> and a <strong>pion</strong>. Increasing the energy further unlocks higher resonances, which produce a nucleon along with one or more mesons.</small></p>
 </div>
 Single-pion production is a key interaction channel in neutrino–nucleus scattering and plays an essential role in the interpretation of accelerator-based neutrino experiments. In high-energy experiments like DUNE and NO$\nu$A, inelastic interactions that produce pions constitute a major contribution to the total neutrino–nucleus cross section. In experiments such as T2K, Hyper-Kamiokande, and the Short-Baseline Neutrino Program, single-pion production (SPP), dominated by $\Delta$-resonance region accounts for roughly 20% of all neutrino interactions. In this process, a neutrino interacts with a nucleon inside a nucleus, produces a resonance and subseqeuntly decays into a nucleon and a pion. In addition, SPP can also contribute to "0-pion" final states when a pion is absorbed or inelastic rescattered. This leads to an important background in the oscillation analyses. A precise description of pion production and nuclear effects are therefore essential to reduce systematic uncentrainties in the reconstructed neutrino energy. 
 
