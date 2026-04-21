@@ -154,6 +154,7 @@ Check out our master thesis subjects or contact us for possibilities.
 <h3>Bachelor students</h3>
 {% for member in site.data.alumni_bsc %}
 <p>
+<strong>{{ member.name }}</strong><br>
 {% if member.subject %}<span>{{ member.subject }}</span><br>{% endif %}
 {% if member.year %}<span>{{ member.year }}</span>{% endif %}
 </p>
