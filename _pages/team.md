@@ -128,15 +128,6 @@ permalink: /team/
 {% endif %}
 
 
-<div class="row">
-
-<div class="col-sm-4 clearfix">
-<h4>Master students</h4>
-{% for member in site.data.alumni_msc %}
-{{ member.name }}
-{% endfor %}
-</div>
-
 </div> 
 ## Former BSc/ MSc students
 <div class="row">
@@ -144,7 +135,9 @@ permalink: /team/
 <h4>Master students</h4>
 {% for member in site.data.alumni_msc %}
 <p>
-{{ member.name }}{% if member.subject %} — {{ member.subject }}{% endif %}
+<strong>{{ member.name }}</strong><br>
+{% if member.subject %}<span>{{ member.subject }}</span><br>{% endif %}
+{% if member.year %}<span>{{ member.year }}</span>{% endif %}
 </p>
 {% endfor %}
 </div>
