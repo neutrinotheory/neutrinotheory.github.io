@@ -8,8 +8,6 @@ permalink: /research/
 
 # Research
 
-Updating soon -- stay put. (Aug 11 2023)
+This is a test to see if my text appears. 
 
-![]({{ site.url }}{{ site.baseurl }}/images/respic/SciPost.png){: style="width: 70%; float: center; margin: 0px"}
-
-This is a test
+If I can see this, it means the "Default" layout is working!
