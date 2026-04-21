@@ -22,10 +22,7 @@ permalink: /team/
   <img src="{{ site.url }}{{ site.baseurl }}/images/teampic/{{ member.photo }}" class="img-responsive team-photo" />
   <h4>{{ member.name }}</h4>
   <!-- <i>{{ member.info }} <!--<br>email: <{{ member.email }}></i> --> 
-  <i>
-  {{ member.info }}<br>
-  {{ member.info2 }}
-  </i>
+  <i>{{ member.info }}{% if member.info2 %}<br>{{ member.info2 }}{% endif %} </i>
   <ul style="overflow: hidden">
 
   {% if member.number_educ == 1 %}
