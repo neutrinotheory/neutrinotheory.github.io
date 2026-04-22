@@ -10,7 +10,7 @@ permalink: /research/
 
 ## Reaction Mechanisms
 <div style="text-align:center;">
-  <img src="/images/research_page/mechs.png" alt="Pion production diagram" style="max-width:60%;">
+  <img src="/images/research_page/mechs.png" alt="Pion production diagram" style="max-width:70%;">
   <p><small>Reaction Mechanisms</small></p>
 </div>
 
@@ -41,6 +41,11 @@ In addition, we investigate the role of nuclear effects, in particular final-sta
 
 ## Monte Carlo simulations
 <div style="text-align:center;">
-  <img src="/images/research_page/monte_carlo_simulations.png" alt="Pion production diagram" style="max-width:80%;">
+  <img src="/images/research_page/MC_diagram.png" alt="Pion production diagram" style="max-width:70%;">
   <p><small>Monte Carlo Simulations</small></p>
+</div>
+
+<div style="text-align:center;">
+  <img src="/images/research_page/logos_event_generators" alt="Pion production diagram" style="max-width:50%;">
+  <p><small>Event Generators</small></p>
 </div>
