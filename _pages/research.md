@@ -27,15 +27,15 @@ permalink: /research/
 Single-pion production is a key interaction channel in neutrino–nucleus scattering and plays an essential role in the interpretation of accelerator-based neutrino experiments. In high-energy experiments like DUNE [^DUNE] and NO$\nu$A [^NOVA1] [^NOVA2], inelastic interactions that produce pions constitute a major contribution to the total neutrino–nucleus cross section. In experiments such as T2K [^T2K], Hyper-Kamiokande, and the Short-Baseline Neutrino Program, single-pion production (SPP), dominated by $\Delta$-resonance region accounts for roughly 20% of all neutrino interactions [^Katori_Martini] [^Isaacson_Jay] [^NEUT]. In this process, a neutrino interacts with a nucleon inside a nucleus, produces a resonance and subseqeuntly decays into a nucleon and a pion. In addition, SPP can also contribute to "0-pion" final states when a pion is absorbed or inelastic rescattered. This leads to an important background in the oscillation analyses. A precise description of pion production and nuclear effects are therefore essential to reduce systematic uncentrainties in the reconstructed neutrino energy. 
 
 <div class="row text-center">
-  <div class="col-sm-6">
-    <img src="/images/research_page/resonances-1.png" class="img-fluid rounded">
-    <p><small>Resonance Diagram.</small></p>
-  </div>
+<div class="col-sm-6">
+<img src="/images/research_page/resonances-1.png" class="img-fluid rounded">
+<p><small>Resonance Diagram.</small></p>
+</div>
 
-  <div class="col-sm-6">
-    <img src="/images/research_page/cross_resonances-1.png" class="img-fluid rounded">
-    <p><small>Cross-Resonance.</small></p>
-  </div>
+<div class="col-sm-6">
+<img src="/images/research_page/cross_resonances-1.png" class="img-fluid rounded">
+<p><small>Cross-Resonance.</small></p>
+</div>
 </div>
 
 
