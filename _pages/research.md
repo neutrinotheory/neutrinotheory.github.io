@@ -1,7 +1,7 @@
 ---
-title: "Neutrino Theory - Research"
+title: "Ghent Neutrino Interactions Group"
 layout: textlay
-excerpt: "Neutrino Theory -- Research"
+excerpt: "Ghent Neutrino Interactions Group"
 sitemap: false
 permalink: /research/
 ---
