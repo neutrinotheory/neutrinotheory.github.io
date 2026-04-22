@@ -8,9 +8,6 @@ permalink: /research/
 
 # Research
 
-This is a test to see if my text appears. 
-
-If I can see this, it means the "Default" layout is working!
 ## Reaction Mechanisms
 <div style="text-align:center;">
   <img src="/images/research_page/reactions_good.png" alt="Pion production diagram" style="max-width:80%;">
