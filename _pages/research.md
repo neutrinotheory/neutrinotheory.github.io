@@ -13,7 +13,7 @@ This is a test to see if my text appears.
 If I can see this, it means the "Default" layout is working!
 ## Reaction Mechanisms
 <div style="text-align:center;">
-  <img src="/images/research_page/mechs" alt="Pion production diagram" style="max-width:80%;">
+  <img src="/images/research_page/mechs.png" alt="Pion production diagram" style="max-width:80%;">
   <p><small>Reaction Mechanisms</small></p>
 </div>
 
