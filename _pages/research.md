@@ -46,6 +46,6 @@ In addition, we investigate the role of nuclear effects, in particular final-sta
 </div>
 
 <div style="text-align:center;">
-  <img src="/images/research_page/logos_event_generators" alt="Pion production diagram" style="max-width:50%;">
+  <img src="/images/research_page/logos_event_generators.png" alt="Pion production diagram" style="max-width:50%;">
   <p><small>Event Generators</small></p>
 </div>
