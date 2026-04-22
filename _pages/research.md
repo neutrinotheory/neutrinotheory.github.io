@@ -24,7 +24,20 @@ permalink: /research/
   <img src="/images/research_page/diagram_SPP.png" alt="Pion production diagram" style="max-width:60%;">
   <p><small>Beyond the elastic limit, a $\nu_\mu$ can excite <strong>nucleons</strong> into a <strong>$\mathbf{\Delta}$ -resonance</strong> that subsequently decays into a <strong>nucleon</strong> and a <strong>pion</strong>. Increasing the energy further unlocks higher resonances, which produce a nucleon along with one or more mesons.</small></p>
 </div>
-Single-pion production is a key interaction channel in neutrino–nucleus scattering and plays an essential role in the interpretation of accelerator-based neutrino experiments. In high-energy experiments like DUNE [^DUNE] and NO$\nu$A [^NOVA1][^NOVA2], inelastic interactions that produce pions constitute a major contribution to the total neutrino–nucleus cross section. In experiments such as T2K [^T2K], Hyper-Kamiokande, and the Short-Baseline Neutrino Program, single-pion production (SPP), dominated by $\Delta$-resonance region accounts for roughly 20% of all neutrino interactions [^Katori_Martini] [^Isaacson_Jay] [^NEUT]. In this process, a neutrino interacts with a nucleon inside a nucleus, produces a resonance and subseqeuntly decays into a nucleon and a pion. In addition, SPP can also contribute to "0-pion" final states when a pion is absorbed or inelastic rescattered. This leads to an important background in the oscillation analyses. A precise description of pion production and nuclear effects are therefore essential to reduce systematic uncentrainties in the reconstructed neutrino energy. 
+Single-pion production is a key interaction channel in neutrino–nucleus scattering and plays an essential role in the interpretation of accelerator-based neutrino experiments. In high-energy experiments like DUNE [^DUNE] and NO$\nu$A [^NOVA1] [^NOVA2], inelastic interactions that produce pions constitute a major contribution to the total neutrino–nucleus cross section. In experiments such as T2K [^T2K], Hyper-Kamiokande, and the Short-Baseline Neutrino Program, single-pion production (SPP), dominated by $\Delta$-resonance region accounts for roughly 20% of all neutrino interactions [^Katori_Martini] [^Isaacson_Jay] [^NEUT]. In this process, a neutrino interacts with a nucleon inside a nucleus, produces a resonance and subseqeuntly decays into a nucleon and a pion. In addition, SPP can also contribute to "0-pion" final states when a pion is absorbed or inelastic rescattered. This leads to an important background in the oscillation analyses. A precise description of pion production and nuclear effects are therefore essential to reduce systematic uncentrainties in the reconstructed neutrino energy. 
+
+<div class="row text-center">
+  <div class="col-sm-6">
+    <img src="/images/research_page/resonances-1.png" class="img-fluid rounded">
+    <p><small>Resonance Diagram.</small></p>
+  </div>
+
+  <div class="col-sm-6">
+    <img src="/images/research_page/cross_resonances-1.png" class="img-fluid rounded">
+    <p><small>Cross-Resonance.</small></p>
+  </div>
+</div>
+
 
 Our work focuses on the development of the Ghent hybrid model [^GHENT] for pion production, which combines a resonance describition with a tree-level background from chiral perturbation theory [^HNV]. The orginial low energy model including the $\Delta$ (1 232)-resonance is further extended with higher energy resenances $P_{11}$ (1440), $D_{13}$ (1520), $S_{11}$ (1535) [^DSD1] [^DSD2] [^DSD3] [^DSD4] and the model is partialy untiterized in the $\Delta$-region through Olsson phases [^Olsson]. The tree-level background diagrams are extended to higher energies using Regge theory [^Regge1] [^Regge2] [^Regge3] [^Regge4].  Recent efforts aim to improve the theoretical consistency of the model by uniterization all contributions using Watson's theorem [^Matthias]. This is achived by redefining the model in a multipole decompositions, and unitarizing the amplitudes through K-matrix theory. 
 
