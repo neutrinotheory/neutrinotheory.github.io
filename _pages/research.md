@@ -74,13 +74,13 @@ To guide these analyses, we need robust theoretical models for every possible in
 ---
 
 ## Quasi-elastic scattering
-
+<div class="research-box clearfix">
 <div class="research-img-box">
   <img src="/images/research_page/diagram_QE.png" alt="Quasi-elastic scattering diagram">
   Quasi-elastic scattering: a $\nu_\mu$ strikes an <strong>individual nucleon</strong> within a nucleus, providing enough energy to knock it out.
 </div>
 
-<div class="clearfix">
+
 
 Quasi-elastic scattering occurs when a $\nu_\mu$ interacts with a single nucleon bound inside the nucleus and transfers enough momentum to eject it. It is one of the dominant interaction channels at intermediate neutrino energies and serves as a key signal process in oscillation experiments. Accurate modelling of this process, including nuclear structure effects such as Pauli blocking, short-range correlations, and collective excitations through the Random Phase Approximation (RPA), is essential for reliable neutrino energy reconstruction.
 
@@ -89,13 +89,14 @@ Quasi-elastic scattering occurs when a $\nu_\mu$ interacts with a single nucleon
 ---
 
 ## Pion production
-
+<div class="research-box clearfix">
+  
 <div class="research-img-box">
   <img src="/images/research_page/diagram_SPP.png" alt="Pion production diagram">
   A $\nu_\mu$ excites a <strong>nucleon</strong> into a <strong>$\Delta$-resonance</strong> that decays into a <strong>nucleon</strong> and a <strong>pion</strong>.
 </div>
 
-<div class="clearfix">
+
 
 Single-pion production is a key interaction channel in neutrino–nucleus scattering and plays an essential role in the interpretation of accelerator-based neutrino experiments. In high-energy experiments like DUNE [^DUNE] and NO$\nu$A [^NOVA1] $^,$[^NOVA2], inelastic interactions that produce pions constitute a major contribution to the total neutrino–nucleus cross section. In experiments such as T2K [^T2K], Hyper-Kamiokande, and the Short-Baseline Neutrino Program, single-pion production (SPP), dominated by the $\Delta$-resonance region, accounts for roughly 20% of all neutrino interactions [^Katori_Martini]$^,$[^Isaacson_Jay]$^,$[^NEUT]. In this process, a neutrino interacts with a nucleon inside a nucleus, produces a resonance and subsequently decays into a nucleon and a pion. In addition, SPP can also contribute to "0-pion" final states when a pion is absorbed or inelastically rescattered. This leads to an important background in the oscillation analyses. A precise description of pion production and nuclear effects is therefore essential to reduce systematic uncertainties in the reconstructed neutrino energy.
 
@@ -135,13 +136,13 @@ In addition, we investigate the role of nuclear effects, in particular final-sta
 ---
 
 ## Two-nucleon knockout
-
+<div class="research-box clearfix">
 <div class="research-img-box">
   <img src="/images/research_page/diagram_2p2h.png" alt="Two-nucleon knockout diagram">
   A $\nu_\mu$ ejects two nucleons from a <strong>correlated pair</strong>, transferring enough momentum to liberate both simultaneously.
 </div>
 
-<div class="clearfix">
+
 
 In two-nucleon knockout, a $\nu_\mu$ ejects not one, but two nucleons from the nucleus. This occurs when the nucleons form a correlated pair, transferring enough momentum to liberate both particles from the nucleus simultaneously. This process, often referred to as 2p2h or meson-exchange current (MEC) contributions, constitutes an important part of the total cross section in the region between the quasi-elastic peak and the $\Delta$-resonance, and is a significant source of systematic uncertainty in neutrino energy reconstruction.
 
@@ -151,7 +152,7 @@ In two-nucleon knockout, a $\nu_\mu$ ejects not one, but two nucleons from the n
 
 ## Nuclear effects
 
-<div class="clearfix">
+<div class="research-box clearfix">
 
 Nuclear effects encompass a broad range of phenomena that modify the interaction of neutrinos with nucleons bound inside a nucleus. These include Pauli blocking, Fermi motion, short- and long-range nucleon–nucleon correlations, and final-state interactions (FSI) of outgoing particles. A reliable description of these effects is indispensable for correctly interpreting experimental cross-section measurements and reducing systematic uncertainties in oscillation analyses.
 
@@ -165,6 +166,7 @@ Nuclear effects encompass a broad range of phenomena that modify the interaction
   <img src="/images/research_page/MC_diagram.png" alt="Monte Carlo simulation diagram">
   Schematic of Monte Carlo neutrino event simulation.
 </div> -->
+<div class="research-box clearfix">
 <div style="text-align: center;">
   <img src="/images/research_page/MC_diagram.png"
        alt="Event generator logos"
@@ -172,7 +174,7 @@ Nuclear effects encompass a broad range of phenomena that modify the interaction
   <p><small>Schematic of Monte Carlo neutrino event simulation.</small></p>
 </div>
 
-<div class="clearfix">
+
 
 Monte Carlo (MC) simulations are the backbone of neutrino experiment analyses, linking theoretical cross-section models to detector-level observables. Our group works on implementing and validating our theoretical models within widely used neutrino event generators.
 <div style="text-align: center;">
