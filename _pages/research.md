@@ -70,9 +70,23 @@ permalink: /research/
   padding: 16px 18px;
   margin: 1.5em 0;
 }
+
+/* Target the text specifically within your research sections */
+.research-box p, 
+.research-box li {
+  font-size: 1.15rem; /* Adjust this number (e.g., 1.1rem or 1.2rem) to your liking */
+  line-height: 1.6;   /* Increases spacing between lines for better readability */
+  color: #333;       /* Optional: makes the text slightly darker/sharper */
+}
+
+/* Adjust heading sizes within the boxes if they feel too small now */
+.research-box h2 {
+  font-size: 1.8rem;
+  margin-top: 0;
+}
 </style>
 
-# Research testgemini3
+# Research testdiagram_and_sizetext
 <div class="research-box clearfix">
 ## Reaction Mechanisms
 
@@ -141,18 +155,18 @@ Single-pion production is a key interaction channel in neutrino–nucleus scatte
 
 
 <div style="display: flex; gap: 20px; justify-content: center; align-items: flex-end; margin: 2em 0;">
-  
-  <div style="text-align: center; width: 300px; display: flex; flex-direction: column; justify-content: flex-end;">
-    <img src="/images/research_page/resonances-1.png" 
-         style="height: 110px; width: auto; object-fit: contain; margin: 0 auto;">
-    <p style="margin-top: 10px; font-size: 0.82em; color: #555;">s-channel resonance diagram.</p>
-  </div>
 
-  <div style="text-align: center; width: 300px; display: flex; flex-direction: column; justify-content: flex-end;">
-    <img src="/images/research_page/cross_resonances-1.png" 
-         style="height: 110px; width: auto; object-fit: contain; margin: 0 auto;">
-    <p style="margin-top: 10px; font-size: 0.82em; color: #555;">u-channel cross-resonance.</p>
-  </div>
+<div style="text-align: center; width: 300px; display: flex; flex-direction: column; justify-content: flex-end;">
+<img src="/images/research_page/resonances-1.png" 
+style="height: 110px; width: auto; object-fit: contain; margin: 0 auto;">
+<p style="margin-top: 10px; font-size: 0.82em; color: #555;">s-channel resonance diagram.</p>
+</div>
+
+<div style="text-align: center; width: 300px; display: flex; flex-direction: column; justify-content: flex-end;">
+<img src="/images/research_page/cross_resonances-1.png" 
+style="height: 110px; width: auto; object-fit: contain; margin: 0 auto;">
+<p style="margin-top: 10px; font-size: 0.82em; color: #555;">u-channel cross-resonance.</p>
+</div>
 
 </div>
 
