@@ -103,18 +103,20 @@ Single-pion production is a key interaction channel in neutrino–nucleus scatte
   </div>
 </div> -->
 
-<div style="display: flex; gap: 20px; justify-content: center;">
-<div  style="text-align: center; width: 300px;">
-<img src="/images/research_page/resonances-1.png" 
-  style="height: 200px; object-fit: contain;"">
-<p><small> s-channel resonance diagram. </small></p>
+<div style="display: flex; gap: 20px; justify-content: center; align-items: flex-end;">
+
+<div style="text-align: center; width: 300px;">
+<img src="/images/research_page/resonances-1.png"
+style="height: 200px; object-fit: contain;">
+<p><small>s-channel resonance diagram.</small></p>
 </div>
 
 <div style="text-align: center; width: 300px;">
-<img src="/images/research_page/cross_resonances-1.png" 
-  style="height: 200px; object-fit: contain;">
-<p><small> u-channel cross-resonance. </small></p>
+<img src="/images/research_page/cross_resonances-1.png"
+style="height: 200px; object-fit: contain;">
+<p><small>u-channel cross-resonance.</small></p>
 </div>
+
 </div>
 
 Our work focuses on the development of the Ghent hybrid model [^GHENT] for pion production, which combines a resonance description with a tree-level background from chiral perturbation theory [^HNV]. The original low-energy model including the $\Delta$(1232)-resonance is further extended with higher-energy resonances $P_{11}$(1440), $D_{13}$(1520), $S_{11}$(1535) [^DSD1]$^,$[^DSD2]$^,$[^DSD3]$^,$[^DSD4] and the model is partially unitarized in the $\Delta$-region through Olsson phases [^Olsson]. The tree-level background diagrams are extended to higher energies using Regge theory [^Regge1]$^,$[^Regge2]$^,$[^Regge3]$^,$[^Regge4]. Recent efforts aim to improve the theoretical consistency of the model by unitarizing all contributions using Watson's theorem [^Matthias]. This is achieved by redefining the model in a multipole decomposition, and unitarizing the amplitudes through K-matrix theory.
