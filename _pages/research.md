@@ -38,12 +38,20 @@ permalink: /research/
 
 ## Reaction Mechanisms
 
-<div class="research-img-box">
+<!-- <div class="research-img-box">
   <img src="/images/research_page/mechs.png" alt="Reaction mechanisms diagram">
   Reaction mechanisms overview.
+</div> -->
+
+<!-- <div class="clearfix"> -->
+  
+<div style="text-align: center;">
+<img src="/images/research_page/mechs.png" 
+alt="Reaction mechanisms diagram"
+style="max-width: 60%;">
+<p><small> Reaction mechanisms overview. </small></p>
 </div>
 
-<div class="clearfix">
 
 Neutrinos interact with matter only through the weak interaction. Consequently, they are incredibly difficult to detect. Currently, there are only a few ways to observe them, and our group focuses on building models for accelerator-based neutrino oscillation experiments. These experiments require two conditions: a high-intensity neutrino beam and massive targets for the neutrinos to interact with. Both requirements present unique challenges.
 
@@ -84,7 +92,7 @@ Quasi-elastic scattering occurs when a $\nu_\mu$ interacts with a single nucleon
 
 Single-pion production is a key interaction channel in neutrino–nucleus scattering and plays an essential role in the interpretation of accelerator-based neutrino experiments. In high-energy experiments like DUNE [^DUNE] and NO$\nu$A [^NOVA1] $^,$[^NOVA2], inelastic interactions that produce pions constitute a major contribution to the total neutrino–nucleus cross section. In experiments such as T2K [^T2K], Hyper-Kamiokande, and the Short-Baseline Neutrino Program, single-pion production (SPP), dominated by the $\Delta$-resonance region, accounts for roughly 20% of all neutrino interactions [^Katori_Martini]$^,$[^Isaacson_Jay]$^,$[^NEUT]. In this process, a neutrino interacts with a nucleon inside a nucleus, produces a resonance and subsequently decays into a nucleon and a pion. In addition, SPP can also contribute to "0-pion" final states when a pion is absorbed or inelastically rescattered. This leads to an important background in the oscillation analyses. A precise description of pion production and nuclear effects is therefore essential to reduce systematic uncertainties in the reconstructed neutrino energy.
 
-<div style="display:flex; gap:1.5em; margin: 1.2em 0; justify-content: center;">
+<!-- <div style="display:flex; gap:1.5em; margin: 1.2em 0; justify-content: center;">
   <div style="text-align:center; max-width:200px; background:#f8f9fa; border:1px solid #dee2e6; border-radius:6px; padding:10px; font-size:0.82em; color:#555;">
     <img src="/images/research_page/resonances-1.png" style="height:130px; object-fit:contain; width:100%; border-radius:4px; margin-bottom:6px;">
     <p><small>s-channel resonance diagram.</small></p>
@@ -93,17 +101,17 @@ Single-pion production is a key interaction channel in neutrino–nucleus scatte
     <img src="/images/research_page/cross_resonances-1.png" style="height:130px; object-fit:contain; width:100%; border-radius:4px; margin-bottom:6px;">
     <p><small>u-channel cross-resonance.</small></p>
   </div>
-</div>
+</div> -->
 
 <div style="display: flex; gap: 20px; justify-content: center;">
 <div>
 <img src="/images/research_page/resonances-1.png" style="width:300px;">
-<p><small>s-channel resonance diagram.</small></p>
+<p><small> s-channel resonance diagram. </small></p>
 </div>
 
 <div>
 <img src="/images/research_page/cross_resonances-1.png" style="width:300px;">
-<p><small>u-channel cross-resonance.</small></p>
+<p><small> u-channel cross-resonance. </small></p>
 </div>
 </div>
 
@@ -173,6 +181,7 @@ Monte Carlo (MC) simulations are the backbone of neutrino experiment analyses, l
 </div>
 
 ---
+## References
 
 [^DUNE]: R. Acciarri et al. (DUNE), (2016).
 [^NOVA1]: M. A. Acero et al. (NOvA, R. Group), *[Eur. Phys. J. C 80, 1119 (2020)](https://doi.org/10.1140/epjc/s10052-020-08577-5)*.
