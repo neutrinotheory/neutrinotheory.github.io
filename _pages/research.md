@@ -150,6 +150,12 @@ Nuclear effects encompass a broad range of phenomena that modify the interaction
 <div class="clearfix">
 
 Monte Carlo (MC) simulations are the backbone of neutrino experiment analyses, linking theoretical cross-section models to detector-level observables. Our group works on implementing and validating our theoretical models within widely used neutrino event generators.
+<div style="text-align: center;">
+  <img src="/images/research_page/logos_event_generators.png"
+       alt="Event generator logos"
+       style="max-width: 60%;">
+  <p><small>Quasi-elastic scattering diagram.</small></p>
+</div>
 
 <div style="text-align:center; margin-top: 1em;">
   <div style="display:inline-block; background:#f8f9fa; border:1px solid #dee2e6; border-radius:6px; padding:10px;">
