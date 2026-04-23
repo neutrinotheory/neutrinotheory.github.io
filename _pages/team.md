@@ -23,6 +23,20 @@ permalink: /team/
   <h4>{{ member.name }}</h4>
   <!-- <i>{{ member.info }} <!--<br>email: <{{ member.email }}></i> --> 
   <i>{{ member.info }}{% if member.info2 %}<br>{{ member.info2 }}{% endif %} </i>
+  {% if member.email or member.inspire %}
+  <div style="margin-top: 0.35em; margin-bottom: 0.35em;">
+    {% if member.email %}
+      <a href="mailto:{{ member.email }}" aria-label="Email {{ member.name }}" style="margin-right: 0.75em;">
+        <i class="fa-solid fa-envelope"></i>
+      </a>
+    {% endif %}
+    {% if member.inspire %}
+      <a href="{{ member.inspire }}" target="_blank" rel="noopener noreferrer" aria-label="INSPIRE profile for {{ member.name }}">
+        <i class="fa-solid fa-atom"></i>
+      </a>
+    {% endif %}
+  </div>
+  {% endif %}
   <ul style="overflow: hidden">
 
   {% if member.number_educ == 1 %}
