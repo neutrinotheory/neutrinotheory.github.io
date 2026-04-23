@@ -82,7 +82,7 @@ Quasi-elastic scattering occurs when a $\nu_\mu$ interacts with a single nucleon
 
 <div class="clearfix">
 
-Single-pion production is a key interaction channel in neutrino–nucleus scattering and plays an essential role in the interpretation of accelerator-based neutrino experiments. In high-energy experiments like DUNE [^DUNE] and NO$\nu$A [^NOVA1] $^,$[^NOVA2], inelastic interactions that produce pions constitute a major contribution to the total neutrino–nucleus cross section. In experiments such as T2K [^T2K], Hyper-Kamiokande, and the Short-Baseline Neutrino Program, single-pion production (SPP), dominated by the $\Delta$-resonance region, accounts for roughly 20% of all neutrino interactions [^Katori_Martini] ^,[^Isaacson_Jay] ^,[^NEUT]. In this process, a neutrino interacts with a nucleon inside a nucleus, produces a resonance and subsequently decays into a nucleon and a pion. In addition, SPP can also contribute to "0-pion" final states when a pion is absorbed or inelastically rescattered. This leads to an important background in the oscillation analyses. A precise description of pion production and nuclear effects is therefore essential to reduce systematic uncertainties in the reconstructed neutrino energy.
+Single-pion production is a key interaction channel in neutrino–nucleus scattering and plays an essential role in the interpretation of accelerator-based neutrino experiments. In high-energy experiments like DUNE [^DUNE] and NO$\nu$A [^NOVA1] $^,$[^NOVA2], inelastic interactions that produce pions constitute a major contribution to the total neutrino–nucleus cross section. In experiments such as T2K [^T2K], Hyper-Kamiokande, and the Short-Baseline Neutrino Program, single-pion production (SPP), dominated by the $\Delta$-resonance region, accounts for roughly 20% of all neutrino interactions [^Katori_Martini]$^,$[^Isaacson_Jay]$^,$[^NEUT]. In this process, a neutrino interacts with a nucleon inside a nucleus, produces a resonance and subsequently decays into a nucleon and a pion. In addition, SPP can also contribute to "0-pion" final states when a pion is absorbed or inelastically rescattered. This leads to an important background in the oscillation analyses. A precise description of pion production and nuclear effects is therefore essential to reduce systematic uncertainties in the reconstructed neutrino energy.
 
 <div style="display:flex; gap:1.5em; margin: 1.2em 0; justify-content: center;">
   <div style="text-align:center; max-width:200px; background:#f8f9fa; border:1px solid #dee2e6; border-radius:6px; padding:10px; font-size:0.82em; color:#555;">
@@ -95,7 +95,19 @@ Single-pion production is a key interaction channel in neutrino–nucleus scatte
   </div>
 </div>
 
-Our work focuses on the development of the Ghent hybrid model [^GHENT] for pion production, which combines a resonance description with a tree-level background from chiral perturbation theory [^HNV]. The original low-energy model including the $\Delta$(1232)-resonance is further extended with higher-energy resonances $P_{11}$(1440), $D_{13}$(1520), $S_{11}$(1535) [^DSD1] ^,[^DSD2] ^,[^DSD3] ^,[^DSD4] and the model is partially unitarized in the $\Delta$-region through Olsson phases [^Olsson]. The tree-level background diagrams are extended to higher energies using Regge theory [^Regge1] ^,[^Regge2] ^,[^Regge3] ^,[^Regge4]. Recent efforts aim to improve the theoretical consistency of the model by unitarizing all contributions using Watson's theorem [^Matthias]. This is achieved by redefining the model in a multipole decomposition, and unitarizing the amplitudes through K-matrix theory.
+<div style="display: flex; gap: 20px; justify-content: center;">
+<div>
+<img src="/images/research_page/resonances-1.png" style="width:300px;">
+s-channel resonance diagram.
+</div>
+
+<div>
+<img src="/images/research_page/cross_resonances-1.png" style="width:300px;">
+u-channel cross-resonance.
+</div>
+</div>
+
+Our work focuses on the development of the Ghent hybrid model [^GHENT] for pion production, which combines a resonance description with a tree-level background from chiral perturbation theory [^HNV]. The original low-energy model including the $\Delta$(1232)-resonance is further extended with higher-energy resonances $P_{11}$(1440), $D_{13}$(1520), $S_{11}$(1535) [^DSD1]$^,$[^DSD2]$^,$[^DSD3]$^,$[^DSD4] and the model is partially unitarized in the $\Delta$-region through Olsson phases [^Olsson]. The tree-level background diagrams are extended to higher energies using Regge theory [^Regge1]$^,$[^Regge2]$^,$[^Regge3]$^,$[^Regge4]. Recent efforts aim to improve the theoretical consistency of the model by unitarizing all contributions using Watson's theorem [^Matthias]. This is achieved by redefining the model in a multipole decomposition, and unitarizing the amplitudes through K-matrix theory.
 
 In addition, we investigate the role of nuclear effects, in particular final-state interactions of the produced pions and nucleons [^Javi]. Inside the nucleus, produced particles like the nucleon and pion can be absorbed, elastically and inelastically rescattered, which modifies the final-state particles. These effects are crucial for reducing systematic uncertainties in neutrino oscillation experiments.
 
@@ -130,21 +142,33 @@ Nuclear effects encompass a broad range of phenomena that modify the interaction
 
 ## Monte Carlo simulations
 
-<div class="research-img-box">
+<!-- <div class="research-img-box">
   <img src="/images/research_page/MC_diagram.png" alt="Monte Carlo simulation diagram">
   Schematic of Monte Carlo neutrino event simulation.
+</div> -->
+<div style="text-align: center;">
+  <img src="/images/research_page/MC_diagram.png"
+       alt="Event generator logos"
+       style="max-width: 60%;">
+  <p><small>Schematic of Monte Carlo neutrino event simulation.</small></p>
 </div>
 
 <div class="clearfix">
 
 Monte Carlo (MC) simulations are the backbone of neutrino experiment analyses, linking theoretical cross-section models to detector-level observables. Our group works on implementing and validating our theoretical models within widely used neutrino event generators.
+<div style="text-align: center;">
+  <img src="/images/research_page/logos_event_generators.png"
+       alt="Event generator logos"
+       style="max-width: 60%;">
+  <p><small>Neutrino event generators.</small></p>
+</div>
 
-<div style="text-align:center; margin-top: 1em;">
+<!-- <div style="text-align:center; margin-top: 1em;">
   <div style="display:inline-block; background:#f8f9fa; border:1px solid #dee2e6; border-radius:6px; padding:10px;">
     <img src="/images/research_page/logos_event_generators.png" alt="Event generator logos" style="max-width:280px; height:auto;">
     <div style="font-size:0.82em; color:#555; margin-top:6px;">Neutrino event generators.</div>
   </div>
-</div>
+</div> -->
 
 </div>
 
