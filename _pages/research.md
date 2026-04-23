@@ -6,79 +6,160 @@ sitemap: false
 permalink: /research/
 ---
 
+<style>
+.research-img-box {
+  float: right;
+  margin: 0 0 1.2em 1.8em;
+  max-width: 260px;
+  background: #f8f9fa;
+  border: 1px solid #dee2e6;
+  border-radius: 6px;
+  padding: 10px;
+  text-align: center;
+  font-size: 0.82em;
+  color: #555;
+  line-height: 1.4;
+}
+.research-img-box img {
+  width: 100%;
+  height: auto;
+  border-radius: 4px;
+  display: block;
+  margin-bottom: 6px;
+}
+.clearfix::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+</style>
+
 # Research
 
 ## Reaction Mechanisms
-<div style="text-align:center;">
-  <img src="/images/research_page/mechs.png" alt="Pion production diagram" style="max-width:70%;">
-  <p><small>This is a text for the research</small></p>
+
+<div class="research-img-box">
+  <img src="/images/research_page/mechs.png" alt="Reaction mechanisms diagram">
+  Reaction mechanisms overview.
 </div>
+
+<div class="clearfix">
+
+This section covers the main reaction mechanisms considered in neutrino–nucleus scattering, ranging from quasi-elastic scattering and pion production to two-nucleon knockout and nuclear effects.
+
+</div>
+
+---
 
 ## Quasi-elastic scattering
-<div style="text-align:center;">
-  <img src="/images/research_page/diagram_QE.png" alt="Pion production diagram" style="max-width:60%;">
-  <p><small>Quasi-elastic scattering occurs when a $\nu_\mu$ strikes an <strong>individual nucleon</strong> within a nucleus, providing enough energy to knock it out.</small></p>
+
+<div class="research-img-box">
+  <img src="/images/research_page/diagram_QE.png" alt="Quasi-elastic scattering diagram">
+  Quasi-elastic scattering: a $\nu_\mu$ strikes an <strong>individual nucleon</strong> within a nucleus, providing enough energy to knock it out.
 </div>
+
+<div class="clearfix">
+
+Quasi-elastic scattering occurs when a $\nu_\mu$ interacts with a single nucleon bound inside the nucleus and transfers enough momentum to eject it. It is one of the dominant interaction channels at intermediate neutrino energies and serves as a key signal process in oscillation experiments. Accurate modelling of this process, including nuclear structure effects such as Pauli blocking, short-range correlations, and collective excitations through the Random Phase Approximation (RPA), is essential for reliable neutrino energy reconstruction.
+
+</div>
+
+---
+
 ## Pion production
-<div style="text-align:center;">
-  <img src="/images/research_page/diagram_SPP.png" alt="Pion production diagram" style="max-width:60%;">
-  <p><small>Beyond the elastic limit, a $\nu_\mu$ can excite <strong>nucleons</strong> into a <strong>$\mathbf{\Delta}$ -resonance</strong> that subsequently decays into a <strong>nucleon</strong> and a <strong>pion</strong>. Increasing the energy further unlocks higher resonances, which produce a nucleon along with one or more mesons.</small></p>
-</div>
-Single-pion production is a key interaction channel in neutrino–nucleus scattering and plays an essential role in the interpretation of accelerator-based neutrino experiments. In high-energy experiments like DUNE [^DUNE] and NO$\nu$A [^NOVA1] [^NOVA2], inelastic interactions that produce pions constitute a major contribution to the total neutrino–nucleus cross section. In experiments such as T2K [^T2K], Hyper-Kamiokande, and the Short-Baseline Neutrino Program, single-pion production (SPP), dominated by $\Delta$-resonance region accounts for roughly 20% of all neutrino interactions [^Katori_Martini] [^Isaacson_Jay] [^NEUT]. In this process, a neutrino interacts with a nucleon inside a nucleus, produces a resonance and subseqeuntly decays into a nucleon and a pion. In addition, SPP can also contribute to "0-pion" final states when a pion is absorbed or inelastic rescattered. This leads to an important background in the oscillation analyses. A precise description of pion production and nuclear effects are therefore essential to reduce systematic uncentrainties in the reconstructed neutrino energy. 
 
-<div class="row text-center d-flex align-items-end">
-<div class="col-sm-6 d-flex flex-column">
-<img src="/images/research_page/resonances-1.png" style="height: 150px; object-fit: contain;">
-<p><small> s-channel resonance diagram.</small></p>
+<div class="research-img-box">
+  <img src="/images/research_page/diagram_SPP.png" alt="Pion production diagram">
+  A $\nu_\mu$ excites a <strong>nucleon</strong> into a <strong>$\Delta$-resonance</strong> that decays into a <strong>nucleon</strong> and a <strong>pion</strong>.
 </div>
 
-<div class="col-sm-6 d-flex flex-column">
-<img src="/images/research_page/cross_resonances-1.png" style="height: 150px; object-fit: contain;">
-<p><small>u-channel cross-resonance.</small></p>
+<div class="clearfix">
+
+Single-pion production is a key interaction channel in neutrino–nucleus scattering and plays an essential role in the interpretation of accelerator-based neutrino experiments. In high-energy experiments like DUNE [^DUNE] and NO$\nu$A [^NOVA1] [^NOVA2], inelastic interactions that produce pions constitute a major contribution to the total neutrino–nucleus cross section. In experiments such as T2K [^T2K], Hyper-Kamiokande, and the Short-Baseline Neutrino Program, single-pion production (SPP), dominated by the $\Delta$-resonance region, accounts for roughly 20% of all neutrino interactions [^Katori_Martini] [^Isaacson_Jay] [^NEUT]. In this process, a neutrino interacts with a nucleon inside a nucleus, produces a resonance and subsequently decays into a nucleon and a pion. In addition, SPP can also contribute to "0-pion" final states when a pion is absorbed or inelastically rescattered. This leads to an important background in the oscillation analyses. A precise description of pion production and nuclear effects is therefore essential to reduce systematic uncertainties in the reconstructed neutrino energy.
+
+<div style="display:flex; gap:1.5em; margin: 1.2em 0; justify-content: center;">
+  <div style="text-align:center; max-width:200px; background:#f8f9fa; border:1px solid #dee2e6; border-radius:6px; padding:10px; font-size:0.82em; color:#555;">
+    <img src="/images/research_page/resonances-1.png" style="height:130px; object-fit:contain; width:100%; border-radius:4px; margin-bottom:6px;">
+    s-channel resonance diagram.
+  </div>
+  <div style="text-align:center; max-width:200px; background:#f8f9fa; border:1px solid #dee2e6; border-radius:6px; padding:10px; font-size:0.82em; color:#555;">
+    <img src="/images/research_page/cross_resonances-1.png" style="height:130px; object-fit:contain; width:100%; border-radius:4px; margin-bottom:6px;">
+    u-channel cross-resonance.
+  </div>
 </div>
+
+Our work focuses on the development of the Ghent hybrid model [^GHENT] for pion production, which combines a resonance description with a tree-level background from chiral perturbation theory [^HNV]. The original low-energy model including the $\Delta$(1232)-resonance is further extended with higher-energy resonances $P_{11}$(1440), $D_{13}$(1520), $S_{11}$(1535) [^DSD1] [^DSD2] [^DSD3] [^DSD4] and the model is partially unitarized in the $\Delta$-region through Olsson phases [^Olsson]. The tree-level background diagrams are extended to higher energies using Regge theory [^Regge1] [^Regge2] [^Regge3] [^Regge4]. Recent efforts aim to improve the theoretical consistency of the model by unitarizing all contributions using Watson's theorem [^Matthias]. This is achieved by redefining the model in a multipole decomposition, and unitarizing the amplitudes through K-matrix theory.
+
+In addition, we investigate the role of nuclear effects, in particular final-state interactions of the produced pions and nucleons [^Javi]. Inside the nucleus, produced particles like the nucleon and pion can be absorbed, elastically and inelastically rescattered, which modifies the final-state particles. These effects are crucial for reducing systematic uncertainties in neutrino oscillation experiments.
+
 </div>
 
-
-Our work focuses on the development of the Ghent hybrid model [^GHENT] for pion production, which combines a resonance describition with a tree-level background from chiral perturbation theory [^HNV]. The orginial low energy model including the $\Delta$ (1 232)-resonance is further extended with higher energy resenances $P_{11}$ (1440), $D_{13}$ (1520), $S_{11}$ (1535) [^DSD1] [^DSD2] [^DSD3] [^DSD4] and the model is partialy untiterized in the $\Delta$-region through Olsson phases [^Olsson]. The tree-level background diagrams are extended to higher energies using Regge theory [^Regge1] [^Regge2] [^Regge3] [^Regge4].  Recent efforts aim to improve the theoretical consistency of the model by uniterization all contributions using Watson's theorem [^Matthias]. This is achived by redefining the model in a multipole decompositions, and unitarizing the amplitudes through K-matrix theory. 
-
-In addition, we investigate the role of nuclear effects, in particular final-state interactions of the produced pions and nucleons [^Javi]. Inside the nucleus, produced particles like the nucleon and pion can be absorbed, elastic and inelastic rescattered which modifies the final state particles. These effects are crucial for reducing systematic uncertainties in neutrino oscillation experiments.
-
-[^DUNE]: R. Acciarri et al. (DUNE), (2016).
-[^NOVA1]:M. A. Acero et al. (NOvA, R. Group), *[Eur. Phys. J. C 80, 1119 (2020)](https://doi.org/10.1140/epjc/s10052-020-08577-5)*.
-[^NOVA2]: M. A. Acero et al. (NOvA), *[Phys. Rev. D 107, 052011 (2023)](https://doi.org/10.1103/PhysRevD.107.052011)*.
-[^T2K]: K. Abe et al. (T2K), *[Nucl. Instrum. Meth. A 659, 106 (2011)](https://doi.org/10.1016/j.nima.2011.06.067)*.
-[^Katori_Martini]: T. Katori and M. Martini, *[J. Phys. G 45, 013001 (2018)](https://doi.org/10.1088/1361-6471/aa8bf7)*.
-[^Isaacson_Jay]:J. Isaacson, W. Jay, A. Lovato, P. Machado, A. Nikolakopoulos, N. Rocco, and N. Steinberg, (2026), *[Single pion production and pion propagation in ACHILLES. Physical Review D, 113(3), 036005.](https://doi.org/10.1103/13bh-22lm)*.
-[^NEUT]:Hayato, Y., Pickering, L. The NEUT neutrino interaction simulation program library. *[Eur. Phys. J. Spec. Top. 230, 4469–4481 (2021).](https://doi.org/10.1140/epjs/s11734-021-00287-7)*
-[^GHENT]:González-Jiménez, R., Jachowicz, N., Niewczas, K., Nys, J., Pandey, V., Van Cuyck, T., & Van Dessel, N. (2017). Electroweak single-pion production off the nucleon: From threshold to high invariant masses. *[Physical Review D, 95(11), 113007.](https://doi.org/10.1103/PhysRevD.95.113007)*
-[^HNV]:Hernández, E., Nieves, J., & Valverde, M. (2007). Weak pion production off the nucleon. *[Physical Review D, 76(3), 033005.](https://doi.org/10.1103/PhysRevD.76.033005)*
-[^DSD1]: Hernández, E., Nieves, J., Singh, S. K., Valverde, M., & Vicente Vacas, M. J. (2008). ν induced threshold production of two pions and N(1440) electroweak form factors. *[Physical Review D, 77(5), 053009.](https://doi.org/10.1103/PhysRevD.77.053009)*
-[^DSD2]: Hernández, E., Nieves, J., Valverde, M., & Vicente Vacas, M. J. (2010). N–Δ(1232) axial form factors from weak pion production. *[Physical Review D, 81(8), 085046.](https://doi.org/10.1103/PhysRevD.81.085046)*
-[^DSD3]: Hernández, E., Nieves, J., & Vicente Vacas, M. J. (2013). Single π production in neutrino–nucleus scattering. *[Physical Review D, 87(11), 113009. ](https://doi.org/10.1103/PhysRevD.87.113009)*
-[^DSD4]: Alvarez-Ruso, L., Hernández, E., Nieves, J., & Vicente Vacas, M. J. (2016). Watson's theorem and the N–Δ(1232) axial transition. *[Physical Review D, 93(1), 014016.](https://doi.org/10.1103/PhysRevD.93.014016)*
-[^Olsson]: Olsson, M. G. (1974). Solutions of the multichannel unitarity equations describing the addition of a resonance and background: Application to a pole model of photoproduction. *[Nuclear Physics B, 74, 90115.](https://doi.org/10.1016/0550-3213(74)90115-1)*
-[^Regge1]:Aznauryan, I. G. (2003). Multipole amplitudes of pion photoproduction on nucleons up to 2 GeV using dispersion relations and the unitary isobar model. *[Physical Review C, 67(1), 015209.](https://doi.org/10.1103/PhysRevC.67.015209)*
-[^Regge2]: Aznauryan, I. G., Burkert, V. D., Egiyan, H., Joo, K., Minehart, R., & Smith, L. C. (2005). Electroexcitation of the P33(1232), P11(1440), D13(1520), and S11(1535) at $Q^2 = 0.4$ and 0.65 $(GeV/c)^2$. *[Physical Review C, 71(1), 015201.](https://doi.org/10.1103/PhysRevC.71.015201)*
-[^Regge3]: Vrancx, T., De Cruz, L., Ryckebusch, J., & Vancraeyveld, P. (2013). The $p(\gamma, K^+) \Gamma$ reaction: Consistent high-spin interactions and Bayesian inference of its resonance content. *[Nuclear Physics A, 914, 74–78.](https://doi.org/10.1016/j.nuclphysa.2012.12.075)*
-[^Regge4]: T. Corthals, J. Ryckebusch, and T. Van Cauteren, *[Phys. Rev. C73, 045207 (2006)](https://doi.org/10.1103/PhysRevC.73.045207)*
-[^Matthias]: M. Hooft, A. Nikolakopoulos, J. García-Marcos, Y. De Backer, T. Franco-Munoz, K. Niewczas, R. González-Jiménez, and N. Jachowicz (2026). Optimizing the description of the Delta region in the Ghent Hybrid model for single-pion production.*[https://arxiv.org/abs/2603.29486](https://arxiv.org/abs/2603.29486)*
-[^Javi]: J. García-Marcos, T. Franco-Munoz, R. González-Jiménez, A. Nikolakopoulos, N. Jachowicz, and J. M. Udías (2024). Towards a more complete description of nucleon distortion in lepton-induced single-pion production at low-$Q^2$. *[Physical Review C, 109 (2), 024608.]({https://doi.org/10.1103/PhysRevC.109.024608)
+---
 
 ## Two-nucleon knockout
-<div style="text-align:center;">
-  <img src="/images/research_page/diagram_2p2h.png" alt="Pion production diagram" style="max-width:60%;">
-  <p><small>In two-nucleon knockout, a $\nu_\mu$ ejects not one, but two nucleons from the nucleus. This occurs when the nucleons form a <strong>correlated pair</strong>, transferring enough momentum to liberate both particles from the nucleus simultaneously.</small></p>
+
+<div class="research-img-box">
+  <img src="/images/research_page/diagram_2p2h.png" alt="Two-nucleon knockout diagram">
+  A $\nu_\mu$ ejects two nucleons from a <strong>correlated pair</strong>, transferring enough momentum to liberate both simultaneously.
 </div>
+
+<div class="clearfix">
+
+In two-nucleon knockout, a $\nu_\mu$ ejects not one, but two nucleons from the nucleus. This occurs when the nucleons form a correlated pair, transferring enough momentum to liberate both particles from the nucleus simultaneously. This process, often referred to as 2p2h or meson-exchange current (MEC) contributions, constitutes an important part of the total cross section in the region between the quasi-elastic peak and the $\Delta$-resonance, and is a significant source of systematic uncertainty in neutrino energy reconstruction.
+
+</div>
+
+---
 
 ## Nuclear effects
 
-## Monte Carlo simulations
-<div style="text-align:center;">
-  <img src="/images/research_page/MC_diagram.png" alt="Pion production diagram" style="max-width:70%;">
-  <p><small>Monte Carlo Simulations</small></p>
+<div class="clearfix">
+
+Nuclear effects encompass a broad range of phenomena that modify the interaction of neutrinos with nucleons bound inside a nucleus. These include Pauli blocking, Fermi motion, short- and long-range nucleon–nucleon correlations, and final-state interactions (FSI) of outgoing particles. A reliable description of these effects is indispensable for correctly interpreting experimental cross-section measurements and reducing systematic uncertainties in oscillation analyses.
+
 </div>
 
-<div style="text-align:center;">
-  <img src="/images/research_page/logos_event_generators.png" alt="Pion production diagram" style="max-width:50%;">
-  <p><small>Event Generators</small></p>
+---
+
+## Monte Carlo simulations
+
+<div class="research-img-box">
+  <img src="/images/research_page/MC_diagram.png" alt="Monte Carlo simulation diagram">
+  Schematic of Monte Carlo neutrino event simulation.
 </div>
+
+<div class="clearfix">
+
+Monte Carlo (MC) simulations are the backbone of neutrino experiment analyses, linking theoretical cross-section models to detector-level observables. Our group works on implementing and validating our theoretical models within widely used neutrino event generators.
+
+<div style="text-align:center; margin-top: 1em;">
+  <div style="display:inline-block; background:#f8f9fa; border:1px solid #dee2e6; border-radius:6px; padding:10px;">
+    <img src="/images/research_page/logos_event_generators.png" alt="Event generator logos" style="max-width:280px; height:auto;">
+    <div style="font-size:0.82em; color:#555; margin-top:6px;">Neutrino event generators.</div>
+  </div>
+</div>
+
+</div>
+
+---
+
+[^DUNE]: R. Acciarri et al. (DUNE), (2016).
+[^NOVA1]: M. A. Acero et al. (NOvA, R. Group), *[Eur. Phys. J. C 80, 1119 (2020)](https://doi.org/10.1140/epjc/s10052-020-08577-5)*.
+[^NOVA2]: M. A. Acero et al. (NOvA), *[Phys. Rev. D 107, 052011 (2023)](https://doi.org/10.1103/PhysRevD.107.052011)*.
+[^T2K]: K. Abe et al. (T2K), *[Nucl. Instrum. Meth. A 659, 106 (2011)](https://doi.org/10.1016/j.nima.2011.06.067)*.
+[^Katori_Martini]: T. Katori and M. Martini, *[J. Phys. G 45, 013001 (2018)](https://doi.org/10.1088/1361-6471/aa8bf7)*.
+[^Isaacson_Jay]: J. Isaacson, W. Jay, A. Lovato, P. Machado, A. Nikolakopoulos, N. Rocco, and N. Steinberg, (2026), *[Single pion production and pion propagation in ACHILLES. Physical Review D, 113(3), 036005.](https://doi.org/10.1103/13bh-22lm)*.
+[^NEUT]: Hayato, Y., Pickering, L. The NEUT neutrino interaction simulation program library. *[Eur. Phys. J. Spec. Top. 230, 4469–4481 (2021).](https://doi.org/10.1140/epjs/s11734-021-00287-7)*
+[^GHENT]: González-Jiménez, R., Jachowicz, N., Niewczas, K., Nys, J., Pandey, V., Van Cuyck, T., & Van Dessel, N. (2017). Electroweak single-pion production off the nucleon: From threshold to high invariant masses. *[Physical Review D, 95(11), 113007.](https://doi.org/10.1103/PhysRevD.95.113007)*
+[^HNV]: Hernández, E., Nieves, J., & Valverde, M. (2007). Weak pion production off the nucleon. *[Physical Review D, 76(3), 033005.](https://doi.org/10.1103/PhysRevD.76.033005)*
+[^DSD1]: Hernández, E., Nieves, J., Singh, S. K., Valverde, M., & Vicente Vacas, M. J. (2008). ν induced threshold production of two pions and N(1440) electroweak form factors. *[Physical Review D, 77(5), 053009.](https://doi.org/10.1103/PhysRevD.77.053009)*
+[^DSD2]: Hernández, E., Nieves, J., Valverde, M., & Vicente Vacas, M. J. (2010). N–Δ(1232) axial form factors from weak pion production. *[Physical Review D, 81(8), 085046.](https://doi.org/10.1103/PhysRevD.81.085046)*
+[^DSD3]: Hernández, E., Nieves, J., & Vicente Vacas, M. J. (2013). Single π production in neutrino–nucleus scattering. *[Physical Review D, 87(11), 113009.](https://doi.org/10.1103/PhysRevD.87.113009)*
+[^DSD4]: Alvarez-Ruso, L., Hernández, E., Nieves, J., & Vicente Vacas, M. J. (2016). Watson's theorem and the N–Δ(1232) axial transition. *[Physical Review D, 93(1), 014016.](https://doi.org/10.1103/PhysRevD.93.014016)*
+[^Olsson]: Olsson, M. G. (1974). Solutions of the multichannel unitarity equations describing the addition of a resonance and background. *[Nuclear Physics B, 74, 90–115.](https://doi.org/10.1016/0550-3213(74)90115-1)*
+[^Regge1]: Aznauryan, I. G. (2003). Multipole amplitudes of pion photoproduction on nucleons up to 2 GeV. *[Physical Review C, 67(1), 015209.](https://doi.org/10.1103/PhysRevC.67.015209)*
+[^Regge2]: Aznauryan, I. G., Burkert, V. D., et al. (2005). Electroexcitation of the P33(1232), P11(1440), D13(1520), and S11(1535). *[Physical Review C, 71(1), 015201.](https://doi.org/10.1103/PhysRevC.71.015201)*
+[^Regge3]: Vrancx, T., De Cruz, L., Ryckebusch, J., & Vancraeyveld, P. (2013). *[Nuclear Physics A, 914, 74–78.](https://doi.org/10.1016/j.nuclphysa.2012.12.075)*
+[^Regge4]: T. Corthals, J. Ryckebusch, and T. Van Cauteren, *[Phys. Rev. C73, 045207 (2006)](https://doi.org/10.1103/PhysRevC.73.045207)*
+[^Matthias]: M. Hooft et al. (2026). Optimizing the description of the Delta region in the Ghent Hybrid model. *[arXiv:2603.29486](https://arxiv.org/abs/2603.29486)*
+[^Javi]: J. García-Marcos et al. (2024). Towards a more complete description of nucleon distortion in lepton-induced single-pion production. *[Physical Review C, 109(2), 024608.](https://doi.org/10.1103/PhysRevC.109.024608)*
