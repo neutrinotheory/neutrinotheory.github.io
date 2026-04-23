@@ -92,7 +92,7 @@ Quasi-elastic scattering occurs when a $\nu_\mu$ interacts with a single nucleon
 
 Single-pion production is a key interaction channel in neutrino–nucleus scattering and plays an essential role in the interpretation of accelerator-based neutrino experiments. In high-energy experiments like DUNE [^DUNE] and NO$\nu$A [^NOVA1] $^,$[^NOVA2], inelastic interactions that produce pions constitute a major contribution to the total neutrino–nucleus cross section. In experiments such as T2K [^T2K], Hyper-Kamiokande, and the Short-Baseline Neutrino Program, single-pion production (SPP), dominated by the $\Delta$-resonance region, accounts for roughly 20% of all neutrino interactions [^Katori_Martini]$^,$[^Isaacson_Jay]$^,$[^NEUT]. In this process, a neutrino interacts with a nucleon inside a nucleus, produces a resonance and subsequently decays into a nucleon and a pion. In addition, SPP can also contribute to "0-pion" final states when a pion is absorbed or inelastically rescattered. This leads to an important background in the oscillation analyses. A precise description of pion production and nuclear effects is therefore essential to reduce systematic uncertainties in the reconstructed neutrino energy.
 
-<div style="display:flex; gap:1.5em; margin: 1.2em 0; justify-content: center;">
+<!-- <div style="display:flex; gap:1.5em; margin: 1.2em 0; justify-content: center;">
   <div style="text-align:center; max-width:200px; background:#f8f9fa; border:1px solid #dee2e6; border-radius:6px; padding:10px; font-size:0.82em; color:#555;">
     <img src="/images/research_page/resonances-1.png" style="height:130px; object-fit:contain; width:100%; border-radius:4px; margin-bottom:6px;">
     <p><small>s-channel resonance diagram.</small></p>
@@ -101,17 +101,17 @@ Single-pion production is a key interaction channel in neutrino–nucleus scatte
     <img src="/images/research_page/cross_resonances-1.png" style="height:130px; object-fit:contain; width:100%; border-radius:4px; margin-bottom:6px;">
     <p><small>u-channel cross-resonance.</small></p>
   </div>
-</div>
+</div> -->
 
 <div style="display: flex; gap: 20px; justify-content: center;">
 <div>
 <img src="/images/research_page/resonances-1.png" style="width:300px;">
-<p><small>s-channel resonance diagram.</small></p>
+<p><small> s-channel resonance diagram. </small></p>
 </div>
 
 <div>
 <img src="/images/research_page/cross_resonances-1.png" style="width:300px;">
-<p><small>u-channel cross-resonance.</small></p>
+<p><small> u-channel cross-resonance. </small></p>
 </div>
 </div>
 
