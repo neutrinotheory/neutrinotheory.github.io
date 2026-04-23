@@ -153,7 +153,7 @@ Single-pion production is a key interaction channel in neutrino–nucleus scatte
   
 <div style="text-align: center; width: 300px;">
 <img src="/images/research_page/resonances-1.png"
-     style="height: 120; object-fit: contain;">
+     style="height: 90; object-fit: contain;">
 <p style="min-height: 40px;"><small>s-channel resonance diagram.</small></p>
 </div>
 
