@@ -142,9 +142,15 @@ Nuclear effects encompass a broad range of phenomena that modify the interaction
 
 ## Monte Carlo simulations
 
-<div class="research-img-box">
+<!-- <div class="research-img-box">
   <img src="/images/research_page/MC_diagram.png" alt="Monte Carlo simulation diagram">
   Schematic of Monte Carlo neutrino event simulation.
+</div> -->
+<div style="text-align: center;">
+  <img src="/images/research_page/MC_diagram.png"
+       alt="Event generator logos"
+       style="max-width: 60%;">
+  <p><small>Schematic of Monte Carlo neutrino event simulation.</small></p>
 </div>
 
 <div class="clearfix">
