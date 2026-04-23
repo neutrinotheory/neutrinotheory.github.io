@@ -76,7 +76,7 @@ To guide these analyses, we need robust theoretical models for every possible in
 ## Quasi-elastic scattering
 
 <div class="research-img-box">
-  <img src="/images/research_page/diagram_QE.png" alt="Quasi-elastic scattering diagram">
+  <img src="/images/research_page/diagram_QE.png" alt="Quasi-elastic scattering diagram" style="text-align: center;">
   Quasi-elastic scattering: a $\nu_\mu$ strikes an <strong>individual nucleon</strong> within a nucleus, providing enough energy to knock it out.
 </div>
 
