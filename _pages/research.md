@@ -63,7 +63,7 @@ permalink: /research/
   display: table;
   clear: both;
 }
-/* This targets everything inside the research box */
+/* 1. Target the box itself and all "naked" text */
 .research-box {
   background: #f8f9fa;
   border: 1px solid #dee2e6;
@@ -71,24 +71,24 @@ permalink: /research/
   padding: 16px 18px;
   margin: 1.5em 0;
   
-  /* FORCE BIGGER TEXT HERE */
-  font-size: 1.2rem !important; 
+  /* FORCE LARGE TEXT */
+  font-size: 18px !important; 
   line-height: 1.6 !important;
-  color: #333 !important;
 }
 
-/* Ensure paragraphs and list items don't shrink back down */
+/* 2. Target paragraphs, list items, and spans specifically */
 .research-box p, 
-.research-box li,
+.research-box li, 
+.research-box span,
 .research-box ul {
-  font-size: 1.2rem !important;
+  font-size: 18px !important;
   line-height: 1.6 !important;
 }
 
-/* Keep the captions small so they still look like captions */
-.research-img-center .caption,
-.research-img-box {
-  font-size: 0.85rem !important;
+/* 3. Keep your image captions small (so they don't grow too) */
+.research-box .caption, 
+.research-box .research-img-box {
+  font-size: 13px !important;
   line-height: 1.4 !important;
 }
 /* .research-box {
@@ -114,7 +114,7 @@ permalink: /research/
 } */
 </style>
 
-# Research sizetext
+# Research sizetext_2
 <div class="research-box clearfix">
 ## Reaction Mechanisms
 
