@@ -53,15 +53,14 @@ permalink: /research/
 <!-- <div class="clearfix"> -->
 <div class="research-box clearfix">
   
+Neutrinos interact with matter only through the weak interaction. Consequently, they are incredibly difficult to detect. Currently, there are only a few ways to observe them, and our group focuses on building models for accelerator-based neutrino oscillation experiments. These experiments require two conditions: a high-intensity neutrino beam and massive targets for the neutrinos to interact with. Both requirements present unique challenges.
+
 <div style="text-align: center;">
 <img src="/images/research_page/mechs.png" 
 alt="Reaction mechanisms diagram"
 style="max-width: 60%;">
 <p><small> Reaction mechanisms overview. </small></p>
 </div>
-
-
-Neutrinos interact with matter only through the weak interaction. Consequently, they are incredibly difficult to detect. Currently, there are only a few ways to observe them, and our group focuses on building models for accelerator-based neutrino oscillation experiments. These experiments require two conditions: a high-intensity neutrino beam and massive targets for the neutrinos to interact with. Both requirements present unique challenges.
 
 <ul>
   <li>To create a high-intensity neutrino beam, protons are accelerated to very high kinetic energies and directed toward a target block. The resulting collisions produce a variety of particles, including a large number of pions. These pions are redirected using magnetic fields and subsequently decay into muons and muon-neutrinos. A downside of this method is that the resulting beam is not mono-energetic. Instead, a wide spectrum of energies is directed toward the detector.</li>
@@ -121,7 +120,7 @@ Single-pion production is a key interaction channel in neutrino–nucleus scatte
 
 <div style="text-align: center; width: 300px;">
 <img src="/images/research_page/cross_resonances-1.png"
-     style="height: 200px; object-fit: contain;">
+     style="height: 170px; object-fit: contain;">
 <p style="min-height: 40px;"><small>u-channel cross-resonance.</small></p>
 </div>
 
