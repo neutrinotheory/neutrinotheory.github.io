@@ -11,7 +11,7 @@ permalink: /research/
 ## Reaction Mechanisms
 <div style="text-align:center;">
   <img src="/images/research_page/mechs.png" alt="Pion production diagram" style="max-width:70%;">
-  <p><small>Reaction Mechanisms</small></p>
+  <p><small>This is a text for the research</small></p>
 </div>
 
 ## Quasi-elastic scattering
