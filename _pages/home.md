@@ -30,9 +30,11 @@ Our research focuses on the development of theoretical models for **neutrino–n
             <img src="{{ site.url }}{{ site.baseurl }}/images/slides/mechs.png" alt="Slide 2" />
         </div>
         <div class="item">
-            <img src="{{ site.url }}{{ site.baseurl }}/images/slides/T2K.png" alt="Slide 2" />
+            <img src="{{ site.url }}{{ site.baseurl }}/images/slides/T2K.png" alt="Slide 3" />
         </div>
-        
+        <div class="item">
+            <img src="{{ site.url }}{{ site.baseurl }}/images/slides/monte_carlo_simulations_page-0001.jpg" alt="Slide 4" />
+        </div>
     </div>
   <a class="left carousel-control" href="#carousel" role="button" data-slide="prev">
     <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
