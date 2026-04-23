@@ -27,13 +27,13 @@ permalink: /team/
   <div style="margin-top: 0.35em; margin-bottom: 0.35em;">
     {% if member.email %}
       <a href="mailto:{{ member.email }}" aria-label="Email {{ member.name }}" style="margin-right: 0.75em;">
-        <i class="fa-solid fa-envelope"></i>
+        <span class="glyphicon glyphicon-envelope" aria-hidden="true"></span>
         <span style="margin-left: 0.25em;">Email</span>
       </a>
     {% endif %}
     {% if member.inspire %}
       <a href="{{ member.inspire }}" target="_blank" rel="noopener noreferrer" aria-label="INSPIRE profile for {{ member.name }}">
-        <i class="fa-solid fa-atom"></i>
+        <span class="glyphicon glyphicon-education" aria-hidden="true"></span>
         <span style="margin-left: 0.25em;">INSPIRE</span>
       </a>
     {% endif %}
