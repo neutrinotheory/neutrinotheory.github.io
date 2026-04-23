@@ -108,7 +108,7 @@ permalink: /team/
 <div class="col-sm-12">
 <p>
 <strong>This could be you!</strong><br>
-Check out our master thesis subjects or contact us for possibilities.
+Check out our <a href="https://neutrinotheory.github.io/thesis-topics/">master thesis subjects</a> or contact us for possibilities.
 </p>
 </div>
 </div>
