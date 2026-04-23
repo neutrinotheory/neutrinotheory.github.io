@@ -154,15 +154,15 @@ Monte Carlo (MC) simulations are the backbone of neutrino experiment analyses, l
   <img src="/images/research_page/logos_event_generators.png"
        alt="Event generator logos"
        style="max-width: 60%;">
-  <p><small>Quasi-elastic scattering diagram.</small></p>
+  <p><small>Neutrino event generators.</small></p>
 </div>
 
-<div style="text-align:center; margin-top: 1em;">
+<!-- <div style="text-align:center; margin-top: 1em;">
   <div style="display:inline-block; background:#f8f9fa; border:1px solid #dee2e6; border-radius:6px; padding:10px;">
     <img src="/images/research_page/logos_event_generators.png" alt="Event generator logos" style="max-width:280px; height:auto;">
     <div style="font-size:0.82em; color:#555; margin-top:6px;">Neutrino event generators.</div>
   </div>
-</div>
+</div> -->
 
 </div>
 
