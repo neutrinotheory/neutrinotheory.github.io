@@ -10,6 +10,7 @@ permalink: /research/
 
 ## Reaction Mechanisms
 <div style="text-align:center;">
+  This is a text for the research
   <img src="/images/research_page/mechs.png" alt="Pion production diagram" style="max-width:70%;">
   <p><small>Reaction Mechanisms</small></p>
 </div>
