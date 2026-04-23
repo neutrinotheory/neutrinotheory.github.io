@@ -21,25 +21,11 @@ permalink: /team/
   <!-- <img src="{{ site.url }}{{ site.baseurl }}/images/teampic/{{ member.photo }}" class="img-responsive" width="25%" style="float: left" /> -->
   <img src="{{ site.url }}{{ site.baseurl }}/images/teampic/{{ member.photo }}" class="img-responsive team-photo" />
   <h4>{{ member.name }}</h4>
-  <!-- <i>{{ member.info }} <!--<br>email: <{{ member.email }}></i> --> 
-  <i>{{ member.info }}{% if member.info2 %}<br>{{ member.info2 }}{% endif %} </i>
-  {% if member.email or member.inspire %}
-  <div style="margin-top: 0.35em; margin-bottom: 0.35em;">
-    {% if member.email %}
-      <a href="mailto:{{ member.email }}" aria-label="Email {{ member.name }}" style="margin-right: 0.75em;">
-        <span class="glyphicon glyphicon-envelope" aria-hidden="true"></span>
-        <span style="margin-left: 0.25em;">Email</span>
-      </a>
-    {% endif %}
-    {% if member.inspire %}
-      <a href="{{ member.inspire }}" target="_blank" rel="noopener noreferrer" aria-label="INSPIRE profile for {{ member.name }}">
-        <i class="ai ai-inspire" aria-hidden="true"></i>
-        <span style="margin-left: 0.25em;">INSPIRE</span>
-      </a>
-    {% endif %}
+  <!--<i>{{ member.info }}<br>email: <{{ member.email }}></i> -->
+   <h5><i>{{ member.info }}</i></h5>
+  <div class="col-sm-1">
+  <a href="mailto:{{ member.email }}"><i class="fas fa-envelope-square fa-2x"></i></a>
   </div>
-  {% endif %}
-  <ul style="overflow: hidden">
 
   {% if member.number_educ == 1 %}
   <li> {{ member.education1 }} </li>

@@ -43,7 +43,7 @@ Our research focuses on the development of theoretical models for **neutrino–n
     <span class="sr-only">Next</span>
   </a>
 </div>
-These experiments aim to address key questions in particle physics, such as the existence of CP violation in the lepton sector. They involve neutrino scattering on nuclear targets across a broad energy range. The measured observables depend strongly on the theoretical description of neutrino–nucleus interactions, which include several complex many-body effects. A reliable understanding of these processes is essential for the accurate determination of neutrino oscillation parameters and for minimizing systematic uncertainties in the analysis. We therefore work closely with experimental groups and are active members of international oscillation experiments like [T2K](https://t2k-experiment.org/) and [EssnuSB](https://essnusb.eu/).
+These experiments aim to address key questions in particle physics, such as the existence of CP violation in the lepton sector. They involve neutrino scattering on nuclear targets across a broad energy range. The measured observables depend strongly on the theoretical description of neutrino–nucleus interactions, which include several complex many-body effects. A reliable understanding of these processes is essential for the accurate determination of neutrino oscillation parameters and for minimizing systematic uncertainties in the analysis. We therefore work closely with experimental groups and are active members of international oscillation experiments like [T2K](https://t2k-experiment.org/) and [ESSnuSB](https://essnusb.eu/).
 
 
 <figure class="fifth">
