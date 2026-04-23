@@ -87,23 +87,23 @@ Single-pion production is a key interaction channel in neutrino–nucleus scatte
 <div style="display:flex; gap:1.5em; margin: 1.2em 0; justify-content: center;">
   <div style="text-align:center; max-width:200px; background:#f8f9fa; border:1px solid #dee2e6; border-radius:6px; padding:10px; font-size:0.82em; color:#555;">
     <img src="/images/research_page/resonances-1.png" style="height:130px; object-fit:contain; width:100%; border-radius:4px; margin-bottom:6px;">
-    s-channel resonance diagram.
+    <p><small>s-channel resonance diagram.</small></p>
   </div>
   <div style="text-align:center; max-width:200px; background:#f8f9fa; border:1px solid #dee2e6; border-radius:6px; padding:10px; font-size:0.82em; color:#555;">
     <img src="/images/research_page/cross_resonances-1.png" style="height:130px; object-fit:contain; width:100%; border-radius:4px; margin-bottom:6px;">
-    u-channel cross-resonance.
+    <p><small>u-channel cross-resonance.</small></p>
   </div>
 </div>
 
 <div style="display: flex; gap: 20px; justify-content: center;">
 <div>
 <img src="/images/research_page/resonances-1.png" style="width:300px;">
-s-channel resonance diagram.
+<p><small>s-channel resonance diagram.</small></p>
 </div>
 
 <div>
 <img src="/images/research_page/cross_resonances-1.png" style="width:300px;">
-u-channel cross-resonance.
+<p><small>u-channel cross-resonance.</small></p>
 </div>
 </div>
 
