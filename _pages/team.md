@@ -21,43 +21,18 @@ permalink: /team/
   <!-- <img src="{{ site.url }}{{ site.baseurl }}/images/teampic/{{ member.photo }}" class="img-responsive" width="25%" style="float: left" /> -->
   <img src="{{ site.url }}{{ site.baseurl }}/images/teampic/{{ member.photo }}" class="img-responsive team-photo" />
   <h4>{{ member.name }}</h4>
-  <!--<i>{{ member.info }}<br>email: <{{ member.email }}></i> -->
-   <h5><i>{{ member.info }}</i></h5>
-  <div class="col-sm-1">
-  <a href="mailto:{{ member.email }}"><i class="fas fa-envelope-square fa-2x"></i></a>
-  </div>
+  <h5><i>{{ member.info }}</i></h5>
+  {%- capture icons -%}
+  {% if member.email %}<a href="mailto:{{ member.email }}"><i class="fas fa-envelope-square fa-2x"></i></a>{% endif %}
+  {% if member.site %}<a href="{{ member.site }}"><span class="fa-stack fa-1x fa-stacked"><i class="fas fa-square fa-stack-2x"></i><i class="fas fa-home fa-stack-1x fa-inverse"></i></span></a>{% endif %}
+  {% if member.orcid %}<a href="https://orcid.org/{{ member.orcid }}"><i class="ai ai-orcid-square ai-2x"></i></a>{% endif %}
+  {% if member.scholar %}<a href="https://scholar.google.com/citations?user={{ member.scholar }}"><i class="ai ai-google-scholar-square ai-2x"></i></a>{% endif %}
+  {% if member.github %}<a href="https://github.com/{{ member.github }}"><i class="fab fa-github-square fa-2x"></i></a>{% endif %}
+  {% if member.twitter %}<a href="https://twitter.com/{{ member.twitter }}"><i class="fab fa-twitter-square fa-2x"></i></a>{% endif %}
+  {% if member.inspire %}<a href="{{ member.inspire }}"><i class="ai ai-inspire-square ai-2x"></i></a>{% endif %}
+  {%- endcapture -%}
+  {{ icons | strip_newlines }}
 
-  {% if member.number_educ == 1 %}
-  <li> {{ member.education1 }} </li>
-  {% endif %}
-
-  {% if member.number_educ == 2 %}
-  <li> {{ member.education1 | markdownify}} </li>
-  <li> {{ member.education2 | markdownify}} </li>
-  {% endif %}
-
-  {% if member.number_educ == 3 %}
-  <li> {{ member.education1 | markdownify}} </li>
-  <li> {{ member.education2 | markdownify}} </li>
-  <li> {{ member.education3 | markdownify}} </li>
-  {% endif %}
-
-  {% if member.number_educ == 4 %}
-  <li> {{ member.education1 | markdownify}} </li>
-  <li> {{ member.education2 | markdownify}} </li>
-  <li> {{ member.education3 | markdownify}} </li>
-  <li> {{ member.education4 | markdownify}} </li>
-  {% endif %}
-
-  {% if member.number_educ == 5 %}
-  <li> {{ member.education1 | markdownify}} </li>
-  <li> {{ member.education2 | markdownify}} </li>
-  <li> {{ member.education3 | markdownify}} </li>
-  <li> {{ member.education4 | markdownify}} </li>
-  <li> {{ member.education5 | markdownify}} </li>
-  {% endif %}
-
-  </ul>
 </div>
 
 {% assign number_printed = number_printed | plus: 1 %}
