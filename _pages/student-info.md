@@ -1,9 +1,9 @@
 ---
-title: "Thesis Topics"
+title: "Student-Info"
 layout: textlay
 excerpt: "Master Thesis topics"
 sitemap: false
-permalink: /thesis-topics/
+permalink: /student-info/
 ---
 
 <style>
