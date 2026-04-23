@@ -45,7 +45,14 @@ permalink: /research/
 
 <div class="clearfix">
 
-This section covers the main reaction mechanisms considered in neutrino–nucleus scattering, ranging from quasi-elastic scattering and pion production to two-nucleon knockout and nuclear effects.
+Neutrinos interact with matter only through the weak interaction. Consequently, they are incredibly difficult to detect. Currently, there are only a few ways to observe them, and our group focuses on building models for accelerator-based neutrino oscillation experiments. These experiments require two conditions: a high-intensity neutrino beam and massive targets for the neutrinos to interact with. Both requirements present unique challenges.
+
+<ul>
+  <li>To create a high-intensity neutrino beam, protons are accelerated to very high kinetic energies and directed toward a target block. The resulting collisions produce a variety of particles, including a large number of pions. These pions are redirected using magnetic fields and subsequently decay into muons and muon-neutrinos. A downside of this method is that the resulting beam is not mono-energetic. Instead, a wide spectrum of energies is directed toward the detector.</li>
+  <li>Because neutrinos interact so rarely, we use heavy atomic nuclei such as <sup>12</sup>C (Carbon), <sup>16</sup>O (Oxygen), and <sup>40</sup>Ar (Argon) as targets to increase the probability of an interaction. However, using nuclei introduces significant theoretical challenges. Nuclei cannot be described purely by fundamental Quantum Field Theory (QFT). Because the energies of nucleons are relatively small, standard perturbation theory fails. This necessitates phenomenological models that rely on effective parameters fitted to experimental data. Because the neutrino beam is not mono-energetic, the neutrinos trigger many different types of interactions, producing a wide variety of outgoing particles. This makes it incredibly hard to reconstruct the neutrino energy from the detected final particles.</li>
+</ul>
+
+To guide these analyses, we need robust theoretical models for every possible interaction. This is where the Ghent group contributes. We develop models for the cross sections of all possible neutrino-nucleus interactions. These models are integrated into "event generators" which are simulations that determine the probability of specific interactions based on the observed final-state particles. By using these simulations, researchers can reconstruct the energy of the initial neutrino. By comparing the interaction rates at two different locations (a near detector close to the beam source and a far detector hundreds of kilometers away) the neutrino oscillation parameters can be extracted and unlock the secrets of these elusive particles.
 
 </div>
 
