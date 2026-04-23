@@ -55,10 +55,10 @@ permalink: /research/
   
 Neutrinos interact with matter only through the weak interaction. Consequently, they are incredibly difficult to detect. Currently, there are only a few ways to observe them, and our group focuses on building models for accelerator-based neutrino oscillation experiments. These experiments require two conditions: a high-intensity neutrino beam and massive targets for the neutrinos to interact with. Both requirements present unique challenges.
 
-<div style="text-align: center;">
+<div style="research-img-box">
 <img src="/images/research_page/mechs.png" 
 alt="Reaction mechanisms diagram"
-style="max-width: 60%;">
+style="max-width: 60%; text-align: center;">
 <p><small> Reaction mechanisms overview. </small></p>
 </div>
 
