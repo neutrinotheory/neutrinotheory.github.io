@@ -7,51 +7,36 @@ permalink: /research/
 ---
 
 <style>
-./* Center the container and the content inside it */
+
+  /* Centered version of your research box */
 .research-img-center {
-  display: block;          /* Ensures it sits on its own line */
-  text-align: center;      /* Centers the image and text */
-  margin: 2em auto;        /* Adds vertical space and centers the block */
-  width: 100%;             /* Ensures it takes full width to allow centering */
-}
-
-/* Style the image */
-.research-img-center img {
-  max-width: 65%;
-  height: auto;
-  display: inline-block;   /* Works with text-align: center */
-  margin: 0 auto 10px auto; /* Centers the image and adds space above caption */
-  border-radius: 4px;
-}
-
-/* Fix the 'Box' look of the title */
-.research-img-center .caption {
-  font-size: 0.85em;
-  color: #777;             /* A nice subtle grey for the caption */
-  display: block;
-  width: 100%;
-}
-/* .research-img-center {
-  float: none;
-  display: block;
-  margin: 1.2em auto;
-  max-width: 260px;
   background: #f8f9fa;
+  border: 1px solid #dee2e6;
   border-radius: 6px;
-  padding: 10px;
-  text-align: center;
+  padding: 16px 18px;
+  margin: 1.5em auto;      /* auto centers the box itself */
+  max-width: 70%;          /* Controls how wide the box is on the page */
+  text-align: center;      /* Centers the image and text inside */
 }
+
 .research-img-center img {
+  width: 100%;             /* Takes up the width of the inner box */
+  height: auto;
+  border-radius: 4px;
   display: block;
-  margin: 0 auto 6px auto;
+  margin: 0 auto 10px auto; /* Centers the image and adds bottom margin */
 }
 
 .research-img-center .caption {
-  text-align: center;
   font-size: 0.82em;
   color: #555;
   line-height: 1.4;
-} */
+  display: block;
+  text-align: center;        /* Keep caption text left-aligned inside the box */
+}
+
+
+
   
 .research-img-box {
   float: right;
@@ -87,7 +72,7 @@ permalink: /research/
 }
 </style>
 
-# Research testgemini2
+# Research testgemini3
 <div class="research-box clearfix">
 ## Reaction Mechanisms
 
