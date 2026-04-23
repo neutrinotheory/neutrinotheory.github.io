@@ -7,30 +7,28 @@ permalink: /research/
 ---
 
 <style>
-  .research-img-center {
+.research-img-center {
   display: flex;
   flex-direction: column;
   align-items: center;
   margin: 1em auto;
   max-width: 260px;
-  background: #f8f9fa;
-  border-radius: 6px;
-  padding: 6px; /* reduced from 10px */
 }
 
 .research-img-center img {
   display: block;
   max-width: 100%;
   height: auto;
-  margin: 0; /* removes extra spacing */
 }
 
 .research-img-center .caption {
-  margin-top: 4px;  /* tight spacing under image */
+  background: transparent !important;
+  border: none !important;
+  padding: 0;
+  margin-top: 4px;
   text-align: center;
   font-size: 0.82em;
   color: #555;
-  line-height: 1.2; /* slightly tighter */
 }
 /* .research-img-center {
   float: none;
@@ -88,7 +86,7 @@ permalink: /research/
 }
 </style>
 
-# Research test3
+# Research testtest
 <div class="research-box clearfix">
 ## Reaction Mechanisms
 
