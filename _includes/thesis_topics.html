@@ -1,0 +1,38 @@
+<div class="thesis-topics-list">
+  {% for topic in site.data.thesis_topics %}
+    <div class="thesis-topic-card">
+      <div class="thesis-topic-header">
+        <h2>{{ topic.title }}</h2>
+      </div>
+
+      <div class="thesis-topic-supervisors">
+        {% if topic.supervisors %}
+          {% for supervisor in topic.supervisors %}
+            <span class="thesis-topic-supervisor">{{ supervisor }}</span>
+          {% endfor %}
+        {% endif %}
+      </div>
+
+      <div class="thesis-topic-content">
+        <div class="thesis-topic-section">
+          <h3>Problem</h3>
+          {{ topic.problem | markdownify }}
+        </div>
+
+        <div class="thesis-topic-section">
+          <h3>Goal</h3>
+          {{ topic.goal | markdownify }}
+        </div>
+
+        <div class="thesis-topic-section">
+          <h3>References</h3>
+          {% if topic.references %}
+            {{ topic.references | markdownify }}
+          {% else %}
+            <p>To be provided.</p>
+          {% endif %}
+        </div>
+      </div>
+    </div>
+  {% endfor %}
+</div>

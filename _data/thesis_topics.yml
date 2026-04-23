@@ -1,0 +1,78 @@
+- title: "Advancing the Ghent Hybrid Model for Neutrino-induced Pion Production"
+  supervisors:
+    - "Natalie Jachowicz"
+    - "Yari De Backer"
+    - "Matthias Hooft"
+  problem: |
+    Depending on the energy of the incoming neutrino, different reaction mechanisms in neutrino-nucleus scattering can occur. In accelerator-based neutrino-oscillation experiments, neutrinos are produced with a broad energy range. Consequently, a comprehensive theoretical understanding of all relevant reaction mechanisms is essential to interpret the experimental results. For present and future experiments like T2K, Hyper-K and DUNE, single pion production constitutes a significant part of the signal.
+
+    The Ghent Hybrid model for single-pion production on the nucleon consists of two components. At low energies, it incorporates background diagrams for the pion-nucleon system (originating from a chiral perturbation theory Lagrangian) and a subsequent decay of nucleon resonances like the delta resonance. At higher energies, the description of single pion production based solely on three-level diagrams becomes insufficient and Regge theory is used.
+
+    All these models contain a lot of phenomenology, including form factors and decay widths, which require complex fits with experimental data. The quality of neutrino-nucleus data is limited which makes it very hard to build models that describe the data in all parts of phase-space. Implementing as many physics-driven constraints as possible will reduce the amount of phenomenological parameters and make the theory more reliable. Recently the Ghent model for pion production was modified by implementing unitarity below the two pion threshold.
+  goal: |
+    The goal of this project is to extend the Ghent model for single pion production. The model now only contains resonances up to the second resonance region whereas the third resonance region remains to be implemented. To unitarize the model at energies beyond the two-pion threshold, other decay channels like the decay into two pions or to eta mesons must be incorporated. Furthermore, these modifications should be tested in the nuclear framework to investigate the effect of final state interactions.
+  references: |
+    Suggested starting references will be shared by the supervisors at project start.
+
+- title: "Decoding the Quasi-Elastic Signal in Future Neutrino Oscillation Experiments"
+  supervisors:
+    - "Natalie Jachowicz"
+    - "Marco Vanderpoorten"
+    - "Matthias Hooft"
+    - "Ashish Kumar Jha"
+  problem: |
+    The discovery of neutrino oscillations has driven significant investment into our understanding of the properties of this phenomenon. Current and future experiments, such as T2K and HyperKamiokande in Japan and the SBND and DUNE programs in the US, aim to improve our knowledge of mixing angles, mass hierarchy, and CP violation. These experiments measure the interaction rate of neutrinos with a target at different distances: one near the source (near detector) and one far away (far detector).
+
+    A major challenge in analyzing the results of these experiments is the systematic uncertainty in neutrino interaction modeling across different energy ranges. In the quasi-elastic region, where a single nucleon is ejected from the nucleus, several competing models exist, ranging from simple to highly complex descriptions of nuclear effects. Both the initial vertex and final-state interactions are important and need to be modeled with high precision. For the oscillation analyses that rely on a comparison of interaction rates between the near and far detectors, sound estimates of model uncertainties are essential. A comprehensive study of these models is therefore necessary to assess their strengths and weaknesses.
+  goal: |
+    This project aims to investigate the impact of different quasi-elastic models on various observable kinematic quantities in neutrino-nucleus scattering. The student will start by comparing the results of the relatively simple Relativistic Fermi Gas model with more advanced microscopic descriptions such as Mean Field and Continuum Random Phase Approximation approaches.
+
+    Building on this, one of the main goals is to develop an improved understanding of final-state interactions in the nucleus. To this end, the student will build a toy model for the final-state interactions of the nucleon to study the influence of assumptions and parameters that are traditionally built into semi-classical event-generator descriptions. A comparison with Monte Carlo generators like NuWro can also be performed.
+  references: |
+    A curated reading list and benchmark papers will be provided during the first supervision meeting.
+
+- title: "Final State Interactions in Coherent Pion Production"
+  supervisors:
+    - "Natalie Jachowicz"
+    - "Javier Garcia Marcos"
+    - "Matthias Hooft"
+  problem: |
+    Coherent pion production refers to pion-nucleus scattering that leaves the nucleus intact. Coherent pion production in neutrino experiments is relatively rare, but neutral-current coherent interactions contribute to one of the main backgrounds in oscillation analyses, for example at T2K. The identification of these processes is carried out by measuring pion decay into two photons, which can mimic the electron neutrino appearance signal.
+
+    In general, two methods are used to model this interaction. The first uses the partially conserved axial-vector current principle to relate neutrino-induced coherent pion production to elastic pion-nucleus scattering amplitudes. The second adopts a fully relativistic and quantum-mechanical point of view with a nuclear description similar to that used for incoherent pion production.
+  goal: |
+    In this project, we aim to model coherent pion production following the second method, based on the Ghent model for pion production with a relativistic mean-field model for bound nucleon states, which has proven successful in reproducing lepton-induced single-pion production on nuclei. The impact of final-state interactions between the pion and the nucleus, and medium modifications, will be studied to develop a full coherent pion production model.
+
+    This thesis subject offers the opportunity to spend a research stay in the neutrino research group of Complutense University of Madrid or the University of Seville.
+  references: |
+    Introductory references on coherent pion production and PCAC-based approaches will be provided.
+
+- title: "Detecting Astrophysical Neutrinos on Earth"
+  supervisors:
+    - "Natalie Jachowicz"
+    - "Marco Vanderpoorten"
+    - "Ashish Kumar Jha"
+  problem: |
+    While the future generation of accelerator-based neutrino experiments are built with the primary aim of enhancing our knowledge on neutrino oscillations and determining the CP-violating phase in the weak sector, these detectors can also observe low-energy neutrinos from a galactic supernova.
+
+    For the detection of supernova neutrinos one often relies on their interaction with atomic nuclei. Recent measurements of low-energy neutrino cross sections, for example by the COHERENT collaboration, however show strong discrepancies between predictions and data for these reactions. This indicates that in this energy regime, the interaction and the influence of nuclear effects are only poorly understood.
+  goal: |
+    The aim of this master thesis is to study low-energy neutrino-nucleus cross sections and investigate the role of nuclear effects and uncertainties for supernova neutrino detection using a consistent framework over the full relevant energy range.
+  references: |
+    Recommended background reading includes recent COHERENT results and review papers on supernova neutrino detection.
+
+- title: "Modeling Kaon Production for Neutrino Oscillation Experiments"
+  supervisors:
+    - "Natalie Jachowicz"
+    - "Javier Garcia Marcos"
+    - "Tania Franco Munoz"
+  problem: |
+    In long-baseline neutrino oscillation experiments, neutrinos are produced with a broad energy range. This results in several competing reaction mechanisms for neutrino-nucleus interactions that all need to be modeled to fully understand the oscillation signal.
+
+    At sufficiently high neutrino energies, mesons begin to be created in the neutrino-nucleon interaction. The most common mechanism is pion production. Alternatively, kaons, mesons containing a strange quark, can be produced. The kaon production signal is usually small compared to pion production because it is Cabibbo suppressed, but it provides an important contribution to the detector signal.
+
+    In the detectors of the [short-baseline neutrino program](https://sbn.fnal.gov/) and in the future [Deep Underground Neutrino Experiment](https://www.dunescience.org), kaon production is expected to be an important interaction mechanism.
+  goal: |
+    The goal of this project is to explore the development of a kaon production model for lepton-induced charged-current kaon production. The work will focus first on modeling the interaction vertex in which the kaon is produced, and then on applying final-state interactions to model kaon propagation through the nuclear medium.
+  references: |
+    Key references on strangeness production and kaon final-state interactions will be provided by the supervisors.
