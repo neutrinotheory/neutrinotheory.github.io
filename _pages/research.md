@@ -181,6 +181,7 @@ Monte Carlo (MC) simulations are the backbone of neutrino experiment analyses, l
 </div>
 
 ---
+## References
 
 [^DUNE]: R. Acciarri et al. (DUNE), (2016).
 [^NOVA1]: M. A. Acero et al. (NOvA, R. Group), *[Eur. Phys. J. C 80, 1119 (2020)](https://doi.org/10.1140/epjc/s10052-020-08577-5)*.
