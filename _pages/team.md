@@ -139,3 +139,7 @@ Check out our <a href="https://neutrinotheory.github.io/student-info/">master th
 </div>
 </div>
 
+
+## Former Members
+
+
