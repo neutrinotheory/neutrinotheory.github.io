@@ -7,51 +7,36 @@ permalink: /research/
 ---
 
 <style>
-./* Center the container and the content inside it */
+
+  /* Centered version of your research box */
 .research-img-center {
-  display: block;          /* Ensures it sits on its own line */
-  text-align: center;      /* Centers the image and text */
-  margin: 2em auto;        /* Adds vertical space and centers the block */
-  width: 100%;             /* Ensures it takes full width to allow centering */
-}
-
-/* Style the image */
-.research-img-center img {
-  max-width: 65%;
-  height: auto;
-  display: inline-block;   /* Works with text-align: center */
-  margin: 0 auto 10px auto; /* Centers the image and adds space above caption */
-  border-radius: 4px;
-}
-
-/* Fix the 'Box' look of the title */
-.research-img-center .caption {
-  font-size: 0.85em;
-  color: #777;             /* A nice subtle grey for the caption */
-  display: block;
-  width: 100%;
-}
-/* .research-img-center {
-  float: none;
-  display: block;
-  margin: 1.2em auto;
-  max-width: 260px;
   background: #f8f9fa;
+  /* border: 1px solid #dee2e6; */
   border-radius: 6px;
-  padding: 10px;
-  text-align: center;
+  padding: 16px 18px;
+  margin: 1.5em auto;      /* auto centers the box itself */
+  max-width: 70%;          /* Controls how wide the box is on the page */
+  text-align: center;      /* Centers the image and text inside */
 }
+
 .research-img-center img {
+  width: 100%;             /* Takes up the width of the inner box */
+  height: auto;
+  border-radius: 4px;
   display: block;
-  margin: 0 auto 6px auto;
+  margin: 0 auto 10px auto; /* Centers the image and adds bottom margin */
 }
 
 .research-img-center .caption {
-  text-align: center;
   font-size: 0.82em;
   color: #555;
   line-height: 1.4;
-} */
+  display: block;
+  text-align: center;        /* Keep caption text left-aligned inside the box */
+}
+
+
+
   
 .research-img-box {
   float: right;
@@ -85,9 +70,23 @@ permalink: /research/
   padding: 16px 18px;
   margin: 1.5em 0;
 }
+
+/* Target the text specifically within your research sections */
+.research-box p, 
+.research-box li {
+  font-size: 1.15rem; /* Adjust this number (e.g., 1.1rem or 1.2rem) to your liking */
+  line-height: 1.6;   /* Increases spacing between lines for better readability */
+  color: #333;       /* Optional: makes the text slightly darker/sharper */
+}
+
+/* Adjust heading sizes within the boxes if they feel too small now */
+.research-box h2 {
+  font-size: 1.8rem;
+  margin-top: 0;
+}
 </style>
 
-# Research testgemini2
+# Research testdiagram_and_sizetext
 <div class="research-box clearfix">
 ## Reaction Mechanisms
 
@@ -153,29 +152,20 @@ Quasi-elastic scattering occurs when a $\nu_\mu$ interacts with a single nucleon
 
 Single-pion production is a key interaction channel in neutrino–nucleus scattering and plays an essential role in the interpretation of accelerator-based neutrino experiments. In high-energy experiments like DUNE [^DUNE] and NO$\nu$A [^NOVA1] $^,$[^NOVA2], inelastic interactions that produce pions constitute a major contribution to the total neutrino–nucleus cross section. In experiments such as T2K [^T2K], Hyper-Kamiokande, and the Short-Baseline Neutrino Program, single-pion production (SPP), dominated by the $\Delta$-resonance region, accounts for roughly 20% of all neutrino interactions [^Katori_Martini]$^,$[^Isaacson_Jay]$^,$[^NEUT]. In this process, a neutrino interacts with a nucleon inside a nucleus, produces a resonance and subsequently decays into a nucleon and a pion. In addition, SPP can also contribute to "0-pion" final states when a pion is absorbed or inelastically rescattered. This leads to an important background in the oscillation analyses. A precise description of pion production and nuclear effects is therefore essential to reduce systematic uncertainties in the reconstructed neutrino energy.
 
-<!-- <div style="display:flex; gap:1.5em; margin: 1.2em 0; justify-content: center;">
-  <div style="text-align:center; max-width:200px; background:#f8f9fa; border:1px solid #dee2e6; border-radius:6px; padding:10px; font-size:0.82em; color:#555;">
-    <img src="/images/research_page/resonances-1.png" style="height:130px; object-fit:contain; width:100%; border-radius:4px; margin-bottom:6px;">
-    <p><small>s-channel resonance diagram.</small></p>
-  </div>
-  <div style="text-align:center; max-width:200px; background:#f8f9fa; border:1px solid #dee2e6; border-radius:6px; padding:10px; font-size:0.82em; color:#555;">
-    <img src="/images/research_page/cross_resonances-1.png" style="height:130px; object-fit:contain; width:100%; border-radius:4px; margin-bottom:6px;">
-    <p><small>u-channel cross-resonance.</small></p>
-  </div>
-</div> -->
 
-<div style="display: flex; gap: 20px; justify-content: center; align-items: flex-end;">
-  
-<div style="text-align: center; width: 300px;">
-<img src="/images/research_page/resonances-1.png"
-     style="height: 120; object-fit: contain;">
-<p style="min-height: 40px;"><small>s-channel resonance diagram.</small></p>
+
+<div style="display: flex; gap: 20px; justify-content: center; align-items: flex-end; margin: 2em 0;">
+
+<div style="text-align: center; width: 300px; display: flex; flex-direction: column; justify-content: flex-end;">
+<img src="/images/research_page/resonances-1.png" 
+style="height: 110px; width: auto; object-fit: contain; margin: 0 auto;">
+<p style="margin-top: 10px; font-size: 0.82em; color: #555;">s-channel resonance diagram.</p>
 </div>
 
-<div style="text-align: center; width: 300px;">
-<img src="/images/research_page/cross_resonances-1.png"
-     style="height: 130px; object-fit: contain;">
-<p style="min-height: 40px;"><small>u-channel cross-resonance.</small></p>
+<div style="text-align: center; width: 300px; display: flex; flex-direction: column; justify-content: flex-end;">
+<img src="/images/research_page/cross_resonances-1.png" 
+style="height: 110px; width: auto; object-fit: contain; margin: 0 auto;">
+<p style="margin-top: 10px; font-size: 0.82em; color: #555;">u-channel cross-resonance.</p>
 </div>
 
 </div>
