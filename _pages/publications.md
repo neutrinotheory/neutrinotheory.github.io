@@ -11,7 +11,7 @@ permalink: /publications/
 
 ## Highlights
 
-**At the end of this page, you can find the [full list of publications](#full-list-of-publications). All papers are also available on [arXiv](https://arxiv.org/search/?searchtype=author&query=Jachowicz%2C+N&start=0).**
+**At the end of this page, you can find our [recent list of publications](#full-list-of-publications). All papers are also available on [arXiv](https://arxiv.org/search/?searchtype=author&query=Jachowicz%2C+N&start=0).**
 
 {% assign number_printed = 0 %}
 {% for publi in site.data.publist %}
