@@ -10,6 +10,12 @@ permalink: /thesis-topics/
 
 ## Advancing the Ghent Hybrid Model for Neutrino-induced Pion Production 
 
+<ul>
+  <li>Natalie Jachowicz</li>
+  <li>Yari De Backer</li>
+  <li>Matthias Hooft</li>
+</ul>
+
 <strong>Problem</strong>
 
 Depending on the energy of the incoming neutrino, different reaction mechanisms in neutrino-nucleus scattering can occur. In accelerator-based neutrino-oscillations experiments, neutrinos are produced with a broad energy range. Consequently, a comprehensive theoretical understanding of all relevant reaction mechanisms is essential to interpret the experimental results. For present and future experiments like T2K, Hyper-K and DUNE, single pion production constitutes a significant part of the signal.
@@ -25,6 +31,15 @@ The goal of this project is to extend the Ghent model for single pion production
 
 ## Decoding the Quasi-Elastic Signal in Future Neutrino Oscillation Experiments
 
+<strong>Supervisers</strong>
+
+<ul>
+  <li>Natalie Jachowicz</li>
+  <li>Marco Vanderpoorten</li>
+  <li>Matthias Hooft</li>
+  <li>Ashish Kumar Jha</li>
+</ul>
+
 <strong>Problem</strong>
 
 The discovery of neutrino oscillations has driven significant investment into our understanding of the properties of this phenomenon. Current and future experiments, such as T2K and HyperKamiokande in Japan and the SBND and DUNE programs in the US, aim to improve our knowledge of mixing angles, mass hierarchy, and CP violation. These experiments measure the interaction rate of neutrinos with a target at different distances: one near the source (near detector) and one far away (far detector).
@@ -36,6 +51,14 @@ A major challenge in analyzing the results of these experiments is the systemati
 This project aims to investigate the impact of different quasi-elastic models on various observable kinematic quantities in neutrino-nucleus scattering. The student will start by comparing the results of the relatively simple (but often used in experimental analyses) Relativistic Fermi Gas (RFG) with the results of more advanced microscopic descriptions of the process like the Mean Field (MF) and the Continuum Random Phase Approximation (CRPA) approaches.  Building on this first milestone, one of the main goals of this project will  be to develop an improved understanding of final-state interactions (FSI) in the nucleus. To this end, the student will built a toy model for the description of the final state interactions of the nucleon, to study the influence of assumptions and parameters that are traditionally built-in by the semi-classical description instrumented by event generators.  Additionally, a comparison with Monte Carlo generators like NuWro, which form the bridge between theory and experiment, can be performed. Ultimately, the goal is to develop a better understanding of these models, assess their strengths and weaknesses, and demonstrate a path forward for building an improved FSI model.
 
 ## Final state interactions in coherent pion production
+
+<strong>Supervisers</strong>
+
+<ul>
+  <li>Natalie Jachowicz</li>
+  <li>Javier Garcia Marcos</li>
+  <li>Matthias Hooft</li>
+</ul>
 
 <strong>Problem</strong>
 
