@@ -5,13 +5,22 @@ excerpt: "Master Thesis topics"
 sitemap: false
 permalink: /thesis-topics/
 ---
-
+<style>
+  .research-box {
+  background: #f8f9fa;
+  border: 1px solid #dee2e6;
+  border-radius: 6px;
+  padding: 16px 18px;
+  margin: 1.5em 0;
+}
+</style>
 # Thesis Topics
 
+<div class="research-box clearfix">
 ## Advancing the Ghent Hybrid Model for Neutrino-induced Pion Production 
 
 <ul>
-  <li>Natalie Jachowicz</li>
+  <li>Prof dr. Natalie Jachowicz</li>
   <li>Yari De Backer</li>
   <li>Matthias Hooft</li>
 </ul>
@@ -27,14 +36,15 @@ All these models contain a lot of phenomenology, including form factors and deca
 <strong>Goal</strong>
 
 The goal of this project is to extend the Ghent model for single pion production. The model now only contains resonances up to the ‘second resonance region’ whereas the third resonance region remains to be implemented. To unitarize the model at energies beyond the two-pion threshold, other decay channels like the decay into two pions or to eta mesons must be incorporated. Furthermore, these modifications should be tested in the nuclear framework to investigate the effect of final state interactions.
-
-
+<div>
+  
+<div class="research-box clearfix">
 ## Decoding the Quasi-Elastic Signal in Future Neutrino Oscillation Experiments
 
 <strong>Supervisers</strong>
 
 <ul>
-  <li>Natalie Jachowicz</li>
+  <li>Prof. dr. Natalie Jachowicz</li>
   <li>Marco Vanderpoorten</li>
   <li>Matthias Hooft</li>
   <li>Ashish Kumar Jha</li>
@@ -49,13 +59,15 @@ A major challenge in analyzing the results of these experiments is the systemati
 <strong>Goal</strong>
 
 This project aims to investigate the impact of different quasi-elastic models on various observable kinematic quantities in neutrino-nucleus scattering. The student will start by comparing the results of the relatively simple (but often used in experimental analyses) Relativistic Fermi Gas (RFG) with the results of more advanced microscopic descriptions of the process like the Mean Field (MF) and the Continuum Random Phase Approximation (CRPA) approaches.  Building on this first milestone, one of the main goals of this project will  be to develop an improved understanding of final-state interactions (FSI) in the nucleus. To this end, the student will built a toy model for the description of the final state interactions of the nucleon, to study the influence of assumptions and parameters that are traditionally built-in by the semi-classical description instrumented by event generators.  Additionally, a comparison with Monte Carlo generators like NuWro, which form the bridge between theory and experiment, can be performed. Ultimately, the goal is to develop a better understanding of these models, assess their strengths and weaknesses, and demonstrate a path forward for building an improved FSI model.
+<div>
 
+<div class="research-box clearfix">
 ## Final state interactions in coherent pion production
 
 <strong>Supervisers</strong>
 
 <ul>
-  <li>Natalie Jachowicz</li>
+  <li>Prof. dr. Natalie Jachowicz</li>
   <li>Javier Garcia Marcos</li>
   <li>Matthias Hooft</li>
 </ul>
@@ -67,13 +79,15 @@ Coherent pion production refers to pion-nucleus scattering that leaves the nucle
 <strong>Goal</strong>
 
 In this project, we aim to model coherent pion production following the second method, based on the Gent model for pion production with a relativistic mean field (RMF) model for the bound nucleon states, which has proven to be successful in reproducing lepton-induced single pion production on nuclei. The impact of final state interactions (FSI) between the pion and the nucleus after the interaction, and medium modifications must be studied in order to develop a full coherent pion production model. This thesis subject offers the opportunity to spend a research stay in the neutrino research group of Complutense University of Madrid or University of Seville.
+<div>
 
+<div class="research-box clearfix">
 ## Detecting astrophysical neutrinos on Earth
 
 <strong>Supervisers</strong>
 
 <ul>
-  <li>Natalie Jachowicz</li>
+  <li>Prof. dr. Natalie Jachowicz</li>
   <li>Marco Vanderpoorten</li>
   <li>Ashish Kumar Jha</li>
 </ul>
@@ -98,13 +112,15 @@ indicating that in this energy regime, the interaction and the influence of nucl
 used in our research group, the role of transitions to discrete nuclear states has not been studied yet.  The aim of this master thesis is to study
 these low energy neutrino-nucleus cross sections and investigate the role of nuclear effects and uncertainties for supernova neutrino detection
 using a consistent framework over the whole energy range relevant for supernova neutrinos.
-
+<div>
+  
+<div class="research-box clearfix">
 ## Modeling kaon production for neutrino oscillation experiments
 
 <ul>
-  <li>Natalie Jachowicz</li>
+  <li>Prof. dr. Natalie Jachowicz</li>
   <li>Javier Garcia Marcos</li>
-  <li>Tania Franco Munoz</li>
+  <li>dr .Tania Franco Munoz</li>
 </ul>
 
 <strong>Problem</strong>
@@ -115,5 +131,5 @@ At sufficiently high neutrino energies, mesons begin to be created in the neutri
 <strong>Goal</strong>
 
 The goal of this project is to explore the development of a kaon production model for lepton-induced charged-current kaon production. Firstly, modeling the vertex in which the kaon is produced and then applying final state interactions to model the propagation of the kaon through the nuclear medium.
-
+<div>
 
