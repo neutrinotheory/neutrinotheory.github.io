@@ -63,30 +63,58 @@ permalink: /research/
   display: table;
   clear: both;
 }
+/* 1. Target the box itself and all "naked" text */
 .research-box {
   background: #f8f9fa;
   border: 1px solid #dee2e6;
   border-radius: 6px;
   padding: 16px 18px;
   margin: 1.5em 0;
+  
+  /* FORCE LARGE TEXT */
+  font-size: 18px !important; 
+  line-height: 1.6 !important;
 }
+
+/* 2. Target paragraphs, list items, and spans specifically */
+.research-box p, 
+.research-box li, 
+.research-box span,
+.research-box ul {
+  font-size: 18px !important;
+  line-height: 1.6 !important;
+}
+
+/* 3. Keep your image captions small (so they don't grow too) */
+.research-box .caption, 
+.research-box .research-img-box {
+  font-size: 13px !important;
+  line-height: 1.4 !important;
+}
+/* .research-box {
+  background: #f8f9fa;
+  border: 1px solid #dee2e6;
+  border-radius: 6px;
+  padding: 16px 18px;
+  margin: 1.5em 0;
+} */
 
 /* Target the text specifically within your research sections */
-.research-box p, 
+/* .research-box p, 
 .research-box li {
   font-size: 1.15rem; /* Adjust this number (e.g., 1.1rem or 1.2rem) to your liking */
-  line-height: 1.6;   /* Increases spacing between lines for better readability */
-  color: #333;       /* Optional: makes the text slightly darker/sharper */
-}
+  /* line-height: 1.6;   /* Increases spacing between lines for better readability */
+  /* color: #333;       /* Optional: makes the text slightly darker/sharper */ */ */
+/* } */ 
 
 /* Adjust heading sizes within the boxes if they feel too small now */
-.research-box h2 {
+/* .research-box h2 {
   font-size: 1.8rem;
   margin-top: 0;
-}
+} */
 </style>
 
-# Research testdiagram_and_sizetext
+# Research sizetext_2
 <div class="research-box clearfix">
 ## Reaction Mechanisms
 
