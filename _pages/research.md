@@ -7,28 +7,31 @@ permalink: /research/
 ---
 
 <style>
+./* Center the container and the content inside it */
 .research-img-center {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  margin: 1em auto;
-  max-width: 260px;
+  text-align: center;      /* Centers the image and text */
+  margin: 2em auto;        /* Adds vertical space and centers the block */
+  width: 100%;             /* Ensures it takes full width to allow centering */
 }
 
+/* Style the image */
 .research-img-center img {
-  display: block;
-  max-width: 100%;
+  max-width: 60%;
   height: auto;
+  display: inline-block;   /* Works with text-align: center */
+  border-radius: 4px;
 }
 
+/* Fix the 'Box' look of the title */
 .research-img-center .caption {
-  background: transparent !important;
-  border: none !important;
-  padding: 0;
-  margin-top: 4px;
-  text-align: center;
-  font-size: 0.82em;
-  color: #555;
+  margin-top: 8px;
+  font-size: 0.9em;
+  color: #666;
+  /* Resetting potential inherited styles that make it look like a box */
+  display: block; 
+  background: none;        /* Removes background color */
+  border: none;            /* Removes border */
+  padding: 0;              /* Removes extra spacing */
 }
 /* .research-img-center {
   float: none;
@@ -86,7 +89,7 @@ permalink: /research/
 }
 </style>
 
-# Research testtest
+# Research testgemini
 <div class="research-box clearfix">
 ## Reaction Mechanisms
 
@@ -100,13 +103,18 @@ permalink: /research/
   
 Neutrinos interact with matter only through the weak interaction. Consequently, they are incredibly difficult to detect. Currently, there are only a few ways to observe them, and our group focuses on building models for accelerator-based neutrino oscillation experiments. These experiments require two conditions: a high-intensity neutrino beam and massive targets for the neutrinos to interact with. Both requirements present unique challenges.
 
-<div style="research-img-center">
+<!-- <div style="research-img-center">
   <img src="/images/research_page/mechs.png" 
   alt="Reaction mechanisms diagram"
   style="max-width: 60%; ">
   <div class="caption">
     Reaction mechanisms overview. 
   </div>
+</div> -->
+
+<div class="research-img-center">
+  <img src="/images/research_page/mechs.png" alt="Reaction mechanisms diagram">
+  <p class="caption">Reaction mechanisms overview.</p>
 </div>
 
 <ul>
