@@ -7,28 +7,29 @@ permalink: /research/
 ---
 
 <style>
+./* Center the container and the content inside it */
 .research-img-center {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  margin: 1em auto;
-  max-width: 260px;
+  display: block;          /* Ensures it sits on its own line */
+  text-align: center;      /* Centers the image and text */
+  margin: 2em auto;        /* Adds vertical space and centers the block */
+  width: 100%;             /* Ensures it takes full width to allow centering */
 }
 
+/* Style the image */
 .research-img-center img {
-  display: block;
-  max-width: 100%;
+  max-width: 65%;
   height: auto;
+  display: inline-block;   /* Works with text-align: center */
+  margin: 0 auto 10px auto; /* Centers the image and adds space above caption */
+  border-radius: 4px;
 }
 
+/* Fix the 'Box' look of the title */
 .research-img-center .caption {
-  background: transparent !important;
-  border: none !important;
-  padding: 0;
-  margin-top: 4px;
-  text-align: center;
-  font-size: 0.82em;
-  color: #555;
+  font-size: 0.85em;
+  color: #777;             /* A nice subtle grey for the caption */
+  display: block;
+  width: 100%;
 }
 /* .research-img-center {
   float: none;
@@ -86,7 +87,7 @@ permalink: /research/
 }
 </style>
 
-# Research testtest
+# Research testgemini2
 <div class="research-box clearfix">
 ## Reaction Mechanisms
 
@@ -100,13 +101,18 @@ permalink: /research/
   
 Neutrinos interact with matter only through the weak interaction. Consequently, they are incredibly difficult to detect. Currently, there are only a few ways to observe them, and our group focuses on building models for accelerator-based neutrino oscillation experiments. These experiments require two conditions: a high-intensity neutrino beam and massive targets for the neutrinos to interact with. Both requirements present unique challenges.
 
-<div style="research-img-center">
+<!-- <div style="research-img-center">
   <img src="/images/research_page/mechs.png" 
   alt="Reaction mechanisms diagram"
   style="max-width: 60%; ">
   <div class="caption">
     Reaction mechanisms overview. 
   </div>
+</div> -->
+
+<div class="research-img-center">
+  <img src="/images/research_page/mechs.png" alt="Reaction mechanisms diagram">
+  <p class="caption">Reaction mechanisms overview.</p>
 </div>
 
 <ul>
@@ -211,22 +217,21 @@ Nuclear effects encompass a broad range of phenomena that modify the interaction
   <img src="/images/research_page/MC_diagram.png" alt="Monte Carlo simulation diagram">
   Schematic of Monte Carlo neutrino event simulation.
 </div> -->
-<div style="research-img-center">
-  <img src="/images/research_page/MC_diagram.png"
-       alt="Event generator logos"
-       style="max-width: 60%;">
- Schematic of Monte Carlo neutrino event simulation.
+<div class="research-img-center">
+  <img src="/images/research_page/MC_diagram.png" alt="MC_diagram">
+  <p class="caption">Schematic of Monte Carlo neutrino event simulation.</p>
 </div>
+
+
 
 
 
 Monte Carlo (MC) simulations are the backbone of neutrino experiment analyses, linking theoretical cross-section models to detector-level observables. Our group works on implementing and validating our theoretical models within widely used neutrino event generators.
-<div style="research-img-center">
-  <img src="/images/research_page/logos_event_generators.png"
-       alt="Event generator logos"
-       style="max-width: 60%;">
-  Neutrino event generators.
+<div class="research-img-center">
+  <img src="/images/research_page/logos_event_generators.png" alt="logos_event_generators">
+  <p class="caption">Neutrino event generators.</p>
 </div>
+
 
 <!-- <div style="text-align:center; margin-top: 1em;">
   <div style="display:inline-block; background:#f8f9fa; border:1px solid #dee2e6; border-radius:6px; padding:10px;">
