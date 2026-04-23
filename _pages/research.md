@@ -11,7 +11,7 @@ permalink: /research/
   /* Centered version of your research box */
 .research-img-center {
   background: #f8f9fa;
-  border: 1px solid #dee2e6;
+  /* border: 1px solid #dee2e6; */
   border-radius: 6px;
   padding: 16px 18px;
   margin: 1.5em auto;      /* auto centers the box itself */
@@ -138,30 +138,21 @@ Quasi-elastic scattering occurs when a $\nu_\mu$ interacts with a single nucleon
 
 Single-pion production is a key interaction channel in neutrino–nucleus scattering and plays an essential role in the interpretation of accelerator-based neutrino experiments. In high-energy experiments like DUNE [^DUNE] and NO$\nu$A [^NOVA1] $^,$[^NOVA2], inelastic interactions that produce pions constitute a major contribution to the total neutrino–nucleus cross section. In experiments such as T2K [^T2K], Hyper-Kamiokande, and the Short-Baseline Neutrino Program, single-pion production (SPP), dominated by the $\Delta$-resonance region, accounts for roughly 20% of all neutrino interactions [^Katori_Martini]$^,$[^Isaacson_Jay]$^,$[^NEUT]. In this process, a neutrino interacts with a nucleon inside a nucleus, produces a resonance and subsequently decays into a nucleon and a pion. In addition, SPP can also contribute to "0-pion" final states when a pion is absorbed or inelastically rescattered. This leads to an important background in the oscillation analyses. A precise description of pion production and nuclear effects is therefore essential to reduce systematic uncertainties in the reconstructed neutrino energy.
 
-<!-- <div style="display:flex; gap:1.5em; margin: 1.2em 0; justify-content: center;">
-  <div style="text-align:center; max-width:200px; background:#f8f9fa; border:1px solid #dee2e6; border-radius:6px; padding:10px; font-size:0.82em; color:#555;">
-    <img src="/images/research_page/resonances-1.png" style="height:130px; object-fit:contain; width:100%; border-radius:4px; margin-bottom:6px;">
-    <p><small>s-channel resonance diagram.</small></p>
-  </div>
-  <div style="text-align:center; max-width:200px; background:#f8f9fa; border:1px solid #dee2e6; border-radius:6px; padding:10px; font-size:0.82em; color:#555;">
-    <img src="/images/research_page/cross_resonances-1.png" style="height:130px; object-fit:contain; width:100%; border-radius:4px; margin-bottom:6px;">
-    <p><small>u-channel cross-resonance.</small></p>
-  </div>
-</div> -->
 
-<div style="display: flex; gap: 20px; justify-content: center; align-items: flex-end;">
+
+<div style="display: flex; gap: 20px; justify-content: center; align-items: flex-end; margin: 2em 0;">
   
-<div style="text-align: center; width: 300px;">
-<img src="/images/research_page/resonances-1.png"
-     style="height: 90; object-fit: contain;">
-<p style="min-height: 40px;"><small>s-channel resonance diagram.</small></p>
-</div>
+  <div style="text-align: center; width: 300px; display: flex; flex-direction: column; justify-content: flex-end;">
+    <img src="/images/research_page/resonances-1.png" 
+         style="height: 110px; width: auto; object-fit: contain; margin: 0 auto;">
+    <p style="margin-top: 10px; font-size: 0.82em; color: #555;">s-channel resonance diagram.</p>
+  </div>
 
-<div style="text-align: center; width: 300px;">
-<img src="/images/research_page/cross_resonances-1.png"
-     style="height: 130px; object-fit: contain;">
-<p style="min-height: 40px;"><small>u-channel cross-resonance.</small></p>
-</div>
+  <div style="text-align: center; width: 300px; display: flex; flex-direction: column; justify-content: flex-end;">
+    <img src="/images/research_page/cross_resonances-1.png" 
+         style="height: 110px; width: auto; object-fit: contain; margin: 0 auto;">
+    <p style="margin-top: 10px; font-size: 0.82em; color: #555;">u-channel cross-resonance.</p>
+  </div>
 
 </div>
 
