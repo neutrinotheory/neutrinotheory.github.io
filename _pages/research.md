@@ -32,6 +32,13 @@ permalink: /research/
   display: table;
   clear: both;
 }
+.research-box {
+  background: #f8f9fa;
+  border: 1px solid #dee2e6;
+  border-radius: 6px;
+  padding: 16px 18px;
+  margin: 1.5em 0;
+}
 </style>
 
 # Research
