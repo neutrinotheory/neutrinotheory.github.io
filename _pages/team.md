@@ -33,7 +33,7 @@ permalink: /team/
     {% endif %}
     {% if member.inspire %}
       <a href="{{ member.inspire }}" target="_blank" rel="noopener noreferrer" aria-label="INSPIRE profile for {{ member.name }}">
-        <span class="glyphicon glyphicon-education" aria-hidden="true"></span>
+        <i class="ai ai-inspire" aria-hidden="true"></i>
         <span style="margin-left: 0.25em;">INSPIRE</span>
       </a>
     {% endif %}
