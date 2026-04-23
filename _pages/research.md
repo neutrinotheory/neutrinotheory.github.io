@@ -12,7 +12,7 @@ permalink: /research/
   margin: 0 0 1.2em 1.8em;
   max-width: 260px;
   background: #f8f9fa;
-  border: 1px solid #dee2e6;
+  /* border: 1px solid #dee2e6; */
   border-radius: 6px;
   padding: 10px;
   text-align: center;
