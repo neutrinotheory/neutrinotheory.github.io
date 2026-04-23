@@ -7,6 +7,17 @@ permalink: /research/
 ---
 
 <style>
+.research-img-center {
+  float: none;
+  display: block;
+  margin: 1.2em auto;
+  max-width: 260px;
+  background: #f8f9fa;
+  border-radius: 6px;
+  padding: 10px;
+  text-align: center;
+}
+  
 .research-img-box {
   float: right;
   margin: 0 0 1.2em 1.8em;
@@ -15,7 +26,7 @@ permalink: /research/
   /* border: 1px solid #dee2e6; */
   border-radius: 6px;
   padding: 10px;
-  text-align: center;
+  text-align: left;
   font-size: 0.82em;
   color: #555;
   line-height: 1.4;
@@ -55,11 +66,11 @@ permalink: /research/
   
 Neutrinos interact with matter only through the weak interaction. Consequently, they are incredibly difficult to detect. Currently, there are only a few ways to observe them, and our group focuses on building models for accelerator-based neutrino oscillation experiments. These experiments require two conditions: a high-intensity neutrino beam and massive targets for the neutrinos to interact with. Both requirements present unique challenges.
 
-<div style="research-img-box">
+<div style="research-img-center">
 <img src="/images/research_page/mechs.png" 
 alt="Reaction mechanisms diagram"
-style="max-width: 60%; text-align: center;">
-<p><small> Reaction mechanisms overview. </small></p>
+style="max-width: 60%; ">
+ Reaction mechanisms overview. 
 </div>
 
 <ul>
@@ -164,21 +175,21 @@ Nuclear effects encompass a broad range of phenomena that modify the interaction
   <img src="/images/research_page/MC_diagram.png" alt="Monte Carlo simulation diagram">
   Schematic of Monte Carlo neutrino event simulation.
 </div> -->
-<div style="text-align: center;">
+<div style="research-img-center">
   <img src="/images/research_page/MC_diagram.png"
        alt="Event generator logos"
        style="max-width: 60%;">
-  <p><small>Schematic of Monte Carlo neutrino event simulation.</small></p>
+ Schematic of Monte Carlo neutrino event simulation.
 </div>
 
 
 
 Monte Carlo (MC) simulations are the backbone of neutrino experiment analyses, linking theoretical cross-section models to detector-level observables. Our group works on implementing and validating our theoretical models within widely used neutrino event generators.
-<div style="text-align: center;">
+<div style="research-img-center">
   <img src="/images/research_page/logos_event_generators.png"
        alt="Event generator logos"
        style="max-width: 60%;">
-  <p><small>Neutrino event generators.</small></p>
+  Neutrino event generators.
 </div>
 
 <!-- <div style="text-align:center; margin-top: 1em;">
