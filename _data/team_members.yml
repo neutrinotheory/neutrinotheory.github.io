@@ -3,27 +3,31 @@
   info: Professor, since 2009
   info2: Department of Physics and Astronomy
   email: natalie.jachowicz@ugent.be
+  inspire: https://inspirehep.net/authors/1024573
 
 - name: Tania Franco-Muñoz
   photo: Tania.jpeg
   info: Postdoc, since November 2025
   email: tania.franomunoz@ugent.be
-  education1: PhD Universidad Complutense de Madrid
+  inspire: https://inspirehep.net/authors/2054664
 
 - name: Matthias Hooft
   photo: matthias_website.jpg
-  info: PhD, started September 2022
+  info: PhD, since September 2022
   email: matthias.hooft@ugent.be
+  inspire: https://inspirehep.net/authors/2860827
 
 - name: Javier García Marcos
   photo: Atomic.jpg
   info: PhD, since March 2023
   email: javier.garciamarcos@ugent.be
+  inspire: https://inspirehep.net/authors/2860826
 
 - name: Ashish Jha
   photo: Atomic.jpg
   info: PhD, since September 2024
   email: ashish.jha@ugent.be
+  inspire: https://inspirehep.net/authors/2897351
 
 
 - name: Marco Vanderpoorten
@@ -35,14 +39,10 @@
   photo: Yari_website.jpeg
   info: PhD, started October 2025
   email: yari.debacker@ugent.be
+  inspire: https://inspirehep.net/authors/3138781
 
 
 - name: "This could be you !"
   photo: we_want_you.jpeg
   info: See <a href="https://neutrinotheory.github.io/vacancies">vacancies</a> for more info
-  info2: 
-  email: milan.allan@gmail.com
   number_educ: 0
-  education1:
-  education2:
-  education3:
