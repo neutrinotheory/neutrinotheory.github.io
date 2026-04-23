@@ -42,7 +42,7 @@ permalink: /research/
 </style>
 
 # Research
-
+<div class="research-box clearfix">
 ## Reaction Mechanisms
 
 <!-- <div class="research-img-box">
@@ -51,7 +51,7 @@ permalink: /research/
 </div> -->
 
 <!-- <div class="clearfix"> -->
-<div class="research-box clearfix">
+
   
 Neutrinos interact with matter only through the weak interaction. Consequently, they are incredibly difficult to detect. Currently, there are only a few ways to observe them, and our group focuses on building models for accelerator-based neutrino oscillation experiments. These experiments require two conditions: a high-intensity neutrino beam and massive targets for the neutrinos to interact with. Both requirements present unique challenges.
 
@@ -72,9 +72,9 @@ To guide these analyses, we need robust theoretical models for every possible in
 </div>
 
 ---
-
-## Quasi-elastic scattering
 <div class="research-box clearfix">
+## Quasi-elastic scattering
+
 <div class="research-img-box">
   <img src="/images/research_page/diagram_QE.png" alt="Quasi-elastic scattering diagram">
   Quasi-elastic scattering: a $\nu_\mu$ strikes an <strong>individual nucleon</strong> within a nucleus, providing enough energy to knock it out.
@@ -87,9 +87,9 @@ Quasi-elastic scattering occurs when a $\nu_\mu$ interacts with a single nucleon
 </div>
 
 ---
-
-## Pion production
 <div class="research-box clearfix">
+## Pion production
+
   
 <div class="research-img-box">
   <img src="/images/research_page/diagram_SPP.png" alt="Pion production diagram">
@@ -134,9 +134,8 @@ In addition, we investigate the role of nuclear effects, in particular final-sta
 </div>
 
 ---
-
-## Two-nucleon knockout
 <div class="research-box clearfix">
+## Two-nucleon knockout
 <div class="research-img-box">
   <img src="/images/research_page/diagram_2p2h.png" alt="Two-nucleon knockout diagram">
   A $\nu_\mu$ ejects two nucleons from a <strong>correlated pair</strong>, transferring enough momentum to liberate both simultaneously.
@@ -149,24 +148,22 @@ In two-nucleon knockout, a $\nu_\mu$ ejects not one, but two nucleons from the n
 </div>
 
 ---
-
+<div class="research-box clearfix">
 ## Nuclear effects
 
-<div class="research-box clearfix">
 
 Nuclear effects encompass a broad range of phenomena that modify the interaction of neutrinos with nucleons bound inside a nucleus. These include Pauli blocking, Fermi motion, short- and long-range nucleon–nucleon correlations, and final-state interactions (FSI) of outgoing particles. A reliable description of these effects is indispensable for correctly interpreting experimental cross-section measurements and reducing systematic uncertainties in oscillation analyses.
 
 </div>
 
 ---
-
+<div class="research-box clearfix">
 ## Monte Carlo simulations
 
 <!-- <div class="research-img-box">
   <img src="/images/research_page/MC_diagram.png" alt="Monte Carlo simulation diagram">
   Schematic of Monte Carlo neutrino event simulation.
 </div> -->
-<div class="research-box clearfix">
 <div style="text-align: center;">
   <img src="/images/research_page/MC_diagram.png"
        alt="Event generator logos"
