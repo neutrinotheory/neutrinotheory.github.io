@@ -157,7 +157,7 @@ Check out our <a href="https://neutrinotheory.github.io/student-info/">master th
           {% endif %}
 
           {% if member.thesis %}
-          <em>{{ member.thesis }}</em>
+          <em>{{ member.thesis | markdownify | remove: '<p>' | remove: '</p>' }}</em>
           {% endif %}
         </p>
       </div>
