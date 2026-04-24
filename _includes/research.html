@@ -58,56 +58,41 @@
   </div>
 </div> ``` -->
 
-TESTTEST
-
----
-layout: default
-title: Research
-permalink: /research/
----
-
 <div class="container">
   <h1 style="text-align: center; margin-bottom: 40px;">Research</h1>
 
-  {% for topic in site.data.research_topics %}
-    <div class="research-box clearfix" style="background: #f8f9fa; border: 1px solid #dee2e6; border-radius: 6px; padding: 20px; margin-bottom: 30px;">
-      <h2 style="margin-top: 0; color: #1e64c8;">{{ topic.title }}</h2>
+  {% capture everything_md %}
+    {% for topic in site.data.research_topics %}
+      <h2>{{ topic.title }}</h2>
 
       {% if topic.image %}
         <div class="{% if topic.type == 'centered' %}research-img-center{% else %}research-img-box{% endif %}">
-          <img src="{{ topic.image | relative_url }}" alt="{{ topic.title }}" style="max-width: 100%; height: auto;">
-          {% if topic.caption %}
-            <div class="caption" style="font-size: 0.85em; color: #666; font-style: italic; margin-top: 5px;">
-              {{ topic.caption | markdownify | remove: '<p>' | remove: '</p>' }}
-            </div>
-          {% endif %}
+          <img src="{{ topic.image | relative_url }}" alt="{{ topic.title }}">
+          <div class="caption">{{ topic.caption }}</div>
         </div>
       {% endif %}
 
-      <div class="research-text" style="font-size: 1.1em; line-height: 1.6;">
-        {{ topic.content | markdownify }}
+      <div class="research-text">
+        {{ topic.content }}
       </div>
-    </div>
-  {% endfor %}
+      
+      <hr style="margin: 40px 0; border: 0; border-top: 1px solid #eee;">
+    {% endfor %}
 
-  <div class="references-section" style="margin-top: 50px; padding-top: 20px; border-top: 1px solid #ddd;">
-    <h3>References</h3>
+    ### References
 
-    {% comment %} 
-      Everything below this line must be raw Markdown for the footnotes to work.
-      DO NOT INDENT the [^Ref] lines. They must start at the very beginning of the line.
-    {% endcomment %}
+    [^DUNE]: R. Acciarri et al. (DUNE), (2016).
+    [^NOVA1]: M. A. Acero et al. (NOvA, R. Group), *[Eur. Phys. J. C 80, 1119 (2020)](https://doi.org/10.1140/epjc/s10052-020-08577-5)*.
+    [^NOVA2]: M. A. Acero et al. (NOvA), *[Phys. Rev. D 107, 052011 (2023)](https://doi.org/10.1103/PhysRevD.107.052011)*.
+    [^T2K]: K. Abe et al. (T2K), *[Nucl. Instrum. Meth. A 659, 106 (2011)](https://doi.org/10.1016/j.nima.2011.06.067)*.
+    [^Katori_Martini]: T. Katori and M. Martini, *[J. Phys. G 45, 013001 (2018)](https://doi.org/10.1088/1361-6471/aa8bf7)*.
+    [^Isaacson_Jay]: J. Isaacson, et al. (2026), *[Single pion production in ACHILLES. Phys. Rev. D, 113(3), 036005.](https://doi.org/10.1103/13bh-22lm)*.
+    [^NEUT]: Hayato, Y., Pickering, L. *[Eur. Phys. J. Spec. Top. 230, 4469–4481 (2021).](https://doi.org/10.1140/epjs/s11734-021-00287-7)*
+    [^GHENT]: González-Jiménez, R., et al. (2017). *[Physical Review D, 95(11), 113007.](https://doi.org/10.1103/PhysRevD.95.113007)*
+    [^HNV]: Hernández, E., et al. (2007). *[Physical Review D, 76(3), 033005.](https://doi.org/10.1103/PhysRevD.76.033005)*
+    [^Matthias]: M. Hooft et al. (2026). *[arXiv:2603.29486](https://arxiv.org/abs/2603.29486)*.
+    [^Javi]: J. García-Marcos et al. (2024). *[Physical Review C, 109(2), 024608.](https://doi.org/10.1103/PhysRevC.109.024608)*
+  {% endcapture %}
 
-[^DUNE]: R. Acciarri et al. (DUNE), (2016).
-[^NOVA1]: M. A. Acero et al. (NOvA, R. Group), *[Eur. Phys. J. C 80, 1119 (2020)](https://doi.org/10.1140/epjc/s10052-020-08577-5)*.
-[^NOVA2]: M. A. Acero et al. (NOvA), *[Phys. Rev. D 107, 052011 (2023)](https://doi.org/10.1103/PhysRevD.107.052011)*.
-[^T2K]: K. Abe et al. (T2K), *[Nucl. Instrum. Meth. A 659, 106 (2011)](https://doi.org/10.1016/j.nima.2011.06.067)*.
-[^Katori_Martini]: T. Katori and M. Martini, *[J. Phys. G 45, 013001 (2018)](https://doi.org/10.1088/1361-6471/aa8bf7)*.
-[^Isaacson_Jay]: J. Isaacson, et al. (2026), *[Single pion production and pion propagation in ACHILLES. Physical Review D, 113(3), 036005.](https://doi.org/10.1103/13bh-22lm)*.
-[^NEUT]: Hayato, Y., Pickering, L. *[Eur. Phys. J. Spec. Top. 230, 4469–4481 (2021).](https://doi.org/10.1140/epjs/s11734-021-00287-7)*
-[^GHENT]: González-Jiménez, R., et al. (2017). *[Physical Review D, 95(11), 113007.](https://doi.org/10.1103/PhysRevD.95.113007)*
-[^HNV]: Hernández, E., et al. (2007). *[Physical Review D, 76(3), 033005.](https://doi.org/10.1103/PhysRevD.76.033005)*
-[^Javi]: J. García-Marcos et al. (2024). *[Physical Review C, 109(2), 024608.](https://doi.org/10.1103/PhysRevC.109.024608)*
-
-  </div>
+  {{ everything_md | markdownify }}
 </div>
