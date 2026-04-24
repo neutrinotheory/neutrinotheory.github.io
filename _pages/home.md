@@ -7,9 +7,8 @@ permalink: /
 ---
 <br/> 
 (**UGent students interested in our group**? Check out our [master's thesis topics](https://neutrinotheory.github.io/student-info/).)
-<br/> 
+<br/> <br/>
 Our research focuses on the development of theoretical models for **neutrino–nucleus scattering**. The goal is to provide a robust and reliable theoretical framework that enables the precise extraction of neutrino oscillation parameters and reduces systematic uncertainties in ongoing experiments (such as [T2K](https://t2k-experiment.org/), [MicroBooNE](https://microboone.fnal.gov/), [NOvA](https://novaexperiment.fnal.gov/), and [SBND](https://sbn.fnal.gov/sbnd/)) as well as in upcoming next-generation high-statistics neutrino oscillation experiments, such as [DUNE](https://lbnf-dune.fnal.gov/) and [Hyper-K](https://www-sk.icrr.u-tokyo.ac.jp/en/hk/).
-
 
 <div markdown="0" id="carousel" class="carousel slide" data-ride="carousel" data-interval="4000" data-pause="hover" >
     <!-- Menu -->
@@ -29,7 +28,7 @@ Our research focuses on the development of theoretical models for **neutrino–n
             <img src="{{ site.url }}{{ site.baseurl }}/images/slides/superk.jpg" alt="Slide 1" />
         </div>
         <div class="item">
-            <img src="{{ site.url }}{{ site.baseurl }}/images/slides/mechs.png" alt="Slide 2" />
+            <img src="{{ site.url }}{{ site.baseurl }}/images/slides/reactions.png" alt="Slide 2" />
         </div>
         <div class="item">
             <img src="{{ site.url }}{{ site.baseurl }}/images/slides/T2K.png" alt="Slide 3" />
@@ -50,7 +49,7 @@ Our research focuses on the development of theoretical models for **neutrino–n
     <span class="sr-only">Next</span>
   </a>
 </div>
-These experiments aim to address key questions in particle physics, such as the existence of CP violation in the lepton sector. They involve neutrino scattering on nuclear targets across a broad energy range. The measured observables depend strongly on the theoretical description of neutrino–nucleus interactions, which include several complex many-body effects. A reliable understanding of these processes is essential for the accurate determination of neutrino oscillation parameters and for minimizing systematic uncertainties in the analysis. We therefore work closely with experimental groups and are active members of international oscillation experiments like [T2K](https://t2k-experiment.org/) and [ESSnuSB](https://essnusb.eu/).
+These experiments aim to address fundamental questions in particle physics, including searching for existence of CP violation in leptonic sector. They involve neutrino scattering on nuclear targets across a broad energy range. The measured observables depend strongly on the theoretical description of neutrino–nucleus interactions, which include several complex many-body effects. A reliable understanding of these processes is essential for the accurate determination of neutrino oscillation parameters and for minimizing systematic uncertainties in the analysis. We therefore work closely with experimental groups and are active members of international oscillation experiments like [T2K](https://t2k-experiment.org/) and [ESSnuSB](https://essnusb.eu/).
 
 
 <figure class="fifth">
