@@ -52,10 +52,7 @@ permalink: /publications/
 <p> &nbsp; </p>
 
 
-## Papers from T2K Collaboration
-
-
-## Full List of publications
+## Recent Publications
 
 {% for publi in site.data.publist %}
 
@@ -63,3 +60,9 @@ permalink: /publications/
   <em>{{ publi.authors }} </em><br /><a href="{{ publi.link.url }}">{{ publi.link.display }}</a>
 
 {% endfor %}
+
+Click here for [full list of publications](https://inspirehep.net/authors/1024573)
+
+## Papers from Experimental Collaboration
+- **[T2K Papers](https://inspirehep.net/experiments/1108444)**
+- **[ESSnuSB Papers](https://inspirehep.net/experiments/1699510)**
