@@ -36,7 +36,9 @@
     In two-nucleon knockout, a $\nu_\mu$ ejects not one, but two nucleons from the nucleus. This occurs when the nucleons form a correlated pair, transferring enough momentum to liberate both particles from the nucleus simultaneously. This process, often referred to as 2p2h or meson-exchange current (MEC) contributions, constitutes an important part of the total cross section in the region between the quasi-elastic peak and the $\Delta$-resonance.
 
 - title: "Nuclear effects"
-  type: "no-image"
+  type: "side"
+  image: "/images/research_page/nuclear_effects.png"
+  caption: 'Schematic of nuclear effects'
   content: |
     Nuclear effects encompass a broad range of phenomena that modify the interaction of neutrinos with nucleons bound inside a nucleus. Since the nucleus is a strongly interacting many-body system, a precise description of neutrino–nucleus scattering requires incorporating nuclear medium effects into theoretical models. These include Pauli blocking, Fermi motion, short- and long-range nucleon–nucleon correlations, and final-state interactions (FSI) of outgoing particles. A reliable description of these effects is indispensable for correctly interpreting experimental cross-section measurements.
     * **Fermi motion and Pauli blocking:** The initial momentum distribution of bound nucleons (Fermi motion) and the Pauli exclusion principle constrain the available phase space for the interaction and outgoing nucleons.
