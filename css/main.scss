@@ -231,6 +231,7 @@ firstp{
 }
 
 .research-img-center {
+  background: #ffffff;
   margin: 1.5em auto;
   max-width: 70%;
   text-align: center;
@@ -238,7 +239,7 @@ firstp{
 
 .research-img-center img {
   width: 100%;
-  border-radius: 4px;
+  border-radius: 8px;
   margin-bottom: 10px;
 }
 
@@ -246,14 +247,15 @@ firstp{
   float: right;
   margin: 0 0 1.2em 1.8em;
   max-width: 260px;
-  background: #f8f9fa;
+  // background: #f8f9fa;
+  background: #ffffff;
   padding: 10px;
   font-size: 13px;
 }
 
 .research-img-box img {
   width: 100%;
-  border-radius: 4px;
+  border-radius: 8px;
 }
 
 .clearfix::after {
