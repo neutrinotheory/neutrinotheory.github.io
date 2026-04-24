@@ -31,8 +31,8 @@
   description:
   authors: L. Alvarez-Ruso, Y. Hayato, J. Nieves, N. Jachowicz, J. Sobczyk, et al.
   link:
-  url: https://doi.org/10.1088/1361-6471/adXXXX
-  display: Journal of Physics G (2025)
+    url: https://doi.org/10.1088/1361-6471/adXXXX
+    display: Journal of Physics G (2025)
   highlight: 0
 
 - title: "The Ghent Hybrid model in NuWro: a new neutrino single-pion production model in the GeV regime"
