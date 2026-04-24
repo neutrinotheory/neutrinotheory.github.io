@@ -141,23 +141,6 @@ Check out our <a href="https://neutrinotheory.github.io/student-info/">master th
 
 
 ## Former Members
-<div class="row">
-<div class="col-sm-12 clearfix">
-<h3>Former Members</h3>
 
-<div class="row">
-{% for member in site.data.alumni_members %}
-      
-<div class="col-sm-6">
-<p>
-<strong>{{ member.name }}</strong><br>
-{% if member.info %}<span>{{ member.info }}</span><br>{% endif %}
-{% if member.thesis %} <em>{{ member.thesis | markdownify | remove: '<p>' | remove: '</p>'| strip }}</em>{% endif %}
-</p>
-</div>
-{% endfor %}
-</div>
-</div>
-</div>
 
 
