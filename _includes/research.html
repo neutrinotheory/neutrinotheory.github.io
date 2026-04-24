@@ -58,37 +58,44 @@
   </div>
 </div> ``` -->
 
+TESTTEST
 
+---
+layout: default
+title: Research
+permalink: /research/
+---
 
 <div class="container">
   <h1 style="text-align: center; margin-bottom: 40px;">Research</h1>
 
   {% for topic in site.data.research_topics %}
-    <div class="research-box clearfix">
-      <h2 style="margin-top: 0;">{{ topic.title }}</h2>
+    <div class="research-box clearfix" style="background: #f8f9fa; border: 1px solid #dee2e6; border-radius: 6px; padding: 20px; margin-bottom: 30px;">
+      <h2 style="margin-top: 0; color: #1e64c8;">{{ topic.title }}</h2>
 
       {% if topic.image %}
         <div class="{% if topic.type == 'centered' %}research-img-center{% else %}research-img-box{% endif %}">
-          <img src="{{ topic.image | relative_url }}" alt="{{ topic.title }}">
+          <img src="{{ topic.image | relative_url }}" alt="{{ topic.title }}" style="max-width: 100%; height: auto;">
           {% if topic.caption %}
-            <div class="caption">{{ topic.caption | markdownify | remove: '<p>' | remove: '</p>' }}</div>
+            <div class="caption" style="font-size: 0.85em; color: #666; font-style: italic; margin-top: 5px;">
+              {{ topic.caption | markdownify | remove: '<p>' | remove: '</p>' }}
+            </div>
           {% endif %}
         </div>
       {% endif %}
 
-      <div class="research-text">
+      <div class="research-text" style="font-size: 1.1em; line-height: 1.6;">
         {{ topic.content | markdownify }}
       </div>
     </div>
   {% endfor %}
 
-  <div class="references-section">
-    <hr style="margin-top: 60px; border-top: 1px solid #ddd;">
+  <div class="references-section" style="margin-top: 50px; padding-top: 20px; border-top: 1px solid #ddd;">
     <h3>References</h3>
 
-    {% comment %}
-      Leave these definitions exactly like this. 
-      Kramdown will automatically link [^Ref] markers in the text to these definitions.
+    {% comment %} 
+      Everything below this line must be raw Markdown for the footnotes to work.
+      DO NOT INDENT the [^Ref] lines. They must start at the very beginning of the line.
     {% endcomment %}
 
 [^DUNE]: R. Acciarri et al. (DUNE), (2016).
@@ -100,16 +107,6 @@
 [^NEUT]: Hayato, Y., Pickering, L. *[Eur. Phys. J. Spec. Top. 230, 4469–4481 (2021).](https://doi.org/10.1140/epjs/s11734-021-00287-7)*
 [^GHENT]: González-Jiménez, R., et al. (2017). *[Physical Review D, 95(11), 113007.](https://doi.org/10.1103/PhysRevD.95.113007)*
 [^HNV]: Hernández, E., et al. (2007). *[Physical Review D, 76(3), 033005.](https://doi.org/10.1103/PhysRevD.76.033005)*
-[^DSD1]: Hernández, E., et al. (2008). *[Physical Review D, 77(5), 053009.](https://doi.org/10.1103/PhysRevD.77.053009)*
-[^DSD2]: Hernández, E., et al. (2010). *[Physical Review D, 81(8), 085046.](https://doi.org/10.1103/PhysRevD.81.085046)*
-[^DSD3]: Hernández, E., et al. (2013). *[Physical Review D, 87(11), 113009.](https://doi.org/10.1103/PhysRevD.87.113009)*
-[^DSD4]: Alvarez-Ruso, L., et al. (2016). *[Physical Review D, 93(1), 014016.](https://doi.org/10.1103/PhysRevD.93.014016)*
-[^Olsson]: Olsson, M. G. (1974). *[Nuclear Physics B, 74, 90–115.](https://doi.org/10.1016/0550-3213(74)90115-1)*
-[^Regge1]: Aznauryan, I. G. (2003). *[Physical Review C, 67(1), 015209.](https://doi.org/10.1103/PhysRevC.67.015209)*
-[^Regge2]: Aznauryan, I. G., et al. (2005). *[Physical Review C, 71(1), 015201.](https://doi.org/10.1103/PhysRevC.71.015201)*
-[^Regge3]: Vrancx, T., et al. (2013). *[Nuclear Physics A, 914, 74–78.](https://doi.org/10.1016/j.nuclphysa.2012.12.075)*
-[^Regge4]: T. Corthals, et al. *[Phys. Rev. C73, 045207 (2006)](https://doi.org/10.1103/PhysRevC.73.045207)*
-[^Matthias]: M. Hooft et al. (2026). *[arXiv:2603.29486](https://arxiv.org/abs/2603.29486)*.
 [^Javi]: J. García-Marcos et al. (2024). *[Physical Review C, 109(2), 024608.](https://doi.org/10.1103/PhysRevC.109.024608)*
 
   </div>
