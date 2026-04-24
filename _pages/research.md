@@ -92,30 +92,9 @@ permalink: /research/
   line-height: 1.4 !important;
 }
 
-.research-box h2 {
-  font-weight: 800 !important; /* Forces a very thick font weight */
-  font-size: 1.8rem !important; /* Keeps it significantly larger than the 18px body text */
-  color: #000 !important;      /* Makes it pure black for high contrast */
-  margin-top: 0;               /* Removes extra space at the top of the box */
-}
 
-/* 1. Target EVERYTHING that functions as a caption */
-.research-box .research-img-box, 
-.research-box .research-img-box *,
-.research-box .caption,
-.research-box .caption *,
-.research-box figcaption {
-  font-size: 15px !important;   /* Unified size for all titles */
-  line-height: 1.4 !important;
-  color: #555 !important;      /* Subtle grey */
-  font-weight: normal !important;
-  text-align: center;           /* Keeps them centered under images */
-}
 
-/* 2. Specific fix for the right-side box text alignment */
-.research-img-box {
-  text-align: center !important; 
-}
+
 </style>
 
 # Research sizetext_3
