@@ -1,0 +1,27 @@
+- title: "Reaction Mechanisms"
+  type: "centered"
+  image: "/images/research_page/mechs.png"
+  caption: "Reaction mechanisms overview."
+  content: |
+    Neutrinos interact with matter only through the weak interaction. Consequently, they are incredibly difficult to detect. Currently, there are only a few ways to observe them, and our group focuses on building models for accelerator-based neutrino oscillation experiments. These experiments require two conditions: a high-intensity neutrino beam and massive targets for the neutrinos to interact with. Both requirements present unique challenges.
+    
+    * **High-intensity beam:** To create a high-intensity neutrino beam, protons are accelerated to very high kinetic energies and directed toward a target block. The resulting collisions produce a variety of particles, including a large number of pions. These pions are redirected using magnetic fields and subsequently decay into muons and muon-neutrinos. A downside of this method is that the resulting beam is not mono-energetic. Instead, a wide spectrum of energies is directed toward the detector.
+    * **Heavy targets:** Because neutrinos interact so rarely, we use heavy atomic nuclei such as <sup>12</sup>C, <sup>16</sup>O, and <sup>40</sup>Ar as targets to increase the probability of an interaction. However, using nuclei introduces significant theoretical challenges. Nuclei cannot be described purely by fundamental Quantum Field Theory (QFT). Because the energies of nucleons are relatively small, standard perturbation theory fails. This necessitates phenomenological models that rely on effective parameters fitted to experimental data. Because the neutrino beam is not mono-energetic, the neutrinos trigger many different types of interactions, producing a wide variety of outgoing particles. This makes it incredibly hard to reconstruct the neutrino energy from the detected final particles.
+    
+    To guide these analyses, we need robust theoretical models for every possible interaction. This is where the Ghent group contributes. We develop models for the cross sections of all possible neutrino-nucleus interactions. These models are integrated into "event generators" which are simulations that determine the probability of specific interactions based on the observed final-state particles. By using these simulations, researchers can reconstruct the energy of the initial neutrino. By comparing the interaction rates at two different locations (a near detector close to the beam source and a far detector hundreds of kilometers away) the neutrino oscillation parameters can be extracted and unlock the secrets of these elusive particles.
+    
+- title: "Quasi-elastic scattering"
+  type: "side"
+  image: "/images/research_page/diagram_QE.png"
+  caption: "Quasi-elastic scattering: a $\nu_\mu$ strikes an <strong>individual nucleon</strong> within a nucleus, providing enough energy to knock it out."
+  content: |
+    Quasi-elastic scattering occurs when a $\nu_\mu$ interacts with a single nucleon bound inside the nucleus and transfers enough momentum to eject it. It is one of the dominant interaction channels at intermediate neutrino energies and serves as a key signal process in oscillation experiments. Accurate modelling of this process, including nuclear structure effects such as Pauli blocking, short-range correlations, and collective excitations through the Random Phase Approximation (RPA), is essential for reliable neutrino energy reconstruction.
+
+- title: "Pion production"
+  type: "side"
+  image: "/images/research_page/diagram_SPP.png"
+  caption: "A $\nu_\mu$ excites a <strong>nucleon</strong> into a <strong>$\Delta$-resonance</strong> that decays into a <strong>nucleon</strong> and a <strong>pion</strong>."
+  content: |
+    Single-pion production is a key interaction channel in neutrino–nucleus scattering and plays an essential role in the interpretation of accelerator-based neutrino experiments. In high-energy experiments like DUNE [^DUNE] and NO$\nu$A [^NOVA1] $^,$[^NOVA2], inelastic interactions that produce pions constitute a major contribution to the total neutrino–nucleus cross section. In experiments such as T2K [^T2K], Hyper-Kamiokande, and the Short-Baseline Neutrino Program, single-pion production (SPP), dominated by the $\Delta$-resonance region, accounts for roughly 20% of all neutrino interactions [^Katori_Martini]$^,$[^Isaacson_Jay]$^,$[^NEUT]. In this process, a neutrino interacts with a nucleon inside a nucleus, produces a resonance and subsequently decays into a nucleon and a pion. In addition, SPP can also contribute to "0-pion" final states when a pion is absorbed or inelastically rescattered. This leads to an important background in the oscillation analyses. A precise description of pion production and nuclear effects is therefore essential to reduce systematic uncertainties in the reconstructed neutrino energy.
+    
+    In addition, we investigate the role of nuclear effects, in particular final-state interactions of the produced pions and nucleons [^Javi]. Inside the nucleus, produced particles like the nucleon and pion can be absorbed, elastically and inelastically rescattered, which modifies the final-state particles. These effects are crucial for reducing systematic uncertainties in neutrino oscillation experiments.
