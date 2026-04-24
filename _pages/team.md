@@ -143,7 +143,6 @@ Check out our <a href="https://neutrinotheory.github.io/student-info/">master th
 ## Former Members
 <div class="row">
 <div class="col-sm-12 clearfix">
-<h3>Former Members</h3>
 
 <div class="row">
 {% for member in site.data.alumni_members %}
