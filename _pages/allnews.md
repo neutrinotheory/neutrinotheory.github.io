@@ -1,7 +1,7 @@
 ---
-title: "N E W S"
+title: "News"
 layout: textlay
-excerpt: "Neutrino Theory at Leiden University."
+excerpt: "Neutrino Interactions Research Group."
 sitemap: false
 permalink: /allnews.html
 ---
