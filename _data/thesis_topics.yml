@@ -32,6 +32,8 @@
     Building on this, one of the main goals is to develop an improved understanding of final-state interactions in the nucleus. To this end, the student will build a toy model for the final-state interactions of the nucleon to study the influence of assumptions and parameters that are traditionally built into semi-classical event-generator descriptions. A comparison with Monte Carlo generators like NuWro can also be performed.
   references: |
     - "[NUSTEC white paper](https://arxiv.org/abs/1706.03621): a nice paper giving an overview of all the cahllanges we face in this field."
+    - "[Nuclear Transparency in Monte Carlo Neutrino Event Generators](https://arxiv.org/abs/1902.05618): about transparency and final state interactions in the NuWro event generator."
+    - "[A quantum Monte Carlo based approach to intranuclear cascades](https://arxiv.org/abs/2007.15570): about final state interactions in a quantum monte carlo event generator (Achilles)."
 
 - title: "Final State Interactions in Coherent Pion Production"
   supervisors:
