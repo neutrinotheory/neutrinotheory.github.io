@@ -23,5 +23,31 @@
   caption: 'A $\nu_\mu$ excites a <strong>nucleon</strong> into a <strong>$\Delta$-resonance</strong> that decays into a <strong>nucleon</strong> and a <strong>pion</strong>.'
   content: |
     Single-pion production is a key interaction channel in neutrino–nucleus scattering and plays an essential role in the interpretation of accelerator-based neutrino experiments. In high-energy experiments like DUNE [^DUNE] and NO$\nu$A [^NOVA1] $^,$[^NOVA2], inelastic interactions that produce pions constitute a major contribution to the total neutrino–nucleus cross section. In experiments such as T2K [^T2K], Hyper-Kamiokande, and the Short-Baseline Neutrino Program, single-pion production (SPP), dominated by the $\Delta$-resonance region, accounts for roughly 20% of all neutrino interactions [^Katori_Martini]$^,$[^Isaacson_Jay]$^,$[^NEUT]. In this process, a neutrino interacts with a nucleon inside a nucleus, produces a resonance and subsequently decays into a nucleon and a pion. In addition, SPP can also contribute to "0-pion" final states when a pion is absorbed or inelastically rescattered. This leads to an important background in the oscillation analyses. A precise description of pion production and nuclear effects is therefore essential to reduce systematic uncertainties in the reconstructed neutrino energy.
+
+    Our work focuses on the development of the Ghent hybrid model [^GHENT] for pion production, which combines a resonance description with a tree-level background from chiral perturbation theory [^HNV]. The original low-energy model including the $\Delta$(1232)-resonance is further extended with higher-energy resonances $P_{11}$(1440), $D_{13}$(1520), $S_{11}$(1535) [^DSD1]$^,$[^DSD2]$^,$[^DSD3]$^,$[^DSD4] and the model is partially unitarized in the $\Delta$-region through Olsson phases [^Olsson]. The tree-level background diagrams are extended to higher energies using Regge theory [^Regge1]$^,$[^Regge2]$^,$[^Regge3]$^,$[^Regge4]. Recent efforts aim to improve the theoretical consistency of the model by unitarizing all contributions using Watson's theorem [^Matthias]. This is achieved by redefining the model in a multipole decomposition, and unitarizing the amplitudes through K-matrix theory.
     
     In addition, we investigate the role of nuclear effects, in particular final-state interactions of the produced pions and nucleons [^Javi]. Inside the nucleus, produced particles like the nucleon and pion can be absorbed, elastically and inelastically rescattered, which modifies the final-state particles. These effects are crucial for reducing systematic uncertainties in neutrino oscillation experiments.
+
+- title: "Two-nucleon knockout"
+  type: "side"
+  image: "/images/research_page/diagram_2p2h.png"
+  caption: 'A $\nu_\mu$ ejects two nucleons from a <strong>correlated pair</strong>, transferring enough momentum to liberate both simultaneously.'
+  content: |
+    In two-nucleon knockout, a $\nu_\mu$ ejects not one, but two nucleons from the nucleus. This occurs when the nucleons form a correlated pair, transferring enough momentum to liberate both particles from the nucleus simultaneously. This process, often referred to as 2p2h or meson-exchange current (MEC) contributions, constitutes an important part of the total cross section in the region between the quasi-elastic peak and the $\Delta$-resonance.
+
+- title: "Nuclear effects"
+  type: "no-image"
+  content: |
+    Nuclear effects encompass a broad range of phenomena that modify the interaction of neutrinos with nucleons bound inside a nucleus. These include Pauli blocking, Fermi motion, short- and long-range nucleon–nucleon correlations, and final-state interactions (FSI) of outgoing particles. A reliable description of these effects is indispensable for correctly interpreting experimental cross-section measurements.
+
+- title: "Monte Carlo simulations"
+  type: "centered"
+  image: "/images/research_page/MC_diagram.png"
+  caption: 'Schematic of Monte Carlo neutrino event simulation.'
+  content: |
+    Monte Carlo (MC) simulations are the backbone of neutrino experiment analyses, linking theoretical cross-section models to detector-level observables. Our group works on implementing and validating our theoretical models within widely used neutrino event generators.
+
+    <div class="research-img-center">
+      <img src="/images/research_page/logos_event_generators.png" alt="logos_event_generators">
+      <p class="caption">Neutrino event generators.</p>
+    </div>
