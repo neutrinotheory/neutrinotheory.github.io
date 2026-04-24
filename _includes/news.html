@@ -1,13 +1,13 @@
 
 <div class="well">
-<h4>News</h4>
+<h4>NEWS</h4>
 
 {% for article in site.data.news limit:9 %}
 <p>
-  <strong>
-    <span style="color: darkblue;">{{ article.date }}</span>
-  </strong><br>
-  {{ article.headline | markdownify | remove: '<p>' | remove: '</p>' }}
+  <strong>{{ article.date }}</strong><br>
+  <span style="color: blue;">
+    {{ article.headline | markdownify | remove: '<p>' | remove: '</p>' }}
+  </span>
 </p>
 {% endfor %}
 
