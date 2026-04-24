@@ -58,59 +58,41 @@
   </div>
 </div> ``` -->
 
-
-
 <div class="container">
   <h1 style="text-align: center; margin-bottom: 40px;">Research</h1>
 
-  {% for topic in site.data.research_topics %}
-    <div class="research-box clearfix">
-      <h2 style="margin-top: 0;">{{ topic.title }}</h2>
+  {% capture everything_md %}
+    {% for topic in site.data.research_topics %}
+      <h2>{{ topic.title }}</h2>
 
       {% if topic.image %}
         <div class="{% if topic.type == 'centered' %}research-img-center{% else %}research-img-box{% endif %}">
           <img src="{{ topic.image | relative_url }}" alt="{{ topic.title }}">
-          {% if topic.caption %}
-            <div class="caption">{{ topic.caption | markdownify | remove: '<p>' | remove: '</p>' }}</div>
-          {% endif %}
+          <div class="caption">{{ topic.caption }}</div>
         </div>
       {% endif %}
 
       <div class="research-text">
-        {{ topic.content | markdownify }}
+        {{ topic.content }}
       </div>
-    </div>
-  {% endfor %}
+      
+      <hr style="margin: 40px 0; border: 0; border-top: 1px solid #eee;">
+    {% endfor %}
 
-  <div class="references-section">
-    <hr style="margin-top: 60px; border-top: 1px solid #ddd;">
-    <h3>References</h3>
+    ### References
 
-    {% comment %}
-      Leave these definitions exactly like this. 
-      Kramdown will automatically link [^Ref] markers in the text to these definitions.
-    {% endcomment %}
+    [^DUNE]: R. Acciarri et al. (DUNE), (2016).
+    [^NOVA1]: M. A. Acero et al. (NOvA, R. Group), *[Eur. Phys. J. C 80, 1119 (2020)](https://doi.org/10.1140/epjc/s10052-020-08577-5)*.
+    [^NOVA2]: M. A. Acero et al. (NOvA), *[Phys. Rev. D 107, 052011 (2023)](https://doi.org/10.1103/PhysRevD.107.052011)*.
+    [^T2K]: K. Abe et al. (T2K), *[Nucl. Instrum. Meth. A 659, 106 (2011)](https://doi.org/10.1016/j.nima.2011.06.067)*.
+    [^Katori_Martini]: T. Katori and M. Martini, *[J. Phys. G 45, 013001 (2018)](https://doi.org/10.1088/1361-6471/aa8bf7)*.
+    [^Isaacson_Jay]: J. Isaacson, et al. (2026), *[Single pion production in ACHILLES. Phys. Rev. D, 113(3), 036005.](https://doi.org/10.1103/13bh-22lm)*.
+    [^NEUT]: Hayato, Y., Pickering, L. *[Eur. Phys. J. Spec. Top. 230, 4469–4481 (2021).](https://doi.org/10.1140/epjs/s11734-021-00287-7)*
+    [^GHENT]: González-Jiménez, R., et al. (2017). *[Physical Review D, 95(11), 113007.](https://doi.org/10.1103/PhysRevD.95.113007)*
+    [^HNV]: Hernández, E., et al. (2007). *[Physical Review D, 76(3), 033005.](https://doi.org/10.1103/PhysRevD.76.033005)*
+    [^Matthias]: M. Hooft et al. (2026). *[arXiv:2603.29486](https://arxiv.org/abs/2603.29486)*.
+    [^Javi]: J. García-Marcos et al. (2024). *[Physical Review C, 109(2), 024608.](https://doi.org/10.1103/PhysRevC.109.024608)*
+  {% endcapture %}
 
-[^DUNE]: R. Acciarri et al. (DUNE), (2016).
-[^NOVA1]: M. A. Acero et al. (NOvA, R. Group), *[Eur. Phys. J. C 80, 1119 (2020)](https://doi.org/10.1140/epjc/s10052-020-08577-5)*.
-[^NOVA2]: M. A. Acero et al. (NOvA), *[Phys. Rev. D 107, 052011 (2023)](https://doi.org/10.1103/PhysRevD.107.052011)*.
-[^T2K]: K. Abe et al. (T2K), *[Nucl. Instrum. Meth. A 659, 106 (2011)](https://doi.org/10.1016/j.nima.2011.06.067)*.
-[^Katori_Martini]: T. Katori and M. Martini, *[J. Phys. G 45, 013001 (2018)](https://doi.org/10.1088/1361-6471/aa8bf7)*.
-[^Isaacson_Jay]: J. Isaacson, et al. (2026), *[Single pion production and pion propagation in ACHILLES. Physical Review D, 113(3), 036005.](https://doi.org/10.1103/13bh-22lm)*.
-[^NEUT]: Hayato, Y., Pickering, L. *[Eur. Phys. J. Spec. Top. 230, 4469–4481 (2021).](https://doi.org/10.1140/epjs/s11734-021-00287-7)*
-[^GHENT]: González-Jiménez, R., et al. (2017). *[Physical Review D, 95(11), 113007.](https://doi.org/10.1103/PhysRevD.95.113007)*
-[^HNV]: Hernández, E., et al. (2007). *[Physical Review D, 76(3), 033005.](https://doi.org/10.1103/PhysRevD.76.033005)*
-[^DSD1]: Hernández, E., et al. (2008). *[Physical Review D, 77(5), 053009.](https://doi.org/10.1103/PhysRevD.77.053009)*
-[^DSD2]: Hernández, E., et al. (2010). *[Physical Review D, 81(8), 085046.](https://doi.org/10.1103/PhysRevD.81.085046)*
-[^DSD3]: Hernández, E., et al. (2013). *[Physical Review D, 87(11), 113009.](https://doi.org/10.1103/PhysRevD.87.113009)*
-[^DSD4]: Alvarez-Ruso, L., et al. (2016). *[Physical Review D, 93(1), 014016.](https://doi.org/10.1103/PhysRevD.93.014016)*
-[^Olsson]: Olsson, M. G. (1974). *[Nuclear Physics B, 74, 90–115.](https://doi.org/10.1016/0550-3213(74)90115-1)*
-[^Regge1]: Aznauryan, I. G. (2003). *[Physical Review C, 67(1), 015209.](https://doi.org/10.1103/PhysRevC.67.015209)*
-[^Regge2]: Aznauryan, I. G., et al. (2005). *[Physical Review C, 71(1), 015201.](https://doi.org/10.1103/PhysRevC.71.015201)*
-[^Regge3]: Vrancx, T., et al. (2013). *[Nuclear Physics A, 914, 74–78.](https://doi.org/10.1016/j.nuclphysa.2012.12.075)*
-[^Regge4]: T. Corthals, et al. *[Phys. Rev. C73, 045207 (2006)](https://doi.org/10.1103/PhysRevC.73.045207)*
-[^Matthias]: M. Hooft et al. (2026). *[arXiv:2603.29486](https://arxiv.org/abs/2603.29486)*.
-[^Javi]: J. García-Marcos et al. (2024). *[Physical Review C, 109(2), 024608.](https://doi.org/10.1103/PhysRevC.109.024608)*
-
-  </div>
+  {{ everything_md | markdownify }}
 </div>
