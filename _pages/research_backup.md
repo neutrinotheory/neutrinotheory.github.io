@@ -3,7 +3,7 @@ title: "Ghent Neutrino Interactions Group"
 layout: textlay
 excerpt: "Ghent Neutrino Interactions Group"
 sitemap: false
-permalink: /research/
+publish: false
 ---
 
 <style>
