@@ -1,8 +1,11 @@
 <div class="research-list">
   {% for topic in site.data.research_topics %}
     <div class="research-box clearfix">
-      <h2>{{ topic.title }}</h2>
-
+      <!-- <h2>{{ topic.title }}</h2> -->
+      <div class="research-box-header">
+        <h2>{{ topic.title }}</h2>
+      </div>
+      
       {% if topic.image %}
         {% if topic.type == "centered" %}
           <div class="research-img-center">
