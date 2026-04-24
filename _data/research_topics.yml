@@ -61,9 +61,4 @@
       <p class="caption">Neutrino event generators.</p>
     </div>
 
-  
-  references:
-  - id: "DUNE"
-    text: 'R. Acciarri et al. (DUNE), (2016).'
-  - id: "NOVA1"
-    text: 'M. A. Acero et al. (NOvA), <em>Eur. Phys. J. C 80, 1119 (2020)</em>.'
+
