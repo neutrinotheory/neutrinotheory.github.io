@@ -141,4 +141,44 @@ Check out our <a href="https://neutrinotheory.github.io/student-info/">master th
 
 
 ## Former Members
+<div class="row">
+ <div class="col-sm-12 clearfix">
+   <h3>Former Members</h3>
+
+
+   <div class="row">
+     {% assign number_printed = 0 %}
+
+
+     {% for member in site.data.alumni_members %}
+       {% assign even_odd = number_printed | modulo: 2 %}
+
+
+       <div class="col-sm-6">
+         <p>
+           <strong>{{ member.name }}</strong><br>
+
+
+           {% if member.duration %}
+             <span>{{ member.duration }}</span><br>
+           {% endif %}
+
+
+           {% if member.info %}
+             <span>Role: {{ member.info }}</span><br>
+           {% endif %}
+
+
+           {% if member.thesis %}
+             <em>{{ member.thesis | markdownify | remove: '<p>' | remove: '</p>' | strip }}</em>
+           {% endif %}
+         </p>
+       </div>
+
+
+       {% assign number_printed = number_printed | plus: 1 %}
+     {% endfor %}
+   </div>
+ </div>
+</div>
 
