@@ -1,27 +1,22 @@
----
-layout: default
-title: Research
-permalink: /research/
----
-
-<div class="container">
-  <h1>Research</h1>
-
-  <div class="research-list">
-    {% for topic in site.data.research_topics %}
+<div class="research-list">
+  {% for topic in site.data.research_topics %}
     <div class="research-box clearfix">
       <h2>{{ topic.title }}</h2>
 
       {% if topic.image %}
         {% if topic.type == "centered" %}
           <div class="research-img-center">
-            <img src="{{ topic.image }}" alt="{{ topic.title }}">
-            <div class="caption">{{ topic.caption }}</div>
+            <img src="{{ topic.image | prepend: site.baseurl }}" alt="{{ topic.title }}">
+            {% if topic.caption %}
+              <div class="caption">{{ topic.caption | markdownify | remove: '<p>' | remove: '</p>' }}</div>
+            {% endif %}
           </div>
         {% else %}
           <div class="research-img-box">
-            <img src="{{ topic.image }}" alt="{{ topic.title }}">
-            <div class="caption">{{ topic.caption }}</div>
+            <img src="{{ topic.image | prepend: site.baseurl }}" alt="{{ topic.title }}">
+            {% if topic.caption %}
+              <div class="caption">{{ topic.caption | markdownify | remove: '<p>' | remove: '</p>' }}</div>
+            {% endif %}
           </div>
         {% endif %}
       {% endif %}
@@ -30,13 +25,5 @@ permalink: /research/
         {{ topic.content | markdownify }}
       </div>
     </div>
-    {% endfor %}
-  </div>
-
-  <div class="references-section">
-    <h3>References</h3>
-    {% comment %} You can keep references in the footer of this file {% endcomment %}
-    [^DUNE]: R. Acciarri et al. (DUNE), (2016).
-    ... (add the rest of your refs here) ...
-  </div>
+  {% endfor %}
 </div>

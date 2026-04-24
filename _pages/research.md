@@ -1,12 +1,9 @@
 ---
-title: "Ghent Neutrino Interactions Group"
+title: "Research"
 layout: research
-excerpt: "Ghent Neutrino Interactions Group"
+excerpt: "Research activities"
 sitemap: false
 permalink: /research/
 ---
-<br/> 
-This is the research page, here you can read about what we do. For more information you can contact us.
-
-# **Research** 
+This page highlights our current research activities.
 
