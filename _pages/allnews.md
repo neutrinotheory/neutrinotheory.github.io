@@ -1,5 +1,5 @@
 ---
-title: "News"
+title: "N E W S"
 layout: textlay
 excerpt: "Neutrino Theory at Leiden University."
 sitemap: false
