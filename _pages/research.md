@@ -5,5 +5,6 @@ excerpt: "Research activities"
 sitemap: false
 permalink: /research/
 ---
-This page highlights our current research activities.
+# Research
+This page highlights our current research activities, for more information please contact us or stop by at the office.
 
