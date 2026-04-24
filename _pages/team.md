@@ -114,7 +114,7 @@ Check out our <a href="https://neutrinotheory.github.io/student-info/">master th
 </div>
 
  
-## Former BSc/ MSc students
+## Recent BSc/ MSc students
 <div class="row">
 <div class="col-sm-4 clearfix">
 <h3>Master students</h3>
@@ -141,5 +141,30 @@ Check out our <a href="https://neutrinotheory.github.io/student-info/">master th
 
 
 ## Former Members
+<div class="row">
+  <div class="col-sm-12 clearfix">
+    <h3>Former Members</h3>
+
+    <div class="row">
+      {% for member in site.data.alumni_members %}
+      
+      <div class="col-sm-6">
+        <p>
+          <strong>{{ member.name }}</strong><br>
+
+          {% if member.info %}
+          <span>{{ member.info }}</span><br>
+          {% endif %}
+
+          {% if member.thesis %}
+          <em>{{ member.thesis }}</em>
+          {% endif %}
+        </p>
+      </div>
+
+      {% endfor %}
+    </div>
+  </div>
+</div>
 
 

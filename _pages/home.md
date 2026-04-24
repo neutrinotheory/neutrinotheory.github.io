@@ -6,7 +6,7 @@ sitemap: false
 permalink: /
 ---
 <br/> 
-(**UGent students interested in our group**? Check out our [master's thesis topics](https://neutrinotheory.github.io/student-info/).)
+<span style="color:red">News</span>: **UGent students interested in our group**? Check out our [master's thesis topics](https://neutrinotheory.github.io/student-info/).
 <br/> <br/>
 Our research focuses on the development of theoretical models for **neutrino–nucleus scattering**. The goal is to provide a robust and reliable theoretical framework that enables the precise extraction of neutrino oscillation parameters and reduces systematic uncertainties in ongoing experiments (such as [T2K](https://t2k-experiment.org/), [MicroBooNE](https://microboone.fnal.gov/), [NOvA](https://novaexperiment.fnal.gov/), and [SBND](https://sbn.fnal.gov/sbnd/)) as well as in upcoming next-generation high-statistics neutrino oscillation experiments, such as [DUNE](https://lbnf-dune.fnal.gov/) and [Hyper-K](https://www-sk.icrr.u-tokyo.ac.jp/en/hk/).
 
