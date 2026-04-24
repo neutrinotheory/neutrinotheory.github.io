@@ -12,7 +12,7 @@
   goal: |
     The goal of this project is to extend the Ghent model for single pion production. The model now only contains resonances up to the second resonance region whereas the third resonance region remains to be implemented. To unitarize the model at energies beyond the two-pion threshold, other decay channels like the decay into two pions or to eta mesons must be incorporated. Furthermore, these modifications should be tested in the nuclear framework to investigate the effect of final state interactions.
   references: |
-    Suggested starting references will be shared by the supervisors at project start.
+    - "[Nustec white paper](https://arxiv.org/abs/1706.03621): a nice paper giving an overview of all the cahllanges we phase in this field"
 
 - title: "Decoding the Quasi-Elastic Signal in Future Neutrino Oscillation Experiments"
   supervisors:
