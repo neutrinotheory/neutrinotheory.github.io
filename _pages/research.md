@@ -91,30 +91,34 @@ permalink: /research/
   font-size: 13px !important;
   line-height: 1.4 !important;
 }
-/* .research-box {
-  background: #f8f9fa;
-  border: 1px solid #dee2e6;
-  border-radius: 6px;
-  padding: 16px 18px;
-  margin: 1.5em 0;
-} */
 
-/* Target the text specifically within your research sections */
-/* .research-box p, 
-.research-box li {
-  font-size: 1.15rem; /* Adjust this number (e.g., 1.1rem or 1.2rem) to your liking */
-  /* line-height: 1.6;   /* Increases spacing between lines for better readability */
-  /* color: #333;       /* Optional: makes the text slightly darker/sharper */ */ */
-/* } */ 
+.research-box h2 {
+  font-weight: 800 !important; /* Forces a very thick font weight */
+  font-size: 1.8rem !important; /* Keeps it significantly larger than the 18px body text */
+  color: #000 !important;      /* Makes it pure black for high contrast */
+  margin-top: 0;               /* Removes extra space at the top of the box */
+}
 
-/* Adjust heading sizes within the boxes if they feel too small now */
-/* .research-box h2 {
-  font-size: 1.8rem;
-  margin-top: 0;
-} */
+/* 1. Target EVERYTHING that functions as a caption */
+.research-box .research-img-box, 
+.research-box .research-img-box *,
+.research-box .caption,
+.research-box .caption *,
+.research-box figcaption {
+  font-size: 15px !important;   /* Unified size for all titles */
+  line-height: 1.4 !important;
+  color: #555 !important;      /* Subtle grey */
+  font-weight: normal !important;
+  text-align: center;           /* Keeps them centered under images */
+}
+
+/* 2. Specific fix for the right-side box text alignment */
+.research-img-box {
+  text-align: center !important; 
+}
 </style>
 
-# Research sizetext_2
+# Research sizetext_3
 <div class="research-box clearfix">
 ## Reaction Mechanisms
 
@@ -139,7 +143,7 @@ Neutrinos interact with matter only through the weak interaction. Consequently, 
 
 <div class="research-img-center">
   <img src="/images/research_page/mechs.png" alt="Reaction mechanisms diagram">
-  <p class="caption">Reaction mechanisms overview.</p>
+  <div class="caption">Reaction mechanisms overview.</div>
 </div>
 
 <ul>
@@ -157,7 +161,7 @@ To guide these analyses, we need robust theoretical models for every possible in
 
 <div class="research-img-box">
   <img src="/images/research_page/diagram_QE.png" alt="Quasi-elastic scattering diagram" style="text-align: center;">
-  Quasi-elastic scattering: a $\nu_\mu$ strikes an <strong>individual nucleon</strong> within a nucleus, providing enough energy to knock it out.
+  <div class="caption">Quasi-elastic scattering: a $\nu_\mu$ strikes an <strong>individual nucleon</strong> within a nucleus, providing enough energy to knock it out.<\div>
 </div>
 
 
