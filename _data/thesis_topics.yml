@@ -19,7 +19,7 @@
     - "Natalie Jachowicz"
     - "Marco Vanderpoorten"
     - "Matthias Hooft"
-    - "Ashish Kumar Jha"
+    - "Ashish Jha"
   problem: |
     The discovery of neutrino oscillations has driven significant investment into our understanding of the properties of this phenomenon. Current and future experiments, such as T2K and HyperKamiokande in Japan and the SBND and DUNE programs in the US, aim to improve our knowledge of mixing angles, mass hierarchy, and CP violation. These experiments measure the interaction rate of neutrinos with a target at different distances: one near the source (near detector) and one far away (far detector).
 
@@ -51,7 +51,7 @@
   supervisors:
     - "Natalie Jachowicz"
     - "Marco Vanderpoorten"
-    - "Ashish Kumar Jha"
+    - "Ashish Jha"
   problem: |
     While the future generation of accelerator-based neutrino experiments are built with the primary aim of enhancing our knowledge on neutrino oscillations and determining the CP-violating phase in the weak sector, these detectors can also observe low-energy neutrinos from a galactic supernova.
 
