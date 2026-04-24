@@ -178,33 +178,36 @@ firstp{
 }
 
 .thesis-topic-header {
-	background-color: #cfcfcf;
+	background-color: #0F6E56;
 	padding: 16px 24px 12px;
 	border-bottom: 1px solid #bdbdbd;
 }
 
 .thesis-topic-header h2 {
-	margin: 0;
-	font-size: 1.15em;
-	line-height: 1.35;
-	color: #1a1a1a;
+  margin: 0;
+  font-size: 17px;
+  font-weight: 500;
+  color: #9FE1CB;
+  line-height: 1.4;
 }
 
 .thesis-topic-supervisors {
-	background-color: #d9d9d9;
-	padding: 8px 24px;
-	border-bottom: 2px solid #b3b3b3;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  padding: 0.75rem 1.25rem;
+  background: var(--color-background-secondary);
+  border-bottom: 0.5px solid var(--color-border-tertiary);
 }
 
 .thesis-topic-supervisor {
-	display: inline-block;
-	margin: 4px 6px 4px 0;
-	padding: 3px 10px;
-	border-radius: 20px;
-	font-size: 0.82em;
-	font-weight: 600;
-	color: #2c2c2c;
-	background: #b8b8b8;
+  font-size: 13px;
+  font-weight: 500;
+  padding: 3px 10px;
+  border-radius: 20px;
+  background: #E1F5EE;
+  color: #085041;
+  border: 0.5px solid #5DCAA5;
 }
 
 .thesis-topic-content {
