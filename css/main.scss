@@ -261,3 +261,49 @@ firstp{
   display: table;
   clear: both;
 }
+
+/* --- Footnote Styling --- */
+
+/* The little numbers in the text */
+sup a.footnote {
+    font-weight: bold;
+    color: #1e64c8; /* Matches your navbar blue */
+    text-decoration: none;
+    padding: 0 2px;
+}
+
+sup a.footnote:hover {
+    color: #D3AF37; /* Turns gold on hover */
+    text-decoration: underline;
+}
+
+/* The reference section at the bottom */
+.footnotes {
+    font-size: 0.85em; /* Makes refs slightly smaller than main text */
+    color: #555;
+    margin-top: 50px;
+    padding-top: 20px;
+    border-top: 1px solid #ddd;
+}
+
+/* The list of references itself */
+.footnotes ol {
+    padding-left: 20px;
+}
+
+.footnotes li {
+    margin-bottom: 8px;
+    line-height: 1.5;
+}
+
+/* The "back" arrow that takes you back to the text */
+.reversefootnote {
+    color: #1e64c8;
+    text-decoration: none;
+    font-size: 1.2em;
+    margin-left: 5px;
+}
+
+.reversefootnote:hover {
+    color: #D3AF37;
+}
