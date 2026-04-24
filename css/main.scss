@@ -226,3 +226,46 @@ firstp{
 .thesis-topic-section ol:last-child {
 	margin-bottom: 0;
 }
+
+/* Research Page Layouts */
+.research-box {
+  background: #f8f9fa;
+  border: 1px solid #dee2e6;
+  border-radius: 6px;
+  padding: 16px 18px;
+  margin: 1.5em 0;
+  font-size: 18px;
+  line-height: 1.6;
+}
+
+.research-img-center {
+  margin: 1.5em auto;
+  max-width: 70%;
+  text-align: center;
+}
+
+.research-img-center img {
+  width: 100%;
+  border-radius: 4px;
+  margin-bottom: 10px;
+}
+
+.research-img-box {
+  float: right;
+  margin: 0 0 1.2em 1.8em;
+  max-width: 260px;
+  background: #f8f9fa;
+  padding: 10px;
+  font-size: 13px;
+}
+
+.research-img-box img {
+  width: 100%;
+  border-radius: 4px;
+}
+
+.clearfix::after {
+  content: "";
+  display: table;
+  clear: both;
+}
