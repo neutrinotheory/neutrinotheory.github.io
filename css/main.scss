@@ -262,6 +262,22 @@ firstp{
   clear: both;
 }
 
+.research-box-header {
+  background-color: #D3AF37;
+  padding: 16px 24px 12px;
+  margin: -16px -18px 16px -18px;
+  border-bottom: 1px solid #bdbdbd;
+  border-radius: 6px 6px 0 0;
+}
+
+.research-box-header h2 {
+  margin: 0;
+  font-size: 17px;
+  font-weight: 600;
+  color: #000000;
+  line-height: 1.4;
+}
+
 /* --- Footnote Styling --- */
 
 /* The little numbers in the text */
