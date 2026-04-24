@@ -12,7 +12,9 @@
   goal: |
     The goal of this project is to extend the Ghent model for single pion production. The model now only contains resonances up to the second resonance region whereas the third resonance region remains to be implemented. To unitarize the model at energies beyond the two-pion threshold, other decay channels like the decay into two pions or to eta mesons must be incorporated. Furthermore, these modifications should be tested in the nuclear framework to investigate the effect of final state interactions.
   references: |
-    Suggested starting references will be shared by the supervisors at project start.
+    - "[Nustec white paper](https://arxiv.org/abs/1706.03621): a nice paper giving an overview of all the cahllanges we phase in this field"
+    - "[Electroweak single-pion production off the nucleon: from threshold to high invariant masses](https://arxiv.org/abs/1612.05511v2): Explains the base model for single pion production"
+    - "[Optimizing the description of the Delta region in the Ghent Hybrid model for single-pion production](https://arxiv.org/abs/2603.29486v1): Recently on Arxiv and explains the optimizations that are recently done in the model. In the outlook there are ideas for the next improvements."
 
 - title: "Decoding the Quasi-Elastic Signal in Future Neutrino Oscillation Experiments"
   supervisors:
@@ -29,7 +31,7 @@
 
     Building on this, one of the main goals is to develop an improved understanding of final-state interactions in the nucleus. To this end, the student will build a toy model for the final-state interactions of the nucleon to study the influence of assumptions and parameters that are traditionally built into semi-classical event-generator descriptions. A comparison with Monte Carlo generators like NuWro can also be performed.
   references: |
-    A curated reading list and benchmark papers will be provided during the first supervision meeting.
+    - "[Nustec white paper](https://arxiv.org/abs/1706.03621): a nice paper giving an overview of all the cahllanges we phase in this field"
 
 - title: "Final State Interactions in Coherent Pion Production"
   supervisors:
@@ -45,7 +47,7 @@
 
     This thesis subject offers the opportunity to spend a research stay in the neutrino research group of Complutense University of Madrid or the University of Seville.
   references: |
-    Introductory references on coherent pion production and PCAC-based approaches will be provided.
+    - "[Nustec white paper](https://arxiv.org/abs/1706.03621): a nice paper giving an overview of all the cahllanges we phase in this field"
 
 - title: "Detecting Astrophysical Neutrinos on Earth"
   supervisors:
@@ -59,7 +61,7 @@
   goal: |
     The aim of this master thesis is to study low-energy neutrino-nucleus cross sections and investigate the role of nuclear effects and uncertainties for supernova neutrino detection using a consistent framework over the full relevant energy range.
   references: |
-    Recommended background reading includes recent COHERENT results and review papers on supernova neutrino detection.
+    - "[Nustec white paper](https://arxiv.org/abs/1706.03621): a nice paper giving an overview of all the cahllanges we phase in this field"
 
 - title: "Modeling Kaon Production for Neutrino Oscillation Experiments"
   supervisors:
@@ -75,4 +77,4 @@
   goal: |
     The goal of this project is to explore the development of a kaon production model for lepton-induced charged-current kaon production. The work will focus first on modeling the interaction vertex in which the kaon is produced, and then on applying final-state interactions to model kaon propagation through the nuclear medium.
   references: |
-    Key references on strangeness production and kaon final-state interactions will be provided by the supervisors.
+    - "[Nustec white paper](https://arxiv.org/abs/1706.03621): a nice paper giving an overview of all the cahllanges we phase in this field"
