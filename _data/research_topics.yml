@@ -43,7 +43,7 @@
     * **Short-range correlations:**  Correction to the independent particle shell model, arising from the repulsive nucleon–nucleon potential at small distances.
     * **Meson-exchange currents:** Contributions arising from the exchange of virtual mesons $(\pi, \rho, \omega)$ between nucleons, leading to multi-nucleon emission.
     * **Final-state interactions (FSI):** The propagation of the outgoing hadrons through the nuclear medium, leads to rescattering and absorption described using the distorted wave approach.
-    * **In-medium modifications:** Changes to the properties of hadrons and baryon resonances $(such as \Delta)$, inside the nuclear environment, affecting their propagation and decay.
+    * **In-medium modifications:** Changes to the properties of hadrons and baryon resonances (such as $\Delta$), inside the nuclear environment, affecting their propagation and decay.
     
 - title: "Monte Carlo simulations"
   type: "centered"
