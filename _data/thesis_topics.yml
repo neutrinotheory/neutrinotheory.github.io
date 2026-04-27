@@ -66,7 +66,8 @@
     The aim of this master thesis is to study low-energy neutrino-nucleus cross sections and investigate the role of nuclear effects and uncertainties for supernova neutrino detection using a consistent framework over the full relevant energy range.
   references: |
     - [Supernova Neutrinos: Production, Oscillations and Detection](https://arxiv.org/abs/1508.00785): A nice review paper describing the status of modelling of neutrino physics and signal formation in collapsing and exploding stars.
-    - [Untangling supernova-neutrino oscillations with beta-beam data](https://arxiv.org/pdf/0804.0360)
+    - [Reconstructing Supernova-Neutrino Spectra with Low-energy Beta Beams](https://journals.aps.org/prl/abstract/10.1103/PhysRevLett.96.172301):  The paper proposes a novel procedure that determines the responses of a target nucleus in a supernova-neutrino detector, by using low-energy beta beams ([arxiv:nuclth/0604046](https://arxiv.org/abs/nucl-th/0604046)).
+    - [Untangling supernova-neutrino oscillations with beta-beam data](https://journals.aps.org/prc/abstract/10.1103/PhysRevC.77.055501)
   
 
 - title: "Modeling Kaon Production for Neutrino Oscillation Experiments"
