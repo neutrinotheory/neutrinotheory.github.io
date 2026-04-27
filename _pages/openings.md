@@ -8,9 +8,9 @@ permalink: /vacancies/
 
 # PhD/Postdoc Positions
 
-## PhD Vacancy – Neutrino–Nucleus Interactions Research Group
+## **PhD Vacancy – Neutrino–Nucleus Interactions**
 
-We are offering a PhD position in the **Neutrino–Nucleus Interactions Research Group**.
+We are offering a PhD position in the research group of **Neutrino–Nucleus Interactions**.
 
 The research in the group focuses on modeling neutrino–nucleus interactions for current and future neutrino-oscillation experiments.
 
@@ -22,10 +22,10 @@ In close collaboration with the research group in Wroclaw, we aim to extend the 
 
 ### Interested?
 
-Please contact: [Natalie Jachowicz](natalie.jachowicz@ugent.be)
+Please contact: [Natalie Jachowicz](mailto:natalie.jachowicz@ugent.be)
 
 ----
-We strongly encourage good candidates to apply for fellowships from the [Research Foundation – Flanders (FWO)](https://www.fwo.be/en/)—including PhD, junior postdoctoral, and senior postdoctoral—as well as other European funding programs. We will be happy to support their application!
+We strongly encourage motivated candidates to apply for fellowships from the [Research Foundation – Flanders (FWO)](https://www.fwo.be/en/)—including PhD, junior postdoctoral, and senior postdoctoral—as well as other European funding programs. We will be happy to support their application!
 
 # Visitors/Seminars
 Researchers interested in visiting our group or presenting their work in a seminar are encouraged to get in touch. We are open to hosting research stays and invited talks.
