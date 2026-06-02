@@ -1,3 +1,12 @@
+- title: "Azimuthal asymmetry in exclusive quasi-elastic neutrino-nucleus interactions"
+  image: phiss.png
+  description: The general azimuthal angle distribution of quasi-elastic neutrino-nucleus interactions was theoretically derived. This distribution exhibits a preference for scattering out of the lepton plane, caused by the parity-violating nature of the weak interaction. It was proven that only models incorporating the distortion of the final nucleon could explain this effect, questioning the validity of plane wave descriptions of this nucleon in exclusive measurements.
+  authors: M. Vanderpoorten, A. Kumar Jha, M. El Baz, K. Niewczas, F. Sanchez, and N. Jachowicz
+  link: 
+     url: https://arxiv.org/abs/2605.26877
+     display: arXiv (2026)
+  highlight: 1
+
 - title: "Optimizing the description of the Delta region in the Ghent Hybrid model for single-pion production"
   image: optimizing.png
   description: In this work, we improved the Ghent model for neutrino-induced single-pion production in the Delta resonance region. We applied a multipole decomposition and used K-matrix methods to enforce unitarity and Watson’s theorem. We refined the Delta contribution and included additional meson-exchange processes. These improvements resulted in better agreement with experimental data and a more reliable description of pion production.
